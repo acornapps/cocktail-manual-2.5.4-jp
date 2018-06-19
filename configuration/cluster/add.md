@@ -59,12 +59,12 @@
 
 | **모니터링 정보 ** | **설명** |
 | :--- | :--- |
-| 마스터 URL | kubernetes API 주소. [https://마스터](https://마스터) IP:6443 형식을 사용한다. |
+| 마스터 URL | kubernetes API 주소. [https://마스터호스트](https://마스터호스트):6443 형식을 사용한다. |
 | Ingress Host | 인그레스 방식에 사용할 Host IP Address 서비스\(Master IP or Loadbelancer IP\) |
-| 모니터링 호스트 | InfluxDB가 설치되어 있는 서버의 IP 주소" [http://아이피](http://아이피) or URL" |
-| 모니터링 포트 | InfluxDB의 포트 정보\( Azure-8008, Baremetal 30008 \) |
-| 모니터링 사용자 | InfluxDB 사용자 ID값. - root |
-| 모니터링 비밀번호 | InfluxDB 사용자 PW값. - root |
+| 모니터링 호스트 | Monitoring API가 설치되어 있는 서버의 IP 주소" [http://호스트](http://호스트) or URL" |
+| 모니터링 포트 | Monitoring API의 포트 정보\( Azure-8008, Baremetal 30008 \) |
+| 모니터링 사용자 | InfluxDB 사용자 ID값 |
+| 모니터링 비밀번호 | InfluxDB 사용자 PW값 |
 
 ##### e\)   클러스터 유형을 입력한다.![](/assets/2.3.0 클러스터 추가6.png)
 
@@ -78,8 +78,8 @@
 
 | 인증 정보 | **설명** |
 | :--- | :--- |
-| 사용자 아이디 | k8s 사용자 ID. - admin |
-| 패스워드 | k8s 사용자 PW. - AdminPass |
+| 사용자 아이디 | k8s 사용자 ID |
+| 패스워드 | k8s 사용자 PW |
 | Cluster CA Certification | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 ca.crt파일 값 입력 |
 | Client Certificate Data | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 admin.crt 파일 값 입력 |
 | Client Key Data | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 admin.key 파일 값 입력 |
