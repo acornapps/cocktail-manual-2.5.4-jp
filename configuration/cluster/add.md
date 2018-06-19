@@ -59,10 +59,10 @@
 
 | **모니터링 정보 ** | **설명** |
 | :--- | :--- |
-| 마스터 URL | kubernetes API 주소. [https://마스터호스트](https://마스터호스트):6443 형식을 사용한다. |
+| 마스터 URL | kubernetes API 주소. "[https://host:port](https://host:port)" 형식을 사용한다. |
 | Ingress Host | 인그레스 방식에 사용할 Host IP Address 서비스\(Master IP or Loadbelancer IP\) |
-| 모니터링 호스트 | Monitoring API가 설치되어 있는 서버의 IP 주소" [http://호스트](http://호스트) or URL" |
-| 모니터링 포트 | Monitoring API의 포트 정보\( Azure-8008, Baremetal 30008 \) |
+| 모니터링 호스트 | Monitoring API가 설치되어 있는 서버의 IP 주소" [http://host](http://host)" |
+| 모니터링 포트 | Monitoring API의 포트 정보 |
 | 모니터링 사용자 | InfluxDB 사용자 ID값 |
 | 모니터링 비밀번호 | InfluxDB 사용자 PW값 |
 
