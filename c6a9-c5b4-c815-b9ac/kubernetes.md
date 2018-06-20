@@ -26,8 +26,8 @@
 
 | 용어 | 설명 |
 | :--- | :--- |
-| Ingresses | 외부접근에 대한 요청을 name-based로 가상 hosting을 제공 |
-| Services | 여러 컨테이너를 하나의 논리적인 단위로 그룹화하여, 외부에서 접속할 수 있는 단일 endpoint를 제공 |
+| Ingresses | 외부접근에 대한 요청을 name-based로 가상 Hosting을 제공 |
+| Services | 여러 컨테이너를 하나의 논리적인 단위로 그룹화하여, 외부에서 접속할 수 있는 단일 EndPoint를 제공 |
 
 #### 4.config and storage
 
@@ -39,7 +39,7 @@
 
 #### 5.settings
 
-K8s의Global Settings값을조정할수있습니다.
+K8s의Global Settings값을 조정 할 수 있습니다.
 
 | 옵션 | 설명 |
 | :--- | :--- |
