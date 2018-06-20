@@ -59,7 +59,7 @@
 
 | **모니터링 정보 ** | **설명** |
 | :--- | :--- |
-| 마스터 URL | kubernetes API 주소. "[https://host:port](https://host:port)" 형식을 사용한다. |
+| 마스터 URL | Kubernetes API 주소. "[https://host:port](https://host:port)" 형식을 사용한다. |
 | Ingress Host | 인그레스 방식에 사용할 Host IP Address 서비스\(Master IP or Loadbelancer IP\) |
 | 모니터링 호스트 | Monitoring API가 설치되어 있는 서버의 IP 주소" [http://host](http://host)" |
 | 모니터링 포트 | Monitoring API의 포트 정보 |
@@ -82,9 +82,9 @@
 | :--- | :--- |
 | 사용자 아이디 | k8s 사용자 ID |
 | 패스워드 | k8s 사용자 PW |
-| Cluster CA Certification | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 ca.crt파일 값 입력 |
-| Client Certificate Data | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 admin.crt 파일 값 입력 |
-| Client Key Data | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 admin.key 파일 값 입력 |
+| Cluster CA Certification | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 ca.crt파일값 입력 |
+| Client Certificate Data | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 admin.crt파일 값 입력 |
+| Client Key Data | 마스터 서버 접속 후 /etc/kubernetes/pki 경로 이동 후 admin.key파일 값 입력 |
 
 
 
