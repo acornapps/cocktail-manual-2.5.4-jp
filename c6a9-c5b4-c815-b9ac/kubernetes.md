@@ -17,7 +17,7 @@
 | Cron Jobs | '특정 시점에서 한 번' 또는 '특정 시점에서 반복'과 같이 시간 기반의 관리 작업 |
 | Deployments | Pod 생성을 위한 설정값의 등록 정보 |
 | Jobs | 1개 이상의 Pod를 생성하고 지정된 수의 Pod가 성공적으로 종료되도록 |
-| Pods | 1개 이상의 컨테이너로 구성되는 k8s에서 deploy를 위한 최소단위. Pod는 어플리케이션 스택에서 서로 다른 docker image를 혼합하여 구성 |
+| Pods | 1개 이상의 컨테이너로 구성되는 k8s에서 deploy를 위한 최소단위. Pod는 어플리케이션 스택에서 서로 다른 Docker image를 혼합하여 구성 |
 | Replica Sets | 지정된 Pod 복제본이 항상 실행\(유지\)되도록 한다. |
 | Replication Controllers | 지정된 수의 Pod 복제본이 실행되고 있는지 체크 |
 | Stateful Sets | Pod의 배포 및 확장을 관리하고, Pod의 순서와 특성에 대한 설정을 제공 |
