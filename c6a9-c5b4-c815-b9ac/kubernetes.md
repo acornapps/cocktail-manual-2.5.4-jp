@@ -6,9 +6,9 @@
 | :--- | :--- |
 | Namespace | k8s의 가상 클러스터로 사용자들이 여러팀 또는 프로젝트로 분산되어 작업 할 수 있는 별도의 환경 |
 | Nodes | k8s의 클러스터링되어 있는 어플리케이션을 구동하는 물리서버 또는 VM |
-| Persistent Volumes\(PV\) | 외부 저장소입니다. NFS, iSCSI, 클라우드에서 제공하는 스토리지 시스템을 지원 |
+| Persistent Volumes\(PV\) | 외부 저장소. NFS, iSCSI, 클라우드에서 제공하는 스토리지 시스템을 지원 |
 | Roles | 사용의 따라 권한을 부여할 수 있다. |
-| Storage Classes | PV를 동적으로 Provisioning할 경우, NFS 서버를 식별하기 위한 식별자 |
+| Storage Classes | PV를 동적으로 Provisioning 할 경우, NFS 서버를 식별하기 위한 식별자 |
 
 #### 2.Workloads
 
@@ -16,7 +16,7 @@
 | :--- | :--- |
 | Cron Jobs | '특정 시점에서 한 번' 또는 '특정 시점에서 반복'과 같이 시간 기반의 관리 작업 |
 | Deployments | Pod 생성을 위한 설정값의 등록 정보 |
-| Jobs | Job은 일괄처리를 수행하는 Pod의 Supervisor다. 즉, 특정한 계산 또는 백업과 같이 특정 시간 동안만 실행되는 프로세스다. |
+| Jobs | Job은 일괄처리를 수행하는 Pod의 Supervisor. 즉, 특정한 계산 또는 백업과 같이 특정 시간 동안만 실행되는 프로세스. |
 | Pods | 1개 이상의 컨테이너로 구성되는 k8s에서 deploy를 위한 최소단위. Pod는 어플리케이션 스택에서 서로 다른 Docker image를 혼합하여 구성 |
 | Replica Sets | 지정된 Pod 복제본이 항상 실행\(유지\)되도록 한다. |
 | Replication Controllers | 지정된 수의 Pod 복제본이 실행되고 있는지 체크 |
