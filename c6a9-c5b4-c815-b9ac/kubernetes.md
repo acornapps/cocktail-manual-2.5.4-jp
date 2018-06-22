@@ -7,7 +7,7 @@
 | Namespace | k8s의 가상 클러스터로 사용자들이 여러팀 또는 프로젝트로 분산되어 작업 할 수 있는 별도의 환경 |
 | Nodes | k8s의 클러스터링되어 있는 어플리케이션을 구동하는 물리서버 또는 VM |
 | Persistent Volumes\(PV\) | 외부 저장소. NFS, iSCSI, 클라우드에서 제공하는 스토리지 시스템을 지원 |
-| Roles | 사용의 따라 권한을 부여할 수 있다. |
+| Roles | 사용의 따라 권한을 부여. |
 | Storage Classes | PV를 동적으로 Provisioning 할 경우, NFS 서버를 식별하기 위한 식별자 |
 
 #### 2.Workloads
