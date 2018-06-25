@@ -55,7 +55,7 @@
 
 ##### 
 
-##### d\) 모니터링 정보\(계정, 유형, 리전\)를 입력한다.![](/assets/2.3.0 클러스터 추가4.png)
+##### d\) 모니터링 정보\(계정, 유형, 리전\)를 입력한다.![](/assets/2.5.1 클러스터 추가 1 ko.png)
 
 | **모니터링 정보 ** | **설명** |
 | :--- | :--- |
@@ -63,8 +63,6 @@
 | Ingress Host | 인그레스 방식에 사용할 Host IP Address 서비스\(Master IP or Loadbelancer IP\) |
 | 모니터링 호스트 | Monitoring API가 설치되어 있는 서버의 IP 주소" [http://host](http://host)" |
 | 모니터링 포트 | Monitoring API의 포트 정보 |
-| 모니터링 사용자 | InfluxDB 사용자 ID값 |
-| 모니터링 비밀번호 | InfluxDB 사용자 PW값 |
 
 ##### 
 
