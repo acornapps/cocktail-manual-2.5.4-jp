@@ -32,14 +32,14 @@
 
 | 스토리지 플러그인 | **NFS** Dynamic |
 | :--- | :--- |
-| 정책 | Dynamic 플러그인은 Retain과 Delete 정책을 지원합니다. |
+| 정책 | Dynamic 플러그인은 Retain과 Delete 정책을 지원 |
 | 스토리지 클래스 이름 | cocktail-nfs\(기본값\) |
 
 * **NFS Static 스토리지 플러그인 사용 시**![](/assets/2.3.0 볼륨 추가2-2.png)
 
 | 스토리지 플러그인 | **NFS** Static |
 | :--- | :--- |
-| 정책 | Static 플러그인은 Retain 단일 정책을 지원한다. |
+| 정책 | Static 플러그인은 Retain 단일 정책을 지원 |
 | 파라미터 | Server : 스토리지의 IP Address                                                   PPath :  mount 경로 |
 
 * **아마존 스토리지 플러그인 사용 시**![](/assets/2.3.0 볼륨 추가2-3.png)
