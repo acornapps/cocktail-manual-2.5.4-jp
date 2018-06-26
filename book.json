@@ -1,5 +1,4 @@
 {
-// 현재 문서에서 사용할 플러그인들
-"plugins": [ "nunjucks" ]
+    "plugins": [ "nunjucks" ]
 
 }
