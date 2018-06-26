@@ -1,5 +1,5 @@
 # Cocktail Cloud란?
-
+뭘까?
 ---
 
 칵테일 클라우드는 `올인원 컨테이너 관리 플랫폼(All-in-one Container Management Platform)`이다.
