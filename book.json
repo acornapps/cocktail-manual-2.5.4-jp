@@ -1,6 +1,5 @@
 {
     "language":"ko_KR",
-    "plugins": [ "nunjucks" ],
     "ko":{"version":"2.5"},
     "en":{"version":"2.3"}
 }
