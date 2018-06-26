@@ -23,3 +23,5 @@
 ---
 
 다음글 : [Cocktail Cloud 구성 개요](/cocktail-cloud-ad6c-c131-ac1c-c694.md)
+
+버전 : {{ book.ko.version }} - {{ ko.version }}
