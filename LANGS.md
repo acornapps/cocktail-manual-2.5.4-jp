@@ -6,3 +6,4 @@
 
 ---
 * {{ book.title }}
+언어 : {{ book.language }}
