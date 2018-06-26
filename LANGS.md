@@ -6,4 +6,5 @@
 
 ---
 {% include "./server.md" %}
-{{ ko.version }}
+
+버전 : {{ ko.version }}
