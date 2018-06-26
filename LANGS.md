@@ -5,4 +5,4 @@
 * [日本語](ja/)
 
 ---
-{% include "./server.md" %}
+{% include "server.md" %}
