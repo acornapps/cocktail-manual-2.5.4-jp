@@ -5,5 +5,5 @@
 * [日本語](ja/)
 
 ---
-* {{ book.title }}
+* {{ ko.title }}
 언어 : {{ book.language }}
