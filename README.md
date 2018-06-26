@@ -26,4 +26,4 @@
 
 버전 : {{ book.ko.version }} - {{ ko.version }}
 
-{% include "server.md" } 
+{% include "server.md" %} 
