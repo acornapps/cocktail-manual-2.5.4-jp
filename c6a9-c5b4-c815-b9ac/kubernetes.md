@@ -1,4 +1,4 @@
-## 6.1 Kubernetes\(k8s\)
+## 7.1 Kubernetes\(k8s\)
 
 #### 1.Cluster
 

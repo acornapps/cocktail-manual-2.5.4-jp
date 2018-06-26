@@ -1,4 +1,4 @@
-## 6.2 Cocktail Cloud
+## 7.2 Cocktail Cloud
 
 #### 1.환경설정
 
