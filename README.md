@@ -1,9 +1,9 @@
 # Cocktail Cloud란?
-뭘까?
+
 ---
 
 칵테일 클라우드는 `올인원 컨테이너 관리 플랫폼(All-in-one Container Management Platform)`이다.
-동해물과 백두산
+
 클라우드 사용이 보편화 되면서, 인프라 뿐 아니라 어플리케이션, 서비스 관리에 대한 요구가 높아지고 있다. 과거와 같은 개발, 운영 방식으로는 클라우드의 장점을 활용하기에 한계가 있기 때문이다. 특히 어플리케이션 영역에서는 지속적인 통합 및 배포\(Continuous Integration/Deploy, CI/CD\), 마이그레이션\(Migration\), 멀티/하이브리드 클라우드 구축 등 자동화, 효율화, 통합 관리에 대한 요구가 증가 하고 있다.
 
 컨테이너 기술의 확산은 이러한 맥락에서 당연하다고 할 수 있다. 현재 많은 기업들이 컨테이너 기술을 도입하였고 그 추세는 계속 증가하고 있다. \(참조: [http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100](http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100)\)
