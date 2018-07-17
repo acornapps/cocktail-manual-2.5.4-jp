@@ -16,7 +16,7 @@ The catalog layer is divided into two sections according to purpose.
 
 ---
 
-이전글 : [Pipeline Layer](/d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
+Previous Topic : [Pipeline Layer](/d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
 
-다음글 : [Dashboard Layer](/b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
+Next Topic : [Dashboard Layer](/b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
 
