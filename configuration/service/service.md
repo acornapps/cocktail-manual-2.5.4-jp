@@ -1,10 +1,10 @@
-## 2.3 서비스
+## 2.3 Service
 
 ---
 
-어플리케이션을 빌드 및 배포, 운영할 수 있는 Work Space를 할당한다. 서비스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.
+Service assigns a workspace to build, deploy, and run applications, and users, clusters, and libraries can be registered for each service.
 
-서비스 목록을 전체/사용/미사용으로 분류하여 조회 할 수 있다.\(사용여부가 Y인 서비스는 '사용', N인 서비스는 '미사용' 선택 시 표시된다.\)
+The service list can be filtered by All, Active, or Inactive. \('Y' and 'N' services are displayed when 'Active' and 'Inactive' are selected, respectively.\)
 
 클러스터 추가는 해당 메뉴얼의 클러스터 설명을 참고 한다.
 
