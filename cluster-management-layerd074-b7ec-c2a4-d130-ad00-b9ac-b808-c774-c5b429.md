@@ -1,4 +1,4 @@
-# Cluster Management Layer\(클러스터 관리 레이어\)
+# Cluster Management Layer
 
 ---
 
