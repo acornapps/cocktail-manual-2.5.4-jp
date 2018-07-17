@@ -1,18 +1,18 @@
-### 3.2.4 빌드 실행
+### 3.2.4 Execute Build
 
 ---
 
-빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다.
+This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once.
 
-##### **a\) 서비스 **→** 빌드 관리 **→ 빌드 액션 메뉴\(활성화\) → 빌드 실행을** 선택하여 빌드작업을 실행**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 실행.png)
+##### **a\) Service → Build Management → Build Action Menu (Activate) → Execute Build**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 실행.png)
 
-##### b\) 빌드 실행 시, 현재 액션이 변경되면서 로그 창이 활성화 된다.
+##### b\) The current action changes, and the log window becomes activated at build time.
 
-##### 빌드생성시 체크박스에서 선택된  갯수 만큼 탭이 활성화되며, 각 단계별로 빌드 과정을 확인 할 수 있다.
+##### When the build is created, tabs become activated according to the number selected via checkboxes, allowing you to check the build process for each step.
 
-**\(DOWN 단계에서 오류가 발생하면 다음 단계로 진행이 되지 않는다.\)**
+**\(If an error occurs during the download step, the next step will not be performed.\)**
 
-##### 빌드 실행 작업이 "Application\_Create\_Image Step is done..." 이라는 로그가 보인다면 이미지 빌드는 성공적으로 마무리된 것이다. ![](/assets/2.3.0 빌드 실행2.png)
+##### The message "Application_Create_Image Step is done..." indicates that the image build was successfully completed. ![](/assets/2.3.0 빌드 실행2.png)
 
 ##### 
 

@@ -1,10 +1,10 @@
-### 3.2.5 로그 보기
+### 3.2.5 View Log
 
 ---
 
-빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행중인 로그를 볼 수 있다.
+This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed.
 
-##### **a\) 서비스 **→** 빌드 관리 **→ 빌드 액션 메뉴\(활성화\) → 로그 보기를** 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 로그 보기.png)![](/assets/2.3.0 로그 보기2.png)
+##### **a\) Service → Build Management → Build Action Menu (Activate) → View Log.**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 로그 보기.png)![](/assets/2.3.0 로그 보기2.png)
 
 
 
