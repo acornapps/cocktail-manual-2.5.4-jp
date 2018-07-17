@@ -50,7 +50,7 @@
         * [Edit Config Map](c11c-be44-c2a4/cee8-d53c-adf8-b9f5/cee8-d53c-adf8-b9f5-c218-c815.md)
         * [Delete Config Map](c11c-be44-c2a4/cee8-d53c-adf8-b9f5/cee8-d53c-adf8-b9f5-c0ad-c81c.md)
       * [Secret](c11c-be44-c2a4/c2dc-d06c-b9bf.md)
-        * [시크릿 추가](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-cd94-ac00.md)
+        * [A dd Secret](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-cd94-ac00.md)
         * [시크릿 수정](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c218-c815.md)
         * [시크릿 삭제](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c0ad-c81c.md)
   * [빌드 관리](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac.md)

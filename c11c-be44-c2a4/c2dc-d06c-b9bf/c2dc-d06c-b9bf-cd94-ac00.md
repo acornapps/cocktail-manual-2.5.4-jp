@@ -1,19 +1,19 @@
-### 3.1.6-2a 시크릿 추가
+### 3.1.6-2a Add Secret
 
 ---
 
-서비스에 시크릿을 추가한다.
+This feature allows you to add secrets to a service.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 설정 → 시크릿 → +버튼을 클릭하여 등록페이지로 이동한다.![](/assets/2.5 설정.png)![](/assets/2.5 시크릿 추가 1.png)
+##### a\) Service → Select Application Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page.![](/assets/2.5 설정.png)![](/assets/2.5 시크릿 추가 1.png)
 
-##### b\) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 시크릿을 생성한다.![](/assets/2.5 시크릿 추가 2.png)
+##### b\) Enter the name and data values and click the [Create] button in the top-right corner to create a secret.![](/assets/2.5 시크릿 추가 2.png)
 
-| **항목** | **설명** |
+| **Item** | **Description** |
 | :---: | :--- |
-| 이름 | 이름을 입력하는 란입니다. 추후 편집이 불가 |
-| 데이터 추가 버튼 | 시크릿의 데이터를 추가할 수 있는 버튼 |
-| 키 | 시크릿의 Key 값 |
-| 값 | 시크릿의 Value 값 |
+| Name | Name input field \(May not be edited after creation\) |
+| Add Data button | Add data to a secret |
+| Key | Key value of secret |
+| Value | Value of secret |
 
 
 
