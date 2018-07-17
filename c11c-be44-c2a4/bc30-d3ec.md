@@ -1,48 +1,48 @@
-### 3.1.5   파이프라인
+### 3.1.5 Pipeline
 
 ---
 
-파이프라인 기능을 통해 이미지 빌드 작업부터 서버 배포작업까지 한 번에 진행 할 수 있다.
+With the pipeline feature, you can build an image and deploy to a server all at once.
 
-또한 배포 중인 서버의 이미지 버전을 변경하여 재배포 할 수 있다.
+You can also change the image version of a deployed server and quickly redeploy.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 파이프라인을 클릭한다. ![](/assets/2.5.0 서버중지1 ko.png)![](/assets/2.5.0 파이프라인 메인1.png)
+##### a\) Service > Select Application Map > Pipeline. ![](/assets/2.5.0 서버중지1 ko.png)![](/assets/2.5.0 파이프라인 메인1.png)
 
-| **파이프라인 메뉴 ** | **설명 ** |
+| **Pipeline Menu ** | **Description ** |
 | :---: | :--- |
-| 일괄 실행 | 파이프라인 작업들을 일괄적으로 실행 |
-| 실행 | 해당 파이프라인 작업을 실행 |
+| Batch Execute | Execute pipeline tasks in batch |
+| Execute | Execute a specific pipeline task |
 
-| **이미지 메뉴** | **빌드** | **설명 ** |
+| **Image Menu** | **Build** | **Description ** |
 | :---: | :--- | :--- |
-| 이미지 태그 | X | 레지스트리에 있는 태그 입력시 해당 버전으로 서버를 배포 |
-| 지정 | ⃝ | 이미지 버전 중 지정된 버전으로 서버를 배포 |
-| 최신 | ⃝ | 이미지 버전 중 최신 버전으로 서버를 배포 |
-| 빌드 & 배포 | ⃝ | 새롭게 빌드 작업 후 해당 이미지 버전으로 서버를 배포 |
+| Image Tag | X | Deploy server of the corresponding version when enter tag in registry |
+| Designated | ⃝ | Deploy designated server version among images |
+| Latest | ⃝ | Deploy latest server version among images |
+| Build & Deploy | ⃝ | Deploy corresponding server version after a new image is built |
 
-##### b\) 파이프라인 실행
+##### b\) Execute Pipeline
 
-##### **1. 공용 이미지로 서버를 생성 했을 경우**
+##### **1. If server was created with a common image**
 
-이미지 태그 입력 후 '실행' 혹은 '일괄실행' 클릭\(deploy된 버전과 입력한 버전이 다를 경우에만 실행가능. 단, latest 제외\) ![](/assets/2.5.0 파이프라인 태그입력1.png)
+Enter image tag and click [Execute] or [Batch Execute]. \(Only available if the deployed version is different from the version entered; Excludes ‘Latest’\) ![](/assets/2.5.0 파이프라인 태그입력1.png)
 
-##### **2. 빌드한 이미지로 서버를 생성 했을 경우**
+##### **2. If server was created with a built image**
 
-* **지정한 이미지로 배포하기**
+* **Deploying a designated image**
 
-파이프라인 작업 목록 우측에서 '지정' 및 이미지 선택 후 '실행' 혹은 '일괄실행' 클릭\(deploy된 버전과 입력한 버전이 다를 경우에만 실행가능\)![](/assets/2.5.0 파이프라인 지정이미지1.png)
+Select [Designated] and an image from the right of the pipeline task list and click [Execute] or [Batch Execute]. \(Only available if the deployed version is different from the version entered\)![](/assets/2.5.0 파이프라인 지정이미지1.png)
 
-* **새롭게 빌드 작 후 해당 이미지로 배포하기**
+* **Deploying a newly-built image**
 
-파이프라인 작업 목록 우측에서 '빌드&배포' 선택 후 '실행여부' 체크. 이후 '실행' 혹은 '일괄실행' 클릭\(실행 여부가 체크되어 있는 경우에만 실행가능\) ![](/assets/2.5.0 파이프라인 빌드앤배포1.png)
+Select [Build & Deploy] from the right of the pipeline task list and check [Confirm Execute]. Click [Execute] or [Batch Execute]. \(Only available if [Confirm Execute] is checked.\) ![](/assets/2.5.0 파이프라인 빌드앤배포1.png)
 
-* **최신 이미지로 배포하기**
+* **Deploying the latest image**
 
-파이프라인 작업 목록 우측에서 '최신' 선택 후 '실행' 혹은 '일괄실행' 클릭\(deploy된 버전과 입력한 버전이 다를 경우에만 실행가능\)![](/assets/2.5.0 파이프라인 최신이미지1.png)
+Select [Latest] from the right of the pipeline task list and click [Execute] or [Batch Execute]. \(Only available if the deployed version is different from the version entered\) ![](/assets/2.5.0 파이프라인 최신이미지1.png)
 
-* **빌드 편집 화면 이동 및 로그보기**
+* **Edit Build and View Log**
 
-빌드 이미지명을 클릭 할 경우 빌드 편집화면으로 이동한다.![](/assets/2.5.0 파이프라인 메인2.png)
+You will be redirected to the Edit Build page when the name of a build image is clicked.![](/assets/2.5.0 파이프라인 메인2.png)
 
-빌드 태그명을 클릭 할 경우 로그를 볼 수 있다.![](/assets/2.5.0 파이프라인 메인3.png)![](/assets/2.5.0 파이프라인 로그1.png)
+You can view the log by clicking on the build tag name.![](/assets/2.5.0 파이프라인 메인3.png)![](/assets/2.5.0 파이프라인 로그1.png)
 

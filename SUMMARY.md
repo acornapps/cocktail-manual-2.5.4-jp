@@ -43,7 +43,7 @@
       * [Restart Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c7ac-c2dc-c791.md)
       * [Remove Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c81c-ac70.md)
     * [Monitoring](c11c-be44-c2a4/baa8-b2c8-d130-b9c1.md)
-    * [파이프라인](c11c-be44-c2a4/bc30-d3ec.md)
+    * [Pipeline](c11c-be44-c2a4/bc30-d3ec.md)
     * [설정](c11c-be44-c2a4/c124-c815.md)
       * [컨피그 맵](c11c-be44-c2a4/cee8-d53c-adf8-b9f5.md)
         * [컨피그 맵 추가](c11c-be44-c2a4/cee8-d53c-adf8-b9f5/cee8-d53c-adf8-b9f5-cd94-ac00.md)
