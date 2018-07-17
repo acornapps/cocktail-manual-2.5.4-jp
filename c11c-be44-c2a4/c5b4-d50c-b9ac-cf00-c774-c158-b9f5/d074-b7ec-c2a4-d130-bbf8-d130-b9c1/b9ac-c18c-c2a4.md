@@ -1,12 +1,14 @@
-## 5.2 노드
+## 5.2 Node
 
 ---
 
-전체 노드의 총 Disk, CPU, Memory, Network 사용량과 개별 노드의 라벨, 상태정보 등을 조회할 수 있는 화면이다. 노드 명을 클릭하면 노드 상세 정보를 조회 할 수 있다.
+This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all nodes, as well as the label and status information of individual nodes.
 
-##### a\) 클러스터 → 클러스터 선택 → 노드를 클릭한다.![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 노드.png)
+You can click on a node name for detailed information.
 
-##### b\) 노드명을 클릭하여 노드 상세 정보를 확인할 수 있다.![](/assets/2.3.0 노드2.png)![](/assets/2.3.0 노드3.png)
+##### a\) Cluster → Select Cluster → Node.![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 노드.png)
+
+##### b\) Click on a node name for detailed information.![](/assets/2.3.0 노드2.png)![](/assets/2.3.0 노드3.png)
 
 
 

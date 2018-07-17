@@ -70,7 +70,7 @@
     * [Add Cluster](configuration/cluster/add.md)
     * [Edit Cluster](configuration/cluster/d074-b7ec-c2a4-d130-d3b8-c9d1.md)
     * [Delete Cluster](configuration/cluster/d074-b7ec-c2a4-d130-c0ad-c81c.md)
-  * [노드](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1/b9ac-c18c-c2a4.md)
+  * [Node](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1/b9ac-c18c-c2a4.md)
   * [어플리케이션](configuration/cluster/c5b4-d50c-b9ac-cf00-c774-c158.md)
   * [볼륨](configuration/volume/volume.md)
     * [스토리지 추가](configuration/volume/add.md)
