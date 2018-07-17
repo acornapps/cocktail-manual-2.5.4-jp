@@ -1,23 +1,23 @@
-# 4. 카탈로그
+# 4. Catalog
 
 ---
 
-어플리케이션 구성을 템플릿화하여 쉽게 서버 생성 및 배포, 관리가 가능한 기능이다.
+This feature allows you to easily create, deploy, and manage servers by creating a template of an application configuration.
 
-여러 서버들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다.
+Use the catalog feature to use multiple servers at once.
 
-카탈로그는 서비스 카탈로그와 칵테일 카탈로그로 구분된다.
+The catalog feature is divided into service catalogs and Cocktail catalogs.
 
 ![](/assets/2.5.0 카탈로그 메인1.png)![](/assets/2.5 카탈로그 서비스.png)![](/assets/2.5 카탈로그 칵테일.png)
 
-| **카탈로그 메뉴** | **설명** |
+| **Catalog Menu** | **Description** |
 | :--- | :--- |
-| 서비스 카탈로그 | 사용자가 생성한 카탈로그 |
-| 칵테일 카탈로그 | 칵테일 클라우드 기본 제공 공식 카탈로그 |
-| Filter Template | 검색을 통해 필요한 템플릿 조회 |
-| 템플릿 | 어플리케이션을 구성하고 있는 서버모음 |
-| 배포 | 카탈로그를 통해 서버를 배포 |
-| 편집 | 카탈로그 내용을 편집 |
+| Service Catalog | User-generated catalog |
+| Cocktail Catalog | Default catalog provided by Cocktail Cloud |
+| Filter Template | Search for desired template |
+| Template | Collection of servers that constitute an application |
+| Deploy | Deploy server via catalog |
+| Edit | Edit catalog information |
 
 
 
