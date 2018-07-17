@@ -1,8 +1,8 @@
-### 5.4.3 볼륨 삭제
+### 5.4.3 Delete Volume
 
 ---
 
-등록된 볼륨 정보를 삭제하는 기능이다.
+This feature allows you to delete volume information.
 
-**a\) 클러스터 **→** 클러스터 선택 →** **볼륨 **→ **볼륨 액션버튼 → 볼륨 삭제를 클릭한다.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 볼륨 삭제.png)
+**a\) Cluster → Select Cluster → Volume → Volume Action button → Delete Volume.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 볼륨 삭제.png)
 
