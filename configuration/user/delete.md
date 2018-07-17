@@ -1,12 +1,12 @@
-### 2.1.3 사용자 삭제
+### 2.1.3 Delete User
 
 ---
 
-사용자 계정을 삭제하는 기능이다. 삭제된 계정은 목록에서 제거되는 것이 아닌  Y or N 으로 활성화/비활성화 표기된다.
+This feature allows you to delete user accounts. Deleted accounts are marked as active or inactive with a ‘Y’ or ‘N’ and not actually removed from the list.
 
-사용자 편집에서 상태를 Active로 변경하면 해당 아이디를 재사용할 수 있다.
+An ID can be reused if the status is changed to Active under Edit User.
 
-##### a\) 환경설정 → 사용자 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.![](/assets/2.5.0 환경설정 사용자 삭제1.png)
+##### a\) Environment Settings → User → User Action Menu → Delete User.![](/assets/2.5.0 환경설정 사용자 삭제1.png)
 
 
 
