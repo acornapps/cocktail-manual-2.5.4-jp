@@ -1,20 +1,20 @@
-### 3.1.2   그룹 관리
+### 3.1.2 Group Management
 
 ---
 
-서버에 대하여 그룹으로 관리한다. 해당 그룹에 서버를 생성할 수 있다. 그룹명을 변경하거나, 그룹 추가, 이동, 삭제, 컬럼수 변경이 가능하다.
+Servers are managed in groups, and a server can be created in a particular group. You can change group names and add, move, or delete groups. You can also change the number of columns.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 서버 그룹의  ▼\(액션 버튼\) 클릭하여 메뉴를 활성화한다.![](/assets/2.5_ko_service_02.png)![](/assets/2.5_ko_service_appmap_05.png)
+##### a\) Service → Select Application Map → Click the [▼] (Action) button of a server group to activate the menu.![](/assets/2.5_ko_service_02.png)![](/assets/2.5_ko_service_appmap_05.png)
 
-| 목록 | 설명 |
+| Item | Description |
 | :---: | :--- |
-| 그룹명 변경 | 그룹명을 변경 |
-| 컬럼수 변경 | 컬럼수를 변경\(최소:1~최대:8\) |
-| 왼쪽으로 이동 | 그룹을 왼쪽으로 이동 |
-| 오른쪽으로 이동 | 그룹을 오른쪽으로 이동 |
-| 왼쪽에 그룹 추가 | 그룹 왼쪽에 새로운 그룹을 생성 |
-| 오른쪽에 그룹 추가 | 그룹 오른쪽에 새로운 그룹을 생성 |
-| 그룹 삭제 | 그룹을 삭제\(그룹에 서버가 존재하면 삭제가 불가능\) |
+| Change Group Name | Change a group name |
+| Change Number of Columns | Change the number of columns \(Min: 1 - Max: 8\) |
+| Move Left | Move a group to the left |
+| Move Right | Move a group to the right |
+| Add Group to Left | Create a new group to the left of a group |
+| Add Group to Right | Create a new group to the right of a group |
+| Delete Group | Delete a group \(Restricted if a server exists in the selected group\) |
 
 
 
