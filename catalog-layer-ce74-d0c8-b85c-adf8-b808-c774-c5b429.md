@@ -1,21 +1,22 @@
-# Catalog Layer \(카탈로그 레이어\)
+# Catalog Layer
 
 ---
 
-컨테이너는 그 구성을 이미지화하여 배포 실행한다. 따라서 자주 사용하는 DB나 미들웨어 등의 런타임은 컨테이너 이미지와 배포 정보를 템플릿화 하면 반복적인 작업을 줄이고 언제든 필요할 때 쉽게 배포하여 사용 할 수 있다.
+Containers implement deployments by creating images from configurations. Therefore, repetitive tasks can be minimized and frequently-used DBs and middleware runtime can be easily deployed whenever needed by creating templates of container images and deployment information.
 
-이러한 템플릿을 생성하고 관리를 담당하는 레이어가 카탈로그다. 카탈로그 레이어의 구성을 도식화하면 아래와 같다.
+The catalog layer is responsible for creating and managing these templates. The following diagram shows how the catalog layer is structured:
 
 ![](/assets/cocktailcloud-architecture-6.png)
 
-카탈로그는 목적에 따라 두 가지 형태로 구분 된다.
+The catalog layer is divided into two sections according to purpose.
 
-* Service Catalog : 서비스 카탈로그는 사용자가 서비스를 위해 구성한 어플리케이션의 스냅샷을 저장 관리한다. 인프라 또는 클라우드 공급자의 교체 등으로 이전이 필요할 경우 서 비스 카탈로그의 스냅샷을 사용 할 수 있다. 스냅샷은 어플리케이션 맵의 구성을 그대로 저장한다. 따라서 다른 환경으로 배포 할 경우 필요에 따라 스냅샷의 설정을 수정하여 배포하여야 한다.
-* Cocktail Catalog : 칵테일 클라우드에서 “칵테일 허브”를 통해 제공되는 런타임 템플릿을 말한다. 사용자는 템플릿을 그대로 또는 자신의 환경에 맞게 설정을 변경하여 배포 할 수 있다. 현재 칵테일 카탈로그는 DB, 미들웨어, 개발/운영 도구, 블로그, 머신러닝 등 널리 사용되는 오픈소스를 템플릿으로 제공하고 있으며, 지속적으로 업데이트하고 있다.
+* Service Catalog : The service catalog stores and manages application snapshots that the user has configured for a service. A snapshot of the service catalog can be used if migration is required due to infrastructure or cloud provider replacement. A snapshot stores the application map configuration as-is. Therefore, the snapshot configuration must be modified as needed when deploying to a different environment.
+
+* Cocktail Catalog : The Cocktail catalog refers to the runtime template provided via Cocktail Hub in Cocktail Cloud. The user can deploy the template as-is or by changing the configuration to suit a specific environment. The Cocktail catalog currently provides widely-used open-source templates (DB, middleware, development/operations tool, blog, machine learning, etc.) and is continually being updated.
 
 ---
 
-이전글 : [Pipeline Layer \(파이프라인 레이어\)](/d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
+이전글 : [Pipeline Layer](/d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
 
-다음글 : [Dashboard Layer \(대시보드 레이어\)](/b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
+다음글 : [Dashboard Layer](/b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
 
