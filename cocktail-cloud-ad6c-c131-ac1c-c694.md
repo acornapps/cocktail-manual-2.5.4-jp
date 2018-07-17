@@ -22,5 +22,5 @@ Let's look at each layer in detail
 
 Previous Topic : [Cocktail Cloud 이해](/README.md)
 
-Next Topic : [Cluster Management Layer\(클러스터 관리 레이어\)](/cluster-management-layerd074-b7ec-c2a4-d130-ad00-b9ac-b808-c774-c5b429.md)
+Next Topic : [Cluster Management Layer](/cluster-management-layerd074-b7ec-c2a4-d130-ad00-b9ac-b808-c774-c5b429.md)
 
