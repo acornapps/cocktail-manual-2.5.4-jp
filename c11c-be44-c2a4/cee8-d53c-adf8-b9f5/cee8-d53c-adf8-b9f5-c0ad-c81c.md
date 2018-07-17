@@ -1,10 +1,10 @@
-### 3.1.6-1c 컨피그 맵 삭제
+### 3.1.6-1c Delete Config Map
 
 ---
 
-서비스에 컨피그 맵을 삭제한다.
+This feature allows you to delete service config maps.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴\(활성화\) →  컨피그 맵 삭제 클릭![](/assets/2.5 설정.png)![](/assets/2.5 컨피그맵 삭제 1.png)
+##### a\) Service → Select Application Map → Settings → Config Map → Config Map Action Menu (Activate) → Delete Config Map![](/assets/2.5 설정.png)![](/assets/2.5 컨피그맵 삭제 1.png)
 
 
 
