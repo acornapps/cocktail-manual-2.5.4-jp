@@ -1,10 +1,10 @@
-### 3.1.3-6 서버 재시작
+### 3.1.3-6 Restart Server
 
 ---
 
-서버를 재시작한다. 컴퓨터의 Rebooting과 같은 개념이다.
+This feature allows you to restart a server. It's essentially the same action as rebooting a computer.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → Running 상태의 서버 액션메뉴를 클릭\(활성화\) → 재시작을 클릭한다. ![](/assets/2.5.0 서버중지1 ko.png)![](/assets/2.3.0 서버 재시작.png)
+##### a\) Service → Select Application Map → Click the [Action] button on a running server → Restart. ![](/assets/2.5.0 서버중지1 ko.png)![](/assets/2.3.0 서버 재시작.png)
 
 
 

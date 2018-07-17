@@ -40,7 +40,7 @@
       * [View Server Instance Information](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/b85c-adf8-c815-bcf4-c870-d68c.md)
       * [Stop Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c81c-ac70.md)
       * [Start Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c2dc-c791.md)
-      * [서버 재시작](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c7ac-c2dc-c791.md)
+      * [Restart Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c7ac-c2dc-c791.md)
       * [서버 제거](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c81c-ac70.md)
     * [Monitoring](c11c-be44-c2a4/baa8-b2c8-d130-b9c1.md)
     * [파이프라인](c11c-be44-c2a4/bc30-d3ec.md)
