@@ -9,7 +9,8 @@ As the use of cloud computing became widespread, there has been a growing demand
  In the applications segment in particular, there is growing demand for automation, efficiency, and integrated management, including continuous integration and delivery/deployment \(CI/CD\), migration, and multi/hybrid cloud computing.
 
 
-In this context, the proliferation of container technology can be considered a natural evolution. <1) Many companies have adopted container technology, and the trend is only continuing. \(Reference: [http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100](http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100)\)
+In this context, the proliferation of container technology can be considered a natural evolution. Many companies have adopted container technology, and the trend is only continuing. 
+\(Reference: [http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100](http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100)\)
 
 컨테이너는 어플리케이션 또는 서비스를 독립되고 실행 가능한 단위로 패키지 화 하는 기술로, 인프라 환경에 관계 없이 동일한 개발, 운영 경험을 제공 한다. 따라서 인프라에서 서비스까지 클라우드 관리를 표준화하고, 개발 및 운영 노력을 절감 할 수 있다. 특히 일관된 환경하에 멀티/하이브리드 클라우드를 관리 할수 있다는 장점을 제공한다.
 
