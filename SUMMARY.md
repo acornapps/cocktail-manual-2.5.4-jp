@@ -3,7 +3,7 @@
 ## Cocktail Cloud User Manual v2.5
 
 * [Cocktail Cloud 이해](README.md)
-  * [Cocktail Cloud 구성 개요](cocktail-cloud-ad6c-c131-ac1c-c694.md)
+  * [Cocktail Cloud Structure Overview](cocktail-cloud-ad6c-c131-ac1c-c694.md)
   * [클러스터 관리 레이어](cluster-management-layerd074-b7ec-c2a4-d130-ad00-b9ac-b808-c774-c5b429.md)
   * [서비스 관리 레이어](c11c-be44-c2a4-ad00-b9ac-b808-c774-c5b4.md)
   * [파이프라인 레이어](d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
