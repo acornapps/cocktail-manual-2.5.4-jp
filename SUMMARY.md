@@ -14,7 +14,7 @@
 * [Environment Settings](d658-acbd-c124-c815.md)
   * [Users](configuration/user/user.md)
     * [Add User](configuration/user/add.md)
-    * [사용자 편집](configuration/user/edit.md)
+    * [Edit User](configuration/user/edit.md)
     * [사용자 삭제](configuration/user/delete.md)
     * [사용자 비밀번호 초기화](configuration/user/c0ac-c6a9-c790-be44-bc00-bc88-d638-cd08-ae30-d654.md)
   * [계정](configuration/provider/provider.md)

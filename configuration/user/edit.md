@@ -1,17 +1,17 @@
-### 2.1.2 사용자 편집
+### 2.1.2 Edit User
 
 ---
 
-칵테일 사용자 정보를 편집 하는 기능 이다.
+This feature allows you to modify user accounts.
 
-##### a\) 환경설정 → 사용자 → 사용자 액션 메뉴 → 사용자 편집 → 수정완료 후 수정버튼을 클릭한다.![](/assets/2.5.0 환경설정 사용자 편집1.png)
+##### a\) Environment Settings → User → User Action Menu → Edit User → Click the [Save] button when finished.![](/assets/2.5.0 환경설정 사용자 편집1.png)
 
-##### b\) 사용자 아이디를 제외한 이름, 상태 및 권한 수정이 가능하다.![](/assets/2.5.0 환경설정 사용자 편집2.png)
+##### b\)The name, status, and privileges may be changed. \(Note, however, that the user ID itself may not be changed\).![](/assets/2.5.0 환경설정 사용자 편집2.png)
 
-| 상태 | **설명** |
+| Status | **Description** |
 | :--- | :--- |
-| Active | 사용자 활성화 |
-| Inactive | 사용자 비활성 |
+| Active | Active user |
+| Inactive | Inactive user |
 
 
 
