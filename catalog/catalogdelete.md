@@ -1,12 +1,12 @@
-### 4.4 카탈로그 삭제
+### 4.4 Delete Catalog
 
 ---
 
-불필요한 카탈로그를 삭제할 수 있다. \(칵테일 카탈로그는 삭제 불가\)
+This feature allows you to delete unnecessary catalogs \(excluding Cocktail catalogs\).
 
-##### a\) 카탈로그 → 삭제하고자 하는 템플릿 '편집' 버튼을 클릭![](/assets/2.5 카탈로그 서비스 편집.png)
+##### a\) Catalog → Click the [Edit] button on the desired template![](/assets/2.5 카탈로그 서비스 편집.png)
 
-##### b\) 삭제할 템플릿의 버전을 선택 후, '삭제' 버튼을 클릭한다. 해당 템플릿 버전에 대하여 삭제된다.![](/assets/2.5 카탈로그 삭제.png)
+##### b\) Select the desired template version and click the [Delete] button. The selected template version will be deleted.![](/assets/2.5 카탈로그 삭제.png)
 
 
 
