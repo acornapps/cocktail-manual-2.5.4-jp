@@ -1,10 +1,10 @@
-### 3.1.6-2c 시크릿 삭제
+### 3.1.6-2c Delete Secret
 
 ---
 
-서비스에 시크릿을 삭제한다.
+This feature allows you to delete service secrets.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴\(활성화\) →  시크릿 삭제를 클릭 ![](/assets/2.5.0 시크릿삭제1 ko.png)
+##### a\) Service → Select Application Map → Settings → Secret → Secret Action Menu (Activate) → Delete Secret ![](/assets/2.5.0 시크릿삭제1 ko.png)
 
 
 
