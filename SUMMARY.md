@@ -17,7 +17,7 @@
     * [Edit User](configuration/user/edit.md)
     * [Delete User](configuration/user/delete.md)
     * [Reset User Password](configuration/user/c0ac-c6a9-c790-be44-bc00-bc88-d638-cd08-ae30-d654.md)
-  * [계정](configuration/provider/provider.md)
+  * [Account](configuration/provider/provider.md)
     * [계정 추가](configuration/provider/add.md)
       * [AWS 계정 추가](configuration/provider/add/aws-d504-b85c-bc14-c774-b354-cd94-ac00.md)
       * [GCP 계정 추가](configuration/provider/add/gcp-d504-b85c-bc14-c774-b354-cd94-ac00.md)

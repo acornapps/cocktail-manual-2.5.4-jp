@@ -1,28 +1,28 @@
-## 2.2 계정
+## 2.2 Account
 
 ---
 
-클라우드 리소스로 사용 할 Public/Private 클라우드 계정 정보를 등록, 편집, 삭제하는 기능 이다.
+This feature allows you to register, edit, and delete public/private cloud account information to be used as a cloud resource.
 
-계정을 등록함으로써 해당 프로바이더의 리소스, 미터링 정보를 가져 오거나 서버를 생성 할 수 있다.
+By registering an account, you can retrieve the resource and metering information of a provider or create a server.
 
-\(미터링 정보는 Google Cloud Platform, AWS 클라우드에 한하여 확인이 가능하다.\)
+\(Metering information is only available for Google Cloud Platform and AWS Cloud.\)
 
-현재 AWS, Azure, BareMetal\(Onpremise\) 를 지원한다.
+AWS, Azure, and Baremetal \(Onpremises\) servers are currently supported.
 
-계정 목록을 전체/사용/미사용으로 분류하여 조회할 수 있다.\(사용여부가 Y인 계정은 '사용', N인 계정은 '미사용' 선택 시 표시된다.\)
+The account list can be filtered by All, Active, or Inactive. 0('Y' and 'N' accounts are displayed when 'Active' and 'Inactive' are selected, respectively.\)
 
-##### a\) 환경설정 → 계정 → 사용여부 버튼을 클릭하여 '전체/사용/미사용' 중 하나를 선택한다.  ![](/assets/2.5.0 계정 메인1 ko.png)
+##### a\) Environment Settings → Account → Click the [Status] button and select All, Active, or Inactive. ![](/assets/2.5.0 계정 메인1 ko.png)
 
-| **계정 설정** | **설명** |
+| **Account Settings** | **Description** |
 | :--- | :--- |
-| 사용여부 | 사용여부에 따른 조회 필터링 기능.\(전체/사용/미사용\) |
-| + 버튼 | 계정 등록 페이지로 이동 |
-| 계정 이름 | 계정 이름\(사용자지정\) |
-| 프로바이더 | 프로바이더 종류\(OPM/RVS/IDC/AWS/GCP/AZR\) |
-| 유형 | 계정 유형\(USER/METERING\) |
-| 사용여부 | 계정의 사용 여부. |
-| 설명 | 계정의 사용자 설명 |
+| Usage Status | Filters accounts by usage status. \(All, Active, or Inactive\) |
+| + button | Redirects to Account Registration page |
+| Account Name | Name of account \(user-defined\) |
+| Provider | Type of provider \(OPM/RVS/IDC/AWS/GCP/AZR\) |
+| Type | Type of account \(USER/METERING\) |
+| Usage Status | Account usage status |
+| Description | User description of account |
 
 
 
