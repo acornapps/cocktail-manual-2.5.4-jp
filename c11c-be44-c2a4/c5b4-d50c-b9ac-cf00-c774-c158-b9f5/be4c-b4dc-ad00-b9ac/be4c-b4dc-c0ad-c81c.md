@@ -1,10 +1,10 @@
-### 3.2.5 작업 삭제
+### 3.2.5 Delete Task
 
 ---
 
-빌드 작업을 삭제한다. 삭제 시 해당 캐시와 다운받은 소스 폴더를 삭제 후, 작업을 삭제한다.
+This feature allows you to delete build tasks. When performed, the corresponding cache and downloaded source folder will be deleted first before deleting the actual task.
 
-##### **a\) 서비스 **→** 빌드 관리 **→ 빌드 액션 메뉴\(활성화\) → 작업 삭제를** 선택하여 해당 빌드 작업을 삭제할 수 있다.**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 작업 삭제.png)
+##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Delete Task.**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 작업 삭제.png)
 
 
 
