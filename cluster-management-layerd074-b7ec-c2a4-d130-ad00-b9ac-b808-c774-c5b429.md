@@ -2,11 +2,13 @@
 
 ---
 
-클러스터 관리 레이어는 클러스터를 구성하는 인프라 스트럭처와 컨테이너 오케스트레이션 엔진 부분으로 구분된다. 상세 구성은 아래 그림과 같다.
+The cluster management layer is divided into the infrastructure, which consists of clusters, and the container orchestration engine.
+The detailed configuration is as follows:
 
 ![](/assets/cocktailcloud-architecture-2.png)
 
-칵테일 클라우드는 클러스터 인프라와 오케스트레이션 엔진을 사용자의 설정에 따라 자동 프로비져닝\(Provisioning\)하는데 이를 담당하는 도구가CUBE이다. CUBE는 고가용\(High Availability, HA\)의 Kubernetes클러스터를 구성한다. CUBE가 프로비져닝하는 클러스터 구성은 높은 안정성과 보안, 확장성을 제공한다.\(이를 CUBE클러스터라 한다.\)
+Cocktail Cloud automatically provisions the cluster infrastructure and orchestration engine according to user configuration. The tool responsible for this is Cube. Cube constitutes high-availability \(HA\) Kubernetes clusters. Cube-provisioned cluster configurations provide high reliability, security, and scalability. \(This is referred to as a Cube cluster.\)
+
 
 CUBE클러스터는 현재 다음과 같은 클라우드 플랫폼 및 공급자를 지원한다. 하지만 CUBE는 인프라에 독립적인 구성이 가능함으로 어떠한 인프라에서도 구성이 가능하다. 아래는 인프라 자동 프로비져닝을 기준으로 한 것이다.
 
