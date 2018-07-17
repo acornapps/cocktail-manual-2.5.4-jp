@@ -4,7 +4,7 @@
 
 This feature allows you to add clusters.
 
-##### a\) Cluster > Click the [+] button in the top-right corner.![](/assets/2.5_ko_cluster_03.png)
+##### a\) Cluster → Click the [+] button in the top-right corner.![](/assets/2.5_ko_cluster_03.png)
 
 ##### b\) Enter basic information \(name, k8s version, and description\).![](/assets/2.3.0 클러스터 추가2.png)
 
