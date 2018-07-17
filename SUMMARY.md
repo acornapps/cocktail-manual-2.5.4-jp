@@ -20,7 +20,7 @@
   * [Account](configuration/provider/provider.md)
     * [Add Account](configuration/provider/add.md)
       * [Add AWS Account](configuration/provider/add/aws-d504-b85c-bc14-c774-b354-cd94-ac00.md)
-      * [GCP 계정 추가](configuration/provider/add/gcp-d504-b85c-bc14-c774-b354-cd94-ac00.md)
+      * [Add GCP Account](configuration/provider/add/gcp-d504-b85c-bc14-c774-b354-cd94-ac00.md)
     * [계정 편집](configuration/provider/update.md)
     * [계정 삭제](configuration/provider/d504-b85c-bc14-c774-b354-c0ad-c81c.md)
   * [서비스](configuration/service/service.md)
