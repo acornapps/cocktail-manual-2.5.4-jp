@@ -1,44 +1,53 @@
-### 3.2.1 빌드 추가
+### 3.2.1 Add Build
 
 ---
 
-도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다.
+This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build.
 
-**a\)    서비스 **→** 빌드 관리 **→ **빌드 액션 메뉴\(활성화\) → 작업 설정 편집을 선택하여 해당 페이지로 이동**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 추가.png)
+**a\) Service > Build Management > Build Action Menu (Activate) > Edit Task Settings**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 추가.png)
 
-**b\) 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 생성버튼을 눌러 서버를 생성**![](/assets/2.3.0 빌드 추가2.png)
+**b\) Enter the necessary application download, application build, and image build information and click the [Create] button to create a build**![](/assets/2.3.0 빌드 추가2.png)
 
-| **빌드 생성 단계** | **설명** |
+ 
+Build Phase
+Application
+Download
+Application
+Build
+Image Build
+
+
+| **Build Phase** | **Description** |
 | :--- | :--- |
-| 어플리케이션 다운로드 | 빌드에 필요한 소스를 다운로드 |
-| 어플리케이션 빌드 | 소스의 컴파일이 필요할 경우 사용<br/>**커맨드** - 빌드하면서 실행될 작업<br/>**호스트 경로** - 작업이 이루어질 컨테이너 경로와 그와 마운트되는 호스트경로<br/>**Working dir** -실제 컨테이너안에서 작업할 경로로 컨테이너 경로와 맞춤<br/>**이미지** - 빌드시 사용될 이미지 |
-| 이미지 빌드 | 앞서 작업된 소스로 도커파일을 만들어 이미지를 만들고 해당이미지를 레지스트리 저장소에 저장하는 단계 |
+| Application Download | Download the necessary source for a build |
+| Application Build | Use when source compile is needed <br/>**Command** - Task to be executed during build <br/>**Host Path** - The container path where the operation is to take place and the host path for mounting <br/>**Working dir** - Actual path to work within the container; Matched with container path <br/>**Image** - Image to be used for the build |
+| Image Build | The source from the previous phase is used to create a Docker file and subsequently an image to be saved in a registry |
 
-* **빌드** **기본 정보**![](/assets/2.3.0 빌드 추가3.png)
+* **Basic Build Information**![](/assets/2.3.0 빌드 추가3.png)
 
-| **기본 정보** | **설명** |
+| **Basic Info** | **Description** |
 | :--- | :--- |
-| 이름 | 생성할 빌드의 이름 |
-| 최근 액션 | 빌드의 최근 동작 상태 |
-| 상태 | 빌드의 현재 상태 |
+| Name | Name of build to be created |
+| Latest Action | Displays status of latest action |
+| Status | Displays current build status |
 
-* **어플리케이션 다운로드**![](/assets/2.3.0 빌드 추가4.png)
+* **Application Download**![](/assets/2.3.0 빌드 추가4.png)
 
-| **어플리케이션 다운로드** | **설명** |
+| **Application Download** | **Description** |
 | :--- | :--- |
-| 리파지토리 종류 | 소스파일을 내려받을 버전관리툴의 종류. 현재 버전에서는 GIT만을 지원 |
-| 프로토콜 유형 | 리파지토리에서 제공하는 HTTP/HTTPS 프로토콜을 지원 |
-| 깃 저장소 유형 | Private/Common을 지원 |
-| 리파지토리 URL | 다운로드 하기위한 저장소 URL |
-| 리파지토리 User ID | 저장소의 권한을 갖는 ID |
-| 리파지토리 패스워드 | 저장소의 권한을 갖는 ID의 패스워드 |
-| 타겟 브랜치(Branch) | 다운로드할 소스의 브랜치 정보 |
+| Repository Type | Type of version management tool that will download the source file. Only GIT is supported on the current version |
+| Protocol Type | HTTP/HTTPS protocol provided by repository |
+| Git Repository Type | Private/common supported |
+| Repository URL | Repository URL for download |
+| Repository User ID | User ID for access to repository |
+| Repository Password | Password for access to repository |
+| Target Branch | Branch information of source to be downloaded |
 
-* **어플리케이션 빌드**![](/assets/2.3.0 빌드 추가5.png)
+* **Application Build**![](/assets/2.3.0 빌드 추가5.png)
 
-| **어플리케이션 빌드** | **설명** |
+| **Application Build** | **Description** |
 | :--- | :--- |
-| 커맨드 | 빌드하면서 실행될 명령어 |
+| Command | Command to be executed during build |
 | 호스트경로 | 다운로드 된 소스가 있는 경로 |
 | 컨테이너 경로 | 작업이 이루어질 컨테이너 경로 |
 | Working dir | 실제 컨테이너안에서 작업할 경로로 컨테이너 경로와 맞춤 |
