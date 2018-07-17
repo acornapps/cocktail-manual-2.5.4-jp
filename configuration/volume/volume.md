@@ -1,27 +1,27 @@
-## 5.4 볼륨
+## 5.4 Volume
 
 ---
 
-Public Cloud 스토리지 및 외부 스토리지 정보를 등록하고, 볼륨 현황에 대한 모니터링 서비스를 제공한다.
+This feature allows you to add public cloud and external storage information and also provides volume monitoring.
 
-**a\) 클러스터 **→** 클러스터 선택 →** **볼륨을 클릭한다.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 볼륨.png)
+**a\) Cluster → Select Cluster → Volume.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 볼륨.png)
 
-| **스토리지 설정 정보** | **설명** |
+| **Storage Settings** | **Description** |
 | :--- | :--- |
-| + 버튼 | 스토리지 추가 페이지로 이동 |
-| 이름 | 스토리지 이름\(사용자지정\) |
-| 타입 | 스토리지 종류\(NFS/EBS/Google Persistent Disk/Azure Disk\) |
-| 스토리지 클래스 이름 | k8s에 등록된 Class Name |
-| 정책 | 스토리지 볼륨의 정책 설정\(Retain,Recyle,Delete\) |
-| 상태 | 스토리지 사용 상태 |
+| [+] button | Redirects to Add Storage page |
+| Name | Name of storage \(user-defined\) |
+| Type | Type of storage \(NFS/EBS/Google Persistent Disk/Azure Disk\) |
+| Storage Class Name | Class name registered in k8s |
+| Policy | Storage volume policy \(Retain/Recycle/Delete\) |
+| Status |Storage usage status |
 
-| **볼륨 설정 정보** | **설명** |
+| **Volume Settings** | **Description** |
 | :--- | :--- |
-| 볼륨이름 | PVC 이름 |
-| 상태 | PVC 마운트 상태 |
-| 사용량 | PV의 할당된 가용량과 사용량 |
-| 접속모드 | PV 접속 권한 |
-| Age | PVC 생성 경과 시간 |
+| Volume Name | PVC name |
+| Status | PVC mount status |
+| Usage | Allocated PV capacity and usage |
+| Access Mode | PV access privileges |
+| Age | PVC uptime |
 
 
 
