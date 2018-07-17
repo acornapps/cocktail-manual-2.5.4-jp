@@ -1,16 +1,16 @@
-### 3.1.6-2 시크릿
+### 3.1.6-2 Secret
 
 ---
 
-서버에서 Secret File로 저장하여 환경변수 및 볼륨으로 사용 할 수 있다.
+This feature allows you to save secret files on servers to be used as environment variables or volumes.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 설정 → 시크릿을 클릭한다. ![](/assets/2.5 설정.png)![](/assets/2.5 시크릿 1.png)
+##### a\) Service → Select Application Map → Settings → Secret. ![](/assets/2.5 설정.png)![](/assets/2.5 시크릿 1.png)
 
-| **항목  ** | **설명 ** |
+| **Item  ** | **Description ** |
 | :---: | :--- |
-| +버튼 | 시크 추가 페이지로 이동 |
-| 이름 | 시크 이름\(사용자 지정\) |
-| ![](/assets/2.3.0 컨피그맵2.png) | 시크의 액션 메뉴 |
+| [+] button | Redirects to Add Secret page |
+| Name | Name of secret \(user-defined\) |
+| ![](/assets/2.3.0 컨피그맵2.png) | Secret action menu |
 
 
 
