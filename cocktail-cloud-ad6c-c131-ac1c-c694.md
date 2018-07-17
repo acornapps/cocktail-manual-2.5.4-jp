@@ -20,7 +20,7 @@ Let's look at each layer in detail
 
 ---
 
-Previous Topic : [Cocktail Cloud 이해](/README.md)
+Previous Topic : [Understanding Cocktail Cloud](/README.md)
 
 Next Topic : [Cluster Management Layer](/cluster-management-layerd074-b7ec-c2a4-d130-ad00-b9ac-b808-c774-c5b429.md)
 
