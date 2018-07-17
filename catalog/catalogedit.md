@@ -1,14 +1,14 @@
-### 4.3 카탈로그 편집
+### 4.3 Edit Catalog
 
 ---
 
-생성한 카탈로그 내용을 편집할 수 있다. 템플릿의 버전, 요약정보, 편집 내용을 수정할 수 있으며 각 인스턴스의 배포 정보를 수정할 수 있다.
+This feature allows you to modify catalog information. You may modify the template version, summary, and other information, as well as the deployment information for each instance.
 
-##### a\) 카탈로그 → 편집하고자 하는 템플릿 '편집' 버튼을 클릭![](/assets/2.5 카탈로그 서비스 편집.png)
+##### a\) Catalog → Click the [Edit] button on the desired template![](/assets/2.5 카탈로그 서비스 편집.png)
 
-##### b\) 수정할 템플릿의 버전, 요약정보, 편집 내용을 수정하고, 화면 우측 하단 '편집'버튼 클릭하여 인스턴스의 배포 정보를 수정할 수 있다. ![](/assets/2.5 카탈로그 편집 1.png)
+##### b\) You may modify the template version, summary, and other information. The instance deployment information may also be modified by clicking the [Edit] button in the bottom-right corner. ![](/assets/2.5 카탈로그 편집 1.png)
 
-**c\) 편집 화면에서 컨피그맵과 시크릿은 편집은 불가하고 내용만 확인 가능하다.**![](/assets/2.5 카탈로그 편집 컨피그맵.png)![](/assets/2.5 카탈로그 편집 시크릿.png)
+**c\) You may only view, not edit, config maps and secrets from the edit screen.**![](/assets/2.5 카탈로그 편집 컨피그맵.png)![](/assets/2.5 카탈로그 편집 시크릿.png)
 
-**d\) 서버 편집시 컨테이너 환경설정과 볼륨, 볼륨마운트는 편집은 불가하고 내용만 확인 가능하다.**![](/assets/2.5.0 카탈로그 편집 상세1.png)![](/assets/2.5.0 카탈로그 편집 상세2.png)![](/assets/2.5.0 카탈로그 편집 상세3.png)
+**d\) When editing a server, you may only view, not edit, the container environment, volume, and volume mount settings.**![](/assets/2.5.0 카탈로그 편집 상세1.png)![](/assets/2.5.0 카탈로그 편집 상세2.png)![](/assets/2.5.0 카탈로그 편집 상세3.png)
 

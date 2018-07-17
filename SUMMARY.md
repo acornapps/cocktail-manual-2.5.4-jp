@@ -63,7 +63,7 @@
 * [Catalog](catalog/catalog.md)
   * [Save Catalog](catalog/catalogadd.md)
   * [Deploy Catalog](catalog/catalogdeploy.md)
-  * [카탈로그 편집](catalog/catalogedit.md)
+  * [Edit Catalog](catalog/catalogedit.md)
   * [카탈로그 삭제](catalog/catalogdelete.md)
 * [Cluster](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
   * [Cluster Management](configuration/cluster/d074-b7ec-c2a4-d130.md)
