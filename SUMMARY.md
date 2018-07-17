@@ -24,7 +24,7 @@
     * [Edit Account](configuration/provider/update.md)
     * [Delete Account](configuration/provider/d504-b85c-bc14-c774-b354-c0ad-c81c.md)
   * [Service](configuration/service/service.md)
-    * [서비스 추가](configuration/service/add.md)
+    * [Add Service](configuration/service/add.md)
     * [서비스 편집](configuration/service/c11c-be44-c2a4-d3b8-c9d1.md)
     * [서비스 삭제](configuration/service/delete.md)
 * [서비스](c11c-be44-c2a4.md)

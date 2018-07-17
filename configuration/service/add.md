@@ -1,18 +1,18 @@
-### 2.3.1    서비스 추가
+### 2.3.1 Add Service
 
 ---
 
-서비스를 추가 하는 기능이다. 서비스 별로 사용자 등록 및 클러스터, 레지스트리\(저장소\) 등록을 할 수 있다.
+This feature allows you to add services. Users, clusters, and registries \(storage\) can be registered for each service.
 
-##### a\) 환경설정 → 서비스 → 오른쪽 상단 + 모양의 버튼을 클릭한다.![](/assets/2.5.0 서비스 추가1 ko.png)
+##### a\) Environment Settings → Service → Click the [+] button in the top-right corner.![](/assets/2.5.0 서비스 추가1 ko.png)
 
-##### b\) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다.![](/assets/2.5.0 환경설정 서비스 추가2.png)
+##### b\) Enter the service name, description, color, registry, user, and cluster information.![](/assets/2.5.0 환경설정 서비스 추가2.png)
 
-##### c\) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다.
+##### c\) Only items with the checked boxes are reflected when adding a user or cluster.
 
-* 사용자 편집![](/assets/2.5.0 환경설정 서비스 추가3.png)
+* Edit User![](/assets/2.5.0 환경설정 서비스 추가3.png)
 
-* 클러스터 편집![](/assets/2.5.0 환경설정 서비스 추가4.png)
+* Edit Cluster![](/assets/2.5.0 환경설정 서비스 추가4.png)
 
 
 
