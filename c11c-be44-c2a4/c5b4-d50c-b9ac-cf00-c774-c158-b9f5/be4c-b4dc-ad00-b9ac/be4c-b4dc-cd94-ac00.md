@@ -8,15 +8,6 @@ This feature allows you to add Docker image build tasks. Three options are avail
 
 **b\) Enter the necessary application download, application build, and image build information and click the [Create] button to create a build**![](/assets/2.3.0 빌드 추가2.png)
 
- 
-Build Phase
-Application
-Download
-Application
-Build
-Image Build
-
-
 | **Build Phase** | **Description** |
 | :--- | :--- |
 | Application Download | Download the necessary source for a build |
