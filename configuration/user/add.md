@@ -1,27 +1,27 @@
-### 2.1.1 사용자 추가
+### 2.1.1 Add User
 
 ---
 
-칵테일 사용자 추가 기능이다.
+This feature allows you to add user accounts.
 
-사용자 아이디는 반드시 이메일 형식\( cocktail@example.com \)이어야 하며 패스워드 설정기능은 현재 지원하고 있지 않으니 아이디 생성 후에는 반드시 비밀번호 초기화 후 변경하여 사용해야 한다.  
-\(초기화 후 제공받는 초기 비밀번호는 'Pass0000'이다.\)
+The user ID must be in an email format \(cocktail@example.com\). The password settings feature is not currently supported, and thus, the password must be initialized and changed after creating an ID.
+\(The password automatically assigned after initialization is 'Pass0000'.\)
 
-##### a\) 환경설정 → 사용자 → 우측상단 + 모양 버튼 클릭한다.![](/assets/2.5.0 환경설정 사용자 추가1.png)
+##### a\) Environment Settings → User → Click the [+] button in the top-right corner.![](/assets/2.5.0 환경설정 사용자 추가1.png)
 
-##### b\) 사용자 아이디, 이름, 권한을 선택 후 '생성'버튼 클릭한다.![](/assets/2.5.0 환경설정 사용자 추가2.png)
+##### b\)Click the [Create] button after selecting the user ID, name, and privileges.![](/assets/2.5.0 환경설정 사용자 추가2.png)
 
-| **권한** | **대시보드** | **서비스** | **카탈로그** | **클러스터** | **환경설정** |
+| **Privilege** | **Dashboard** | **Service** | **Catalog** | **Cluster** | **Environment Settings** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ADMIN | ⃝ | ⃝ | ⃝ | ⃝ | ⃝ |
 | MANAGER | ⃝ | ⃝ | ⃝ | ⃝ | X |
 | DEVOPS | X | △ | ⃝ | X | X |
 
-##### - ADMIN : 전사 서비스 관리. 대시보드, 서비스, 카탈로그, 클러스터, 환경설정 메뉴 사용이 가능
+##### - ADMIN : Company-wide service management. Privileges include usage access to the dashboard, services, catalogs, clusters, and environment settings.
 
-##### - MANAGER : 전사 서비스 조회. 대시보드, 서비스, 카탈로그 사용이 가능하며 클러스터의 조회가 가능
+##### - MANAGER : Company-wide service query. Privileges include usage access to the dashboard, services, and catalogs, as well as query access to clusters.
 
-##### - DEVOPS : 구성원으로 배정 된 서비스 관리. 서비스, 카탈로그 사용이 가능하며, 클러스터의 조회가 가능
+##### - DEVOPS : Service management via assigned members. Privileges include usage access to services and catalogs, as well as query access to clusters.
 
 
 
