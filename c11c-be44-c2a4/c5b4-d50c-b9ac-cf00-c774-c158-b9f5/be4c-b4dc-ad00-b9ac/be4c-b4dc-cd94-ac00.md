@@ -4,7 +4,7 @@
 
 This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build.
 
-**a\) Service > Build Management > Build Action Menu (Activate) > Edit Task Settings**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 추가.png)
+**a\) Service > Build Management > Build Action Menu \(Activate\) > Edit Task Settings**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 추가.png)
 
 **b\) Enter the necessary application download, application build, and image build information and click the [Create] button to create a build**![](/assets/2.3.0 빌드 추가2.png)
 
