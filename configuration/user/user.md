@@ -1,25 +1,27 @@
-## 2.1 사용자
+## 2.1 Users
 
 ---
 
-사용자 계정 목록을 전체/사용/미사용으로 분류하여 조회할 수 있다.\(사용여부가 Y인 계정은 '사용', N인 계정은 '미사용' 선택 시 표시\)
+The user account list can be filtered by All, Active, or Inactive. \('Y' and 'N' accounts are displayed when 'Active' and 'Inactive' are selected, respectively.\)
 
-칵테일 사용자 계정을 생성 및 수정, 삭제할 수 있으며 계정에 따라 ADMIN, MANAGER, DEVOPS 권한을 줄 수 있다.
+Cocktail user accounts can be created, edited, and deleted, and ADMIN, MANAGER, and DEVOPS privileges can be granted according to the account.
 
-##### a\) 환경설정 → 사용자 →  사용여부 버튼을 클릭하여 '전체/사용/미사용' 중 하나를 선택한다.  ![](/assets/2.5.0 환경설정 사용자 메인.png)
+##### a\) Environment Settings > User > Click the [Status] button and select All, Active, or Inactive.
 
-사용자 설정
 
-| **사용자 설정** | **설명** |
+User Settings
+
+
+| **User Settings** | **Description** |
 | :--- | :--- |
-| 사용여부 | 사용여부에 따른 조회 필터링 기능.\(전체/사용/미사용\) |
-| + 버튼 | 사용자 추가 페이지로 이동 |
-| 아이디 | 사용가 Login할 때, 사용하는 ID\(E-mail형식\) |
-| 이름 | 사용자의 이름 |
-| 권한 | 사용자가 부여받은 권한\(ADMIN, MANAGER, DEVOPS\) |
-| 사용여부 | 현재 사용자의 사용 여부 |
-| 마지막 접속일 | 사용자의 마지막 접속 날에 대한 Date 정보 |
-| 설명 | 사용자 설명 |
+| Usage Status | Filters users by usage status \(All, Active, or Inactive\) |
+| + button | Redirects to Add User page |
+| ID | ID \(email format\) used by a user to log in |
+| Name | Name of user |
+| Privileges | Privileges granted to user. \(ADMIN, MANAGER, or DEVOPS\) |
+| Usage Status | Current user's account usage status |
+| Last Login Date | Date of user's last login |
+| Description | Description of user |
 
 
 

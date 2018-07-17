@@ -12,7 +12,7 @@
 * [Cocktail Cloud User Manual](baa9-cc28.md)
 * [Login](b85c-adf8-c778.md)
 * [Environment Settings](d658-acbd-c124-c815.md)
-  * [사용자](configuration/user/user.md)
+  * [Users](configuration/user/user.md)
     * [사용자 추가](configuration/user/add.md)
     * [사용자 편집](configuration/user/edit.md)
     * [사용자 삭제](configuration/user/delete.md)
