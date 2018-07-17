@@ -26,7 +26,3 @@ The main features of Cocktail Cloud are as follows:
 ---
 
 Next Topic : [Cocktail Cloud Structure Overview](/cocktail-cloud-ad6c-c131-ac1c-c694.md)
-
-Version : {{ book.ko.version }} - {{ ko.version }}
-
-{% include "server.md" %} 
