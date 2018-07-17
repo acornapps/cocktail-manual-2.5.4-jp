@@ -1,16 +1,16 @@
-### 4.1 카탈로그 저장
+### 4.1 Save Catalog
 
 ---
 
-카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 서버 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다.
+This feature allows you to create catalogs and deploy multiple desired servers at once. If a server container image is a build, only the image is saved and converted into a common image to be saved as a catalog. A saved catalog can be found in the service catalog.
 
-카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. **\(단, 시크릿은 보안상 값은 저장하지 않는다.\)**
+When saving a catalog, config maps and secrets are also saved in the template. **\(Secret values are not saved for security reasons.\)**
 
-##### a\) 서비스에서 카탈로그로 저장하는 어플리케이션 맵을 선택![](/assets/2.5_ko_service_02.png)
+##### a\) Select an application map to be saved as a catalog from the services![](/assets/2.5_ko_service_02.png)
 
-##### b\) 화면 우측 상단 카탈로그로 저장' 버튼을 클릭![](/assets/2.5.0 카탈로그 저장2 ko.png)
+##### b\) Click the [Save] button in the top-right corner![](/assets/2.5.0 카탈로그 저장2 ko.png)
 
-##### c\) 신규로 템플릿 생성 시 신규 카테고리를, 기존 템플릿을 업데이트 할 시 '기존' 카테고리 선택 후 버전, 요약정보, 편집 내용 작성 후 아래 '저장' 버튼을 클릭. \(편집 입력필드는 Mark Down파일 형식으로 해당파일 작성 방법은 페이지 우측 'Mark Down support' 를 눌러 확인 할 수 있다.\)![](/assets/2.5.0 카탈로그 저장1.png)
+##### c\) When creating a new template or updating an existing template with a new category, select the Existing category, edit the information as necessary, and click the [Save] button. \(The input fields are in a markdown file format. You can view the file creation method by clicking Markdown Support on the right side of the page.\)![](/assets/2.5.0 카탈로그 저장1.png)
 
 
 

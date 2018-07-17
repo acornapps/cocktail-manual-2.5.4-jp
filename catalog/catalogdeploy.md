@@ -1,16 +1,16 @@
-### 4.2 카탈로그 배포
+### 4.2 Deploy Catalog
 
 ---
 
-생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다.
+This feature allows you to deploy generated catalogs. If necessary, unnecessary instances can be excluded or edited prior to deployment.
 
-##### a\) 카탈로그 →  배포하고자 하는 템플릿의 '배포' 버튼을 클릭![](/assets/2.5 카탈로그 칵테일 배포.png)
+##### a\) Catalog → Click the [Deploy] button on the desired template![](/assets/2.5 카탈로그 칵테일 배포.png)
 
-##### b\) 템플릿 카테고리에서 서비스, 클러스터, 어플리케이션 맵 선택 후 '배포' 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다.
+##### b\) Select the service, cluster, and application map from the template category and click [Deploy]. You may exclude unwanted instances prior to deployment.
 
-* 신규 Application Map 배포 시 서비스, 클러스터를 선택하고 어플리케이션 맵, 네임스페이스 이름을 작성 후 배포할 수 있다.![](/assets/2.3.2 템플릿 배포 신규.png)
+* When deploying a new application map, you may select the service and cluster and add the application map and namespace information prior to deployment.![](/assets/2.3.2 템플릿 배포 신규.png)
 
-* 기존 Application Map 배포 시 서비스, 어플리케이션 맵 선택 후 배포할 수 있다.![](/assets/2.3.2 템플릿 배포 기존.png)
+* When deploying an existing application map, you may select the service and application map prior to deployment.![](/assets/2.3.2 템플릿 배포 기존.png)
 
-**c\) 시크릿의 경우 보안상 값은 저장하지 않기에 배포 전 값을 입력해주어야 한다.**![](/assets/2.5.0 카탈로그 배포1.png)
+**c\) Because secret values are not saved for security reasons, the values must be entered prior to deployment.**![](/assets/2.5.0 카탈로그 배포1.png)
 
