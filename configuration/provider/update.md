@@ -2,18 +2,16 @@
 
 ---
 
-계정 이름 및 유형, 상태 수정이 가능하며 퍼블릭 클라우드 프로바이더의 경우 키 수정이 가능하다.
+This feature allows you to modify the name, type, and status of an account. For public cloud providers, the key may also be modified. If the account is being used in a cluster, only the account name and description may be modified.
 
-계정이 클러스터에서 사용중인 경우 계정 이름과 설명만 수정 가능하다.
+##### a\) Environment Settings → Account → Account Action Menu > Edit Account > Click the [Save] button when finished.![](/assets/2.5.0 계정 편집1 ko.png)
 
-##### a\) 환경설정 → 계정 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다.![](/assets/2.5.0 계정 편집1 ko.png)
+##### b\) Modify the name, type, description, status, and/or key information.![](/assets/2.5.0 환경설정 계정 편집2.png)
 
-##### b\) 이름, 유형, 설명, 상태 및 키를 수정 한다.![](/assets/2.5.0 환경설정 계정 편집2.png)
-
-| 상태 | **설명** |
+| 상태 | **Description** |
 | :--- | :--- |
-| Active | 계정 활성화. |
-| Inactive | 계정 비활성. |
+| Active | Active account |
+| Inactive | Inactive account |
 
 
 
