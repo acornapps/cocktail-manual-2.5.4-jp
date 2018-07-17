@@ -1,32 +1,33 @@
-# 8. 고객지원 서비스
+# 8. Customer Support
 
 ---
 
-Cocktail Cloud를 이용해 주셔서 감사합니다.
+Thank you for using Cocktail Cloud.
 
-제품 구매  기능상담 등의 기술 지원 서비스 및 각종 혜택을 받을 수 있습니다.  제공하는 각종 서비스는 다음과 같습니다.
+Contact us for technical support and product purchase consultations. 
+We provide the following services:
 
-* 방문 서비스를 통하여 Q&A, 제품에 관한 정보 및 기타 문의를 할 수 있습니다.
-* 고객 등록을 마친 제품과 상담이 가능한 제품에 한하여 전화나 팩스를 통하여 전문 기술상담 서비스를 받을 수 있습니다.
-* 각종 행사 초청 및 정보를 제공합니다.
+* On-site Q&A and product consultation services.
+* Professional technical consultations via telephone or fax. \(Limited to customers who have registered their products\)
+* Various event invitations and information.
 
-**서비스 지원**
+**Support**
 
-나무기술\(주\) 클라우드 팀
+Cloud Team - Namutech Co., Ltd.
 
-담당자 : 이병오 부장
+Contact: Byoung-oh Lee, Dept. Head
 
-휴대전화 : 010-6698-7762
+Cell: 010-6698-7762
 
-이메일 : byoungoh.lee@namutech.co.kr
+Email: byoungoh.lee@namutech.co.kr
 
-**제품 개발사**
+**Product Developer**
 
-아콘소프트\(주\)
+Acornsoft Co., Ltd
 
-* 주소 : 서울특별시 강남구 역삼로 239 화광센터 4층
-* TEL : 02-554-0301
-* FAX : 02-554-0302
+* Address: Hwakwang Center, 4th Fl., 239 Yeoksam-ro, Gangnam-gu, Seoul
+* Tel : 02-554-0301
+* Fax : 02-554-0302
 
 
 
