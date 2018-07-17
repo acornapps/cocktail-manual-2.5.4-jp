@@ -1,32 +1,33 @@
-# 6. 대시보드
+# 6. Dashboard
 
 ---
 
-대시보드에서는 cocktail에 서비스된 정보를 한 눈에 확인 할 수 있다.
+The dashboard allows you to view Cocktail service information at a glance.
 
-* **요약정보**
+* **Summary**
 
-  현재 등록 관리되고 있는 어플리케이션 개수, 서버 개수, 등록된 클러스터 수, 현재 달의 총 클라우드 비용을 볼 수 있다.
+  Displays the number of currently-registered/managed applications, servers clusters, and the total cloud cost for the current month.
 
-* **서버현황**
+* **Server Status**
 
-  인프라로 사용하고 있는 클라우드 서비스 프로바이더 별로 배치되어 있는 서버의 개수를 알려 준다. 구글 GCP, 아마존 AWS, MS Azure, Bare Metal, Private Cloud Platform이 등록되어 있다.
+  Displays the number of deployed servers per cloud service provider.
+  Google GCP, Amazon AWS, Microsoft Azure, bare-metal, and private cloud platforms are registered.
 
-* **클러스터 비용 추이**
+* **Cluster Cost Trend**
 
-  선택한 년도의 월별 비용 추이 및 선택한 월의 일별 비용 추이도 그래프로 확인 할 수 있다.
+  Displays monthly cost trends of a selected year and daily cost trends for a selected month in graph form.
 
-* **클러스터별 상위 비용**
+* **Top Cost by Cluster**
 
-  사용 중인 클러스터 중 상위 5개 클러스터의 비용을 확인 할 수 있다.
+  Displays the top five clusters with the highest cost.
 
-* **클러스터 상위 자원 할당률 **
+* **Top Cluster Resource Allocation **
 
-  사용 중인 클러스터 중 상위 5개 클러스터 자원 할당률\(limit\)을 확인 할 수 있다.
+  Displays the top five clusters with the highest resource utilization.
 
-* **어플리케이션별 상위 리소스 할당량**
+* **Top Resource Allocation by Application**
 
-  사용 중인 어플리케이션 중 상위 5개 어플리케이션 리소스 할당량을 확인 할 수 있다.
+  Displays the top five applications with the highest resource utilization.
 
 ![](/assets/2.5.0 대시보드 메인1.png)
 
