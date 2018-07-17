@@ -1,64 +1,64 @@
-# Cocktail Cloud 사용설명서
+# Cocktail Cloud User Manual
 
 ---
 
-본 문서는 Cocktail Cloud\(칵테일 클라우드\) 사용자를 위한 문서이다. 아래 목차는 칵테일 클라우드의 메뉴를 기준으로 구성되며, 각 목차별로 주요 기능의 사용법을 설명하였다.
+This document is for Cocktail Cloud users. The following sections are based on Cocktail Cloud's menu and describe how each of the main functions are used.
 
-### 목차
+### Table of Contents
 
 ---
 
-### [1. 로그인](/b85c-adf8-c778.md)
+### [1. Login](/b85c-adf8-c778.md)
 
-### [2. 환경설정](/d658-acbd-c124-c815.md)
+### [2. Environment Settings](/d658-acbd-c124-c815.md)
 
-##### 2.1 사용자
+##### 2.1 User
 
-##### 2.2 계정
+##### 2.2 Account
 
-##### 2.3 서비스
+##### 2.3 Service
 
-### [3. 서비스](/c11c-be44-c2a4.md)
+### [3. Service](/c11c-be44-c2a4.md)
 
-##### 3.1 어플리케이션 관리
+##### 3.1 Application Map
 
-##### 3.2 빌드 관리
+##### 3.2 Build
 
-### [4. 카탈로그](/catalog/catalog.md)
+### [4. Catalog](/catalog/catalog.md)
 
-##### 4.1 카탈로그 저장
+##### 4.1 Create Catalog
 
-##### 4.2 카탈로그 배포
+##### 4.2 Deploy Catalog
 
-##### 4.3 카탈로그 편집
+##### 4.3 Edit Catalog
 
-##### 4.4 카탈로그 삭제
+##### 4.4 Delete Catalog
 
-### [5. 클러스터](/c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
+### [5. Cluster](/c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
 
-##### 5.1 클러스터 관리
+##### 5.1 Cluster Management
 
-##### 5.2 노드
+##### 5.2 Node
 
-##### 5.3 어플리케이션
+##### 5.3 Application
 
-##### 5.4 볼륨
+##### 5.4 Volume
 
-##### 5.5 알람
+##### 5.5 Alerts
 
-##### 5.6 미터링
+##### 5.6 Metering
 
-### [6. 대시보드](/dashboard/b300-c2dc-bcf4-b4dc.md)
+### [6. Dashboad](/dashboard/b300-c2dc-bcf4-b4dc.md)
 
-##### 6.1 사용자 관리
+##### 6.1 User Management
 
-### [7. 용어 설명](/c6a9-c5b4-c815-b9ac.md)
+### [7. Glossary](/c6a9-c5b4-c815-b9ac.md)
 
 ##### 7.1 Kubernetes
 
 ##### 7.2 Cocktail Cloud
 
-### [8. 고객지원 서비스](/ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)
+### [8. Customer Support](/ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)
 
 ---
 
