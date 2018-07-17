@@ -9,31 +9,30 @@ The detailed configuration is as follows:
 
 Cocktail Cloud automatically provisions the cluster infrastructure and orchestration engine according to user configuration. The tool responsible for this is Cube. Cube constitutes high-availability \(HA\) Kubernetes clusters. Cube-provisioned cluster configurations provide high reliability, security, and scalability. \(This is referred to as a Cube cluster.\)
 
+Cube clusters currently support the cloud platforms and providers listed below. Note, however, that Cube can be configured independently on any infrastructure. The following is based on automatic infrastructure provisioning.
 
-CUBE클러스터는 현재 다음과 같은 클라우드 플랫폼 및 공급자를 지원한다. 하지만 CUBE는 인프라에 독립적인 구성이 가능함으로 어떠한 인프라에서도 구성이 가능하다. 아래는 인프라 자동 프로비져닝을 기준으로 한 것이다.
+* Physical infrastructure \(Baremetal\)
 
-* 물리 인프라\(Baremetal\)
+* Cloud platform : Openstack, Cloudstack, VMWare
 
-* 클라우드 플랫폼 : Openstack, Cloudstack, VMWare
+* Cloud service : AWS, GCP, Azure
 
-* 클라우드 서비스 : AWS, GCP, Azure
+Cube also provides cluster management features such as Kubernetes version upgrading, node \(physical/virtual machine\) adding/deleting, and backups.
 
-또한 CUBE도구는 클러스터의 Kubernetes 버전 업그레이드, 노드\(물리/가상 머신\)의 추가/삭제, 백업등의 클러스터 관리를 위한 기능을 제공한다.
+Cocktail Cloud provides integrated-management of multiple clusters. That is, multiple clusters can be assigned to the desired service, and all clusters can be managed and monitored.
 
-칵테일 클라우드는 멀티 클러스터를 통합관리 한다. 즉, 하나 이상의 클러스터를 필요한 서비스에 할당하고 전체 클러스터의 관리 및 모니터링을 수행한다. 클러스터는 필요한 경우 추가 될 수 있다.
+Clusters can be added as needed. Additional scaling components are provided via Cube clusters.
 
-CUBE클러스터에는 관리를 위한 확장 컴포넌트가 추가 제공된다.
+* Monitoring : Infrastructure, container, service \(workload\) status, configuration, resource monitoring.
+* Alerting : Alerts via email/messenger when specific conditions are met.
+* Metering : View usage cost of public cloud clusters.
+* Inspecting : Change tracking and event management of containers and Kubernetes objects
 
-* Monitoring : 인프라, 컨테이너, 서비스\(Workload\)의 상태, 구성, 자원 모니터링
-* Alerting : 특정 조건이 되었을 때 이메일, 메신져를 통한 경고 전파 및 관리
-* Metering : 퍼블릭 클라우드 클러스터인 경우 사용 비용 조회
-* Inspecting : 컨테이너 및 Kubernetes 오브젝트의 변경 추적 및 이벤트 관리
-
-확장 컴포넌트가 제공하는 정보와 관리 기능은 칵테일 클라우드의 “클러스터 관리”뷰\(View\)를 통해 제공된다.
+Information and management functions provided via scaling component are available through Cocktail Cloud's Custer Management view.
 
 ---
 
-이전글 : [Cocktail Cloud 구성 개요](/cocktail-cloud-ad6c-c131-ac1c-c694.md)
+Previous Topic : [Cocktail Cloud Structure Overview](/cocktail-cloud-ad6c-c131-ac1c-c694.md)
 
-다음글 : [Service Management Layer \(서비스 관리 레이어\)](/c11c-be44-c2a4-ad00-b9ac-b808-c774-c5b4.md)
+Next Topic : [Service Management Layer](/c11c-be44-c2a4-ad00-b9ac-b808-c774-c5b4.md)
 
