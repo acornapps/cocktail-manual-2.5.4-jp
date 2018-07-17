@@ -32,7 +32,7 @@
     * [Application Map](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5.md)
       * [Create Application Map](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0dd-c131.md)
       * [Change Application Map Name](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c774-b984-bcc0-acbd.md)
-      * [어플리케이션 맵 삭제](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0ad-c81c.md)
+      * [Delete Application Map](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0ad-c81c.md)
     * [그룹 관리](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/adf8-b8f9-ad00-b9ac.md)
     * [서버](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84.md)
       * [서버 생성](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c0dd-c131.md)
