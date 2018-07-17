@@ -27,7 +27,7 @@
     * [Add Service](configuration/service/add.md)
     * [Edit Service](configuration/service/c11c-be44-c2a4-d3b8-c9d1.md)
     * [Delete Service](configuration/service/delete.md)
-* [서비스](c11c-be44-c2a4.md)
+* [Service](c11c-be44-c2a4.md)
   * [어플리케이션 관리](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5.md)
     * [어플리케이션 맵](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5.md)
       * [어플리케이션 맵 생성](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0dd-c131.md)
