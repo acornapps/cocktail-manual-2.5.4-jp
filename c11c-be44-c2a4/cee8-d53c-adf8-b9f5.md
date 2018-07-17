@@ -1,16 +1,16 @@
-### 3.1.6-1 컨피그 맵
+### 3.1.6-1 Config Map
 
 ---
 
-서버에서 Config File을 Map 형식으로 저장하여 볼륨으로 사용 할 수 있다.
+This feature allows you to save config files as maps on servers to be used as volumes.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 설정 → 컨피그 맵을 클릭한다. ![](/assets/2.5 설정.png)![](/assets/2.5 컨피그 맵 1.png)
+##### a\) Service → Select Application Map → Settings → Config Map. ![](/assets/2.5 설정.png)![](/assets/2.5 컨피그 맵 1.png)
 
-| **항목  ** | **설명 ** |
+| **Item** | **Description ** |
 | :---: | :--- |
-| +버튼 | 컨피그 맵 추가 페이지로 이동 |
-| 이름 | 컨피그 맵 이름\(사용자 지정\) |
-| ![](/assets/2.3.0 컨피그맵2.png) | 컨피그 맵의 액션 메뉴 |
+| [+] button | Redirects to Add Config Map page |
+| Name | Name of config map \(user-defined\) |
+| ![](/assets/2.3.0 컨피그맵2.png) | Config map action menu |
 
 
 

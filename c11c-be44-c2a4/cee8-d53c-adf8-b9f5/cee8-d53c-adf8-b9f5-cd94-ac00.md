@@ -1,19 +1,19 @@
-### 3.1.6-1a 컨피그 맵 추가
+### 3.1.6-1a Add Config Map
 
 ---
 
-서비스에 컨피그 맵을 추가한다.
+This feature allows you to add config maps.
 
-##### a\) 서비스 → 어플리케이션 맵 선택 → 설정 → 컨피그 맵 → +버튼을 클릭하여 등록페이지로 이동한다.![](/assets/2.5 설정.png)![](/assets/2.5 컨피그 맵 추가 1.png)
+##### a\) Service > Select Application Map > Settings > Config Map > Click the [+] button to be redirected to the Add Config Map page.![](/assets/2.5 설정.png)![](/assets/2.5 컨피그 맵 추가 1.png)
 
-##### b\) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 컨피그 맵을 생성한다.![](/assets/2.5 컨피그 맵 생성 2.png)
+##### b\) Enter the name and data values and click the [Create] button in the top-right corner to create a config map.![](/assets/2.5 컨피그 맵 생성 2.png)
 
-| **항목** | **설명** |
+| **Item** | **Description** |
 | :---: | :--- |
-| 이름 | 이름을 입력하는 란입니다. 추후 편집이 불가 |
-| 데이터 추가 버튼 | 컨피그 맵의 데이터 추가할 수 있는 버튼 |
-| 이름 | 컨피그 맵의 Key 값 |
-| 값 | 컨피그 맵의 Value 값 |
+| Name | Name input field \(May not be edited after creation\) |
+| Add Data button | Add data to a config map |
+| Name(key) | Key value of config map |
+| Value | Value of config map |
 
 
 
