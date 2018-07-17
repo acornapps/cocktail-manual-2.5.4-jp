@@ -39,18 +39,18 @@ This feature allows you to add Docker image build tasks. Three options are avail
 | **Application Build** | **Description** |
 | :--- | :--- |
 | Command | Command to be executed during build |
-| 호스트경로 | 다운로드 된 소스가 있는 경로 |
-| 컨테이너 경로 | 작업이 이루어질 컨테이너 경로 |
-| Working dir | 실제 컨테이너안에서 작업할 경로로 컨테이너 경로와 맞춤 |
-| 이미지 | 빌드를 실행할 컨테이너 이미지 |
+| Host Path | Path of downloaded source |
+| Container Path | The container path where the operation is to take place |
+| Working Dir | Actual path to work within the container. Matched with container path |
+| Image | Container image for build |
 
-* **이미지 빌드**![](/assets/2.3.0 빌드 추가6.png)
+* **Image Build**![](/assets/2.3.0 빌드 추가6.png)
 
-| **이미지 빌드** | 설명 |
+| **Image Build** | Description |
 | :--- | :--- |
-| Dockerfile | 이미지를 만들기 위한 Dockerfile |
-| 레지스트리명 | 생성한 이미지를 저장하는 레지스트리를 선택 |
-| 이미지 | 생성한 이미지를 레지스트리에 저장 할 이미지 명과 태그 |
+| Dockerfile | Docker file for image creation |
+| Registry Name | Registry where the created image is to be stored |
+| Image | Name and tag of image to be stored in the registry |
 
 
 
