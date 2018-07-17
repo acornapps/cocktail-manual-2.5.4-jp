@@ -80,7 +80,7 @@
   * [Metering](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1/bbf8-d130-b9c1.md)
 * [Dashboard](dashboard/b300-c2dc-bcf4-b4dc.md)
   * [User Management](dashboard/b300-c2dc-bcf4-b4dc/c0ac-c6a9-c790-ad00-b9ac.md)
-* [용어 설명](c6a9-c5b4-c815-b9ac.md)
+* [Glossary](c6a9-c5b4-c815-b9ac.md)
   * [Kubernetes](c6a9-c5b4-c815-b9ac/kubernetes.md)
   * [Cocktail Cloud](c6a9-c5b4-c815-b9ac/cocktail-cloud.md)
 * [고객지원서비스](ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)

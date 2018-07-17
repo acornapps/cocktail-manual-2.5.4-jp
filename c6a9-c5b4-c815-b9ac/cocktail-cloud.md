@@ -1,45 +1,45 @@
 ## 7.2 Cocktail Cloud
 
-#### 1.환경설정
+#### 1.Environment Settings
 
-칵테일 클라우드를 이용하기 위해서 사전에 정보를 등록하는 서비스
+Service for pre-registering information to use Cocktail Cloud
 
-| **용어** | **설명** |
+| **Term** | **Description** |
 | :--- | :--- |
-| 사용자 | Cocktail Cloud를 이용하기 위한 사용자 관리를 지원 |
-| 계정 | k8s Cluster에 대한 사용자 인증 정보에 대한 관리를 지원 |
-| 서비스 | 업무 또는 프로젝트 단위로 작업을 분산하여 관리. 관리자는 일반사용자에 대하여 서비스 단위로 접근권한을 부여할 수 있다. |
+| User | User management for use of Cocktail Cloud |
+| Account | Management of user credentials for k8s clusters |
+| Service | Distributes and manages tasks on a job or project basis. The administrator may grant access privileges to general users on a service basis |
 
-C.클러스터 : k8s를 사용하기 위한 k8s정보를 관리하는 페이지
+C. Cluster: Page for managing information related to k8s use
 
-#### 2.서비스
+#### 2.Service
 
-어플리케이션 단위로 작업을 세분화가 가능하며, 빌드를 통한 Docker 이미지를 생성 할 수 있다. 빌드된 이미지를 통하여 어플리케이션을 생성, 조회, 수정, 삭제등 관리가 이루어지는 서비스.
+Tasks can be subdivided into application units, and Docker images can be created through builds. Applications can be created, viewed, modified, and deleted via built images.
 
-| **용어** | **설명** |
+| **Term** | **Description** |
 | :--- | :--- |
-| 어플리케이션 맵 | k8s의 Namespace |
-| 빌드 | Docker image를 만들기 위한 작업을 지원하는 서비스 |
-| 모니터링 | 어플리케이션 안에서 Server를 Pod, Container 단위의 자원 모니터링을 제공 |
-| 파이프라인 | 빌드부터 배포까지 한 번에 편리한 실행이 가능한 서비스 |
-| 설정 | 어플리케이션 단위로 변수값 또는 파일들을 저장하여 사용할 수 있는 서비스 |
+| Application Map | k8s Namespace |
+| build | Service that supports tasks for the creation of Docker images |
+| Monitoring | Provides resource monitoring of servers, pods, and containers in an application |
+| Pipeline | Service for streamlining processes from building to deployment |
+| Setting | Service for storing and using variable values or files in application units |
 
-#### 3.카탈로그
+#### 3.Catalog
 
-어플리케이션 구성을 템플릿화 하여 쉽게 서버생성 및 배포, 편집 관리가 가능한 서비스.
+Service for easily creating, modifying, and deploying servers by creating templates of application configurations.
 
-#### 4.클러스터
+#### 4.Cluster
 
-클러스터, 노드, 어플리케이션, 볼륨/스토리지, 알람, 미터링 등을 등록관리 및 현황 조회가 가능한 서비스
+Service for registering, managing, and querying clusters, nodes, applications, volumes/storage, alerts, and meters
 
-| **용어** | **설명** |
+| **Term** | **Description** |
 | :--- | :--- |
-| 클러스터 | k8s 오케스트레이션을 구성하는 서버의 패키지 |
-| 노드 | k8s 클러스터의 서버의 개별 서버. Master와 Worker로 구분 |
-| 어플리케이션 | 1개 이상의 컨테이너로 구성되는 서비스 |
-| 볼륨/스토리지 | 외부 스토리지 정보 |
-| 알람 | 클러스터에 대한 이벤트 알람 |
-| 미터링 | 클러스터에 대한 요금정보 |
+| Cluster | Server packages that constitute k8s orchestration |
+| Node | Individual server in a k8s server cluster. Categorized as either master or worker |
+| Application | Service consisting of one or more containers |
+| Volume/Storage | External storage information |
+| Alerts | Alerts for cluster events |
+| Metering | Cluster cost information |
 
 
 
