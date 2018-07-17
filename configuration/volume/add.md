@@ -1,64 +1,64 @@
-### 5.4.1 스토리지 추가
+### 5.4.1 Add Storage
 
 ---
 
-볼륨을 추가하여 사용 할 수 있다.
+This feature allows you to add storage volumes.
 
-##### **a\) 클러스터 **→** 클러스터 선택.**![](/assets/2.3.2 클러스터 선택.png)
+##### **a\) Cluster → Select Cluster.**![](/assets/2.3.2 클러스터 선택.png)
 
-##### b**\) 클러스터 상세화면에서  볼륨 선택**![](/assets/2.3.0 볼륨 추가.png)
+##### b**\) Select a volume from the detailed cluster screen**![](/assets/2.3.0 볼륨 추가.png)
 
-##### c\) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다.![](/assets/2.3.0 볼륨 추가2.png)
+##### c\) Enter cluster, name, description, storage plugin, policy, and storage class name in order.![](/assets/2.3.0 볼륨 추가2.png)
 
-| **스토리지 등록 정보** | **설명** |
+| **Storage Info** | **Description** |
 | :--- | :--- |
-| 이름 | PV 이름 |
-| 설명 | PV 사용자 설명 |
-| 정책 | PV 사용 정책\(RETAIN/DELETE\) |
-| 스토리지 플러그인 | 스토리지 종류\(NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk\) |
-| 스토리지 클래스 이름 | k8s에 등록된 ClassName |
-| 파라미터 | PV의 환경설정 값 |
+| Name | PV name |
+| Description | User-defined PV description |
+| Policy | PV usage policy \(RETAIN/DELETE\) |
+| Storage Plugin | Type of storage \(NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk\) |
+| Storage Class Name | Class name registered in k8s |
+| Parameters | PV environment settings |
 
-| **정책** | **설명** |
+| **Policy** | **Description** |
 | :--- | :--- |
-| Retain | PersistentVolumeClaim\(PVC\)가 삭제되도 PersistentVolume\(PV\)안에 데이터가 남는다. 추후 재사용 가능하지만 재사용시 PV를 다시 등록해야 한다. |
-| Delete | PVC가 삭제되면서 해당 PV도 함께 삭제된다. |
+| Retain | The data in a persistent volume \(PV\) remains even if the persistent volume claim \(PVC\) is deleted. Although it can be reused, the PV must be re-registered |
+| Delete | When a PVC is deleted, the corresponding PV is also deleted |
 
 ##### 
 
-##### d\) 사용하는 스토리지 플러그인에 따라 스토리지 클래스와 파라미터 설정.
+##### d\) Set the storage class and parameters according to the storage plugin being used.
 
-* ##### NFS Dynamic 스토리지 플러그인 사용 시![](/assets/2.3.0 볼륨 추가2-1.png)
+* ##### If using NFS dynamic storage plugin![](/assets/2.3.0 볼륨 추가2-1.png)
 
-| 스토리지 플러그인 | **NFS** Dynamic |
+| Storage Plugin | **NFS** Dynamic |
 | :--- | :--- |
-| 정책 | Dynamic 플러그인은 Retain과 Delete 정책을 지원 |
-| 스토리지 클래스 이름 | cocktail-nfs\(기본값\) |
+| Policy | The dynamic plugin supports the Retain and Delete policies |
+| Storage Class Name | cocktail-nfs \(Default value\) |
 
-* **NFS Static 스토리지 플러그인 사용 시**![](/assets/2.3.0 볼륨 추가2-2.png)
+* **If using NFS static storage plugin**![](/assets/2.3.0 볼륨 추가2-2.png)
 
-| 스토리지 플러그인 | **NFS** Static |
+| Storage Plugin | **NFS** Static |
 | :--- | :--- |
-| 정책 | Static 플러그인은 Retain 단일 정책을 지원 |
-| 파라미터 | Server : 스토리지의 IP Address                                                   PPath :  mount 경로 |
+| Policy | The static plugin only supports the Retain policy |
+| Parameter | Server: IP address of storage. Path: Mount path |
 
-* **아마존 스토리지 플러그인 사용 시**![](/assets/2.3.0 볼륨 추가2-3.png)
+* **If using AWS storage plugin**![](/assets/2.3.0 볼륨 추가2-3.png)
 
-| 스토리지 플러그인 | AWS EBS \(AWS의 스토리지 서비스\) |
+| Storage Plugin | AWS EBS \(AWS storage service\) |
 | :--- | :--- |
-| 스토리지 클래스 이름 | default\(고정값\) |
+| Storage Class Name | default \(Fixed value\) ) |
 
-* **구글 스토리지 플러그인 사용 시**![](/assets/2.3.0 볼륨 추가2-4.png)
+* **If using Google storage plugin**![](/assets/2.3.0 볼륨 추가2-4.png)
 
-| 스토리지 플러그인 | Google Persistent Disk \(GCP의 스토리지 서비스\) |
+| Storage Plugin | Google Persistent Disk \(GCP storage service\) |
 | :--- | :--- |
-| 스토리지 클래스 이름 | standard\(기본값\) |
+| Storage Class Name | standard\(Default value\) |
 
-* **Azure 스토리지 플러그인 사용 시**![](/assets/2.3.0 볼륨 추가2-5.png)
+* **If using Azure storage plugin**![](/assets/2.3.0 볼륨 추가2-5.png)
 
-| 스토리지 플러그인 | Azure Disk \(Azure의 스토리지 서비스\) |
+| Storage Plugin | Azure Disk \(Azure storage service\) |
 | :--- | :--- |
-| 스토리지 클래스 이름 | default\(기본값\) |
+| Storage Class Name | default\(Default value\) |
 
 
 

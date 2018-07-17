@@ -1,12 +1,12 @@
-### 5.4.2 스토리지 편집
+### 5.4.2 Edit Storage
 
 ---
 
-등록된 스토리지 정보를 편집하는 기능이다. 단, nfs-static 타입의 스토리지는 편집할 수 없다.
+This feature allows you to modify storage information. Note, however, that nfs-static storages may not be modified.
 
-**a\) 클러스터 **→** 클러스터 선택 →** **볼륨 **→** 볼륨 액션 버튼 → 볼륨 편집을 클릭한다.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 스토리지 편집.png)
+**a\) Cluster → Select Cluster → Volume → Volume Action button > Edit Volume.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 스토리지 편집.png)
 
-##### b\) 이름, 설명, 정책, 스토리지 클래스 이름, 파라미터값을 수정 할 수 있다.![](/assets/2.3.0 스토리지 편집2.png)
+##### b\) You may modify the name, description, policy, storage class name, and parameter values.![](/assets/2.3.0 스토리지 편집2.png)
 
 
 
