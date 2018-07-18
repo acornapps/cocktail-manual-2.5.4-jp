@@ -8,14 +8,14 @@ The service list can be filtered by All, Active, or Inactive. \('Y' and 'N' serv
 
 Refer to the Cluster section of this manual for details on adding clusters.
 
-##### a\) Environment Settings → Service → Click the [Status] button and select All, Active, or Inactive.![](/assets/2.5.0 서비스 메인1 ko.png)
+##### a\) Configuration → Service → Click the [Use] button and select All, Active, or Inactive.![](/assets/EN/2.5/2.3_1.png)
 
 | ** Service Settings ** | **Description** |
 | :--- | :--- |
-| Usage Status | Filters services by usage status. \(All, Active, or Inactive\) |
+| Use | Filters services by usage status. \(All, Use, or Unused\) |
 | + button | Redirects to Add Service page |
 | Name | Name of service \(user-defined\) |
-| Usage Status | Current service usage status |
+| Use | Current service usage status |
 | Cluster | Clusters that are registered to the service |
 
 

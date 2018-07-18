@@ -12,7 +12,7 @@ AWS, Azure, and Baremetal \(Onpremises\) servers are currently supported.
 
 The account list can be filtered by All, Active, or Inactive. 0('Y' and 'N' accounts are displayed when 'Active' and 'Inactive' are selected, respectively.\)
 
-##### a\) Environment Settings → Account → Click the [Status] button and select All, Active, or Inactive. ![](/assets/2.5.0 계정 메인1 ko.png)
+##### a\) Configuration → Account → Click the [Use] button and select All, Use, or Unused. ![](/assets/EN/2.5/2.2_1.png)
 
 | **Account Settings** | **Description** |
 | :--- | :--- |
@@ -21,7 +21,7 @@ The account list can be filtered by All, Active, or Inactive. 0('Y' and 'N' acco
 | Account Name | Name of account \(user-defined\) |
 | Provider | Type of provider \(OPM/RVS/IDC/AWS/GCP/AZR\) |
 | Type | Type of account \(USER/METERING\) |
-| Usage Status | Account usage status |
+| Use | Account usage status |
 | Description | User description of account |
 
 

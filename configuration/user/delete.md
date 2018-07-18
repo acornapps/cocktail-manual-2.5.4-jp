@@ -6,7 +6,7 @@ This feature allows you to delete user accounts. Deleted accounts are marked as 
 
 An ID can be reused if the status is changed to Active under Edit User.
 
-##### a\) Configuration → User → User Action Menu → Delete User.![](/assets/EN/2.5/2.1.3_1.png)
+##### a\) Configuration → User → User Action Menu > Delete User.![](/assets/EN/2.5/2.1.3_1.png)
 
 
 

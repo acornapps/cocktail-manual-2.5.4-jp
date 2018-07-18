@@ -9,7 +9,7 @@ The user ID must be in an email format \(cocktail@example.com\). The password se
 
 ##### a\) Configuration → User → Click the [+] button in the top-right corner.![](/assets/EN/2.5/2.1.1_1.png)
 
-##### b\)Click the [Create] button after selecting the user ID, name, and privileges.![](/assets/EN/2.5/2.1.1_2.png)
+##### b\)Click the [Create] button after selecting the user ID, name, and role.![](/assets/EN/2.5/2.1.1_2.png)
 
 | **Privilege** | **Dashboard** | **Service** | **Catalog** | **Cluster** | **Configuration** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
