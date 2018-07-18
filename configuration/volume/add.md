@@ -46,7 +46,7 @@ This feature allows you to add storage volumes.
 
 | Storage Plugin | AWS EBS \(AWS storage service\) |
 | :--- | :--- |
-| Storage Class Name | default \(Fixed value\) ) |
+| Storage Class Name | default \(Fixed value\) |
 
 * **If using Google storage plugin**![](/assets/EN/2.5/5.4.1_7.png)
 

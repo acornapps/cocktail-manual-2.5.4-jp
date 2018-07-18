@@ -4,7 +4,7 @@
 
 This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once.
 
-##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Execute Build**
+##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Build Run**
 ![](/assets/EN/2.5/3.2.4_1.png)![](/assets/EN/2.5/3.2.4_2.png)
 
 ##### b\) The current action changes, and the log window becomes activated at build time.
