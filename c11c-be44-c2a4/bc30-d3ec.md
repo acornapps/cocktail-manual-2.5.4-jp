@@ -10,35 +10,35 @@ You can also change the image version of a deployed server and quickly redeploy.
 
 | **Pipeline Menu ** | **Description ** |
 | :---: | :--- |
-| Batch Execute | Execute pipeline tasks in batch |
-| Execute | Execute a specific pipeline task |
+| Batch execution | Execute pipeline tasks in batch |
+| Run | Execute a specific pipeline task |
 
 | **Image Menu** | **Build** | **Description ** |
 | :---: | :--- | :--- |
 | Image Tag | X | Deploy server of the corresponding version when enter tag in registry |
-| Designated | ⃝ | Deploy designated server version among images |
+| Appointed | ⃝ | Deploy designated server version among images |
 | Latest | ⃝ | Deploy latest server version among images |
-| Build & Deploy | ⃝ | Deploy corresponding server version after a new image is built |
+| Build & Deployment | ⃝ | Deploy corresponding server version after a new image is built |
 
 ##### b\) Execute Pipeline
 
 ##### **1. If server was created with a common image**
 
-Enter image tag and click [Execute] or [Batch Execute]. \(Only available if the deployed version is different from the version entered; Excludes ‘Latest’\) ![](/assets/EN/2.5/3.1.5_3.png)
+Enter image tag and click [Run] or [Batch execution]. \(Only available if the deployed version is different from the version entered; Excludes ‘Latest’\) ![](/assets/EN/2.5/3.1.5_3.png)
 
 ##### **2. If server was created with a built image**
 
 * **Deploying a designated image**
 
-Select [Appointed] and an image from the right of the pipeline task list and click [Execute] or [Batch Execute]. \(Only available if the deployed version is different from the version entered\)![](/assets/EN/2.5/3.1.5_4.png)
+Select [Appointed] and an image from the right of the pipeline task list and click [Run] or [Batch execution]. \(Only available if the deployed version is different from the version entered\)![](/assets/EN/2.5/3.1.5_4.png)
 
 * **Deploying a newly-built image**
 
-Select [Build & Deployment] from the right of the pipeline task list and check [Confirm Execute]. Click [Execute] or [Batch Execute]. \(Only available if [Confirm Execute] is checked.\) ![](/assets/EN/2.5/3.1.5_5.png)
+Select [Build & Deployment] from the right of the pipeline task list and check [Execution whether]. Click [Run] or [Batch execution]. \(Only available if [Execution whether] is checked.\) ![](/assets/EN/2.5/3.1.5_5.png)
 
 * **Deploying the latest image**
 
-Select [Latest] from the right of the pipeline task list and click [Execute] or [Batch Execute]. \(Only available if the deployed version is different from the version entered\) ![](/assets/EN/2.5/3.1.5_6.png)
+Select [Latest] from the right of the pipeline task list and click [Run] or [Batch execution]. \(Only available if the deployed version is different from the version entered\) ![](/assets/EN/2.5/3.1.5_6.png)
 
 * **Edit Build and View Log**
 
