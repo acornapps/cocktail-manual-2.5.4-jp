@@ -4,7 +4,7 @@
 
 This feature allows you to deploy generated catalogs. If necessary, unnecessary instances can be excluded or edited prior to deployment.
 
-##### a\) Catalog → Click the [Deploy] button on the desired template![](/assets/EN/2.5/4.2_1.png)
+##### a\) Catalog → Click the [Deployment] button on the desired template![](/assets/EN/2.5/4.2_1.png)
 
 ##### b\) Select the service, cluster, and application map from the template category and click [Deploy]. You may exclude unwanted instances prior to deployment.
 
