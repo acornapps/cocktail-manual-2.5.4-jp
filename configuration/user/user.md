@@ -6,11 +6,9 @@ The user account list can be filtered by All, Active, or Inactive. \('Y' and 'N'
 
 Cocktail user accounts can be created, edited, and deleted, and ADMIN, MANAGER, and DEVOPS privileges can be granted according to the account.
 
-##### a\) Environment Settings → User → Click the [Status] button and select All, Active, or Inactive.
-
+##### a\) Environment Settings → User → Click the \[Status\] button and select All, Active, or Inactive.![](/assets/EN/2.5/2.1_1.png)
 
 User Settings
-
 
 | **User Settings** | **Description** |
 | :--- | :--- |
