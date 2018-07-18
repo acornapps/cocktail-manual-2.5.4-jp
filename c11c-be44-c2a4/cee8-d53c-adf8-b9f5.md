@@ -11,7 +11,7 @@ This feature allows you to save config files as maps on servers to be used as vo
 | :---: | :--- |
 | [+] button | Redirects to Add Config Map page |
 | Name | Name of config map \(user-defined\) |
-| ![](/assets/EN/2.5/3.1.6-1_3.png) | Config map action menu |
+| <img src="/assets/EN/2.5/3.1.6-1_3.png" width="80%" /> | Config map action menu |
 
 
 

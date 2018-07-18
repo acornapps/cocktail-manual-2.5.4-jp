@@ -10,7 +10,7 @@ This feature allows you to save secret files on servers to be used as environmen
 | :---: | :--- |
 | [+] button | Redirects to Add Secret page |
 | Name | Name of secret \(user-defined\) |
-| ![](/assets/EN/2.5/3.1.6-2_3.png) | Secret action menu |
+| <img src="/assets/EN/2.5/3.1.6-2_3.png" width="80%" /> | Secret action menu |
 
 
 

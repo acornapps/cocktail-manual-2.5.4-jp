@@ -17,7 +17,7 @@ You can download an application, build the source file, and build the image file
 | Latest Action | Displays build status |
 | Status | Displays build execution status |
 | Date | Displays date on which a build was executed |
-| ![](/assets/EN/2.5/3.2_4.png) | Build action menu |
+| <img src="/assets/EN/2.5/3.2_4.png" width="80%" /> | Build action menu |
 
 
 
