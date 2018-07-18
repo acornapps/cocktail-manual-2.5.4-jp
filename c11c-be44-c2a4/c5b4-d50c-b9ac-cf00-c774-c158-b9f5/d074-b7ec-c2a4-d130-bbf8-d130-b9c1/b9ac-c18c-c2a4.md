@@ -6,9 +6,9 @@ This feature allows you to view the total resource utilization (disk drive, CPU,
 
 You can click on a node name for detailed information.
 
-##### a\) Cluster → Select Cluster → Node.![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 노드.png)
+##### a\) Cluster → Select Cluster → Node.![](/assets/EN/2.5/5.2_1.png)![](/assets/EN/2.5/5.2_2.png)
 
-##### b\) Click on a node name for detailed information.![](/assets/2.3.0 노드2.png)![](/assets/2.3.0 노드3.png)
+##### b\) Click on a node name for detailed information.![](/assets/EN/2.5/5.2_3.png)![](/assets/EN/2.5/5.2_4.png)
 
 
 

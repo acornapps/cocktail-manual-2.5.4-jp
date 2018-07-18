@@ -4,5 +4,6 @@
 
 This feature allows you to delete volume information.
 
-**a\) Cluster → Select Cluster → Volume → Volume Action button → Delete Volume.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 볼륨 삭제.png)
+**a\) Cluster → Select Cluster → Volume → Volume Action button → Delete Volume.**
+![](/assets/EN/2.5/5.4.3_1.png)![](/assets/EN/2.5/5.4.3_2.png)
 

@@ -4,9 +4,10 @@
 
 This feature allows you to add secrets to a service.
 
-##### a\) Service → Select Application Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page.![](/assets/2.5 설정.png)![](/assets/2.5 시크릿 추가 1.png)
+##### a\) Service → Select Application Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page.
+![](/assets/EN/2.5/3.1.6-2a_1.png)![](/assets/EN/2.5/3.1.6-2a_2.png)
 
-##### b\) Enter the name and data values and click the [Create] button in the top-right corner to create a secret.![](/assets/2.5 시크릿 추가 2.png)
+##### b\) Enter the name and data values and click the [Create] button in the top-right corner to create a secret.![](/assets/EN/2.5/3.1.6-2a_3.png)
 
 | **Item** | **Description** |
 | :---: | :--- |

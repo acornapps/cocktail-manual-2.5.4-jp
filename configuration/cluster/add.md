@@ -4,9 +4,9 @@
 
 This feature allows you to add clusters.
 
-##### a\) Cluster → Click the [+] button in the top-right corner.![](/assets/2.5_ko_cluster_03.png)
+##### a\) Cluster → Click the [+] button in the top-right corner.![](/assets/EN/2.5/5.1.1_1.png)
 
-##### b\) Enter basic information \(name, k8s version, and description\).![](/assets/2.3.0 클러스터 추가2.png)
+##### b\) Enter basic information \(name, k8s version, and description\).![](/assets/EN/2.5/5.1.1_2.png)
 
 | **Basic Information** | Description |
 | :--- | :--- |
@@ -18,7 +18,7 @@ This feature allows you to add clusters.
 
 ##### c\) Enter provider information \(account, type, and region\).
 
-The input fields vary depending on the provider and account type. For bare-metal, a default value is assigned for the region and may be changed as necessary. ![](/assets/2.3.0 클러스터 추가3.png)
+The input fields vary depending on the provider and account type. For bare-metal, a default value is assigned for the region and may be changed as necessary. ![](/assets/EN/2.5/5.1.1_3.png)
 
 | **Provider** | **Description** |
 | :--- | :--- |
@@ -34,7 +34,7 @@ The input fields vary depending on the provider and account type. For bare-metal
 
 #### ㅤ
 
-* **Provider Type - MANAGED**![](/assets/2.3.0 클러스터 추가3-1.png)
+* **Provider Type - MANAGED**![](/assets/EN/2.5/5.1.1_4.png)
 
 | **Add'l Input** | **Description** |
 | :--- | :--- |
@@ -43,11 +43,11 @@ The input fields vary depending on the provider and account type. For bare-metal
 
 #### ㅤ
 
-* **Provider Type - PROVIDER**![](/assets/2.3.0 클러스터 추가3-2.png)ㅤ
+* **Provider Type - PROVIDER**![](/assets/EN/2.5/5.1.1_5.png)ㅤ
 
 #### ㅤ
 
-* **Provider Type - GKE**![](/assets/2.3.0 클러스터 추가3-3.png)
+* **Provider Type - GKE**![](/assets/EN/2.5/5.1.1_6.png)
 
 | **Add'l Input** | **Description** |
 | :--- | :--- |
@@ -55,7 +55,7 @@ The input fields vary depending on the provider and account type. For bare-metal
 
 ##### 
 
-##### d\) Enter the monitoring information \(account, type, and region\).![](/assets/2.5.1 클러스터 추가 1 ko.png)
+##### d\) Enter the monitoring information \(account, type, and region\).![](/assets/EN/2.5/5.1.1_7.png)
 
 | **Monitoring Info ** | **Description** |
 | :--- | :--- |
@@ -66,7 +66,7 @@ The input fields vary depending on the provider and account type. For bare-metal
 
 ##### 
 
-##### e\) Enter the cluster type.![](/assets/2.3.0 클러스터 추가6.png)
+##### e\) Enter the cluster type.![](/assets/EN/2.5/5.1.1_8.png)
 
 | **Cluster Type Info** | **Description** |
 | :--- | :--- |
@@ -74,7 +74,7 @@ The input fields vary depending on the provider and account type. For bare-metal
 
 #### ㅤ
 
-* **Certification Type**![](/assets/2.3.0 클러스터 추가6-1.png)
+* **Certification Type**![](/assets/EN/2.5/5.1.1_9.png)
 
 | Certification Info | **Description** |
 | :--- | :--- |

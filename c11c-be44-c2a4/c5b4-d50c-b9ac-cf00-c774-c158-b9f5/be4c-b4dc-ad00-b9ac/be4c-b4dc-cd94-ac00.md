@@ -4,9 +4,10 @@
 
 This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build.
 
-**a\) Service > Build Management > Build Action Menu \(Activate\) > Edit Task Settings**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 추가.png)
+**a\) Service > Build Management > Build Action Menu \(Activate\) > Edit Task Settings**
+![](/assets/EN/2.5/3.2.1_1.png)![](/assets/EN/2.5/3.2.1_2.png)
 
-**b\) Enter the necessary application download, application build, and image build information and click the [Create] button to create a build**![](/assets/2.3.0 빌드 추가2.png)
+**b\) Enter the necessary application download, application build, and image build information and click the [Create] button to create a build**![](/assets/EN/2.5/3.2.1_3.png)
 
 | **Build Phase** | **Description** |
 | :--- | :--- |
@@ -14,7 +15,8 @@ This feature allows you to add Docker image build tasks. Three options are avail
 | Application Build | Use when source compile is needed <br/>**Command** - Task to be executed during build <br/>**Host Path** - The container path where the operation is to take place and the host path for mounting <br/>**Working dir** - Actual path to work within the container; Matched with container path <br/>**Image** - Image to be used for the build |
 | Image Build | The source from the previous phase is used to create a Docker file and subsequently an image to be saved in a registry |
 
-* **Basic Build Information**![](/assets/2.3.0 빌드 추가3.png)
+* **Basic Build Information**
+![](/assets/EN/2.5/3.2.1_4.png)
 
 | **Basic Info** | **Description** |
 | :--- | :--- |
@@ -22,7 +24,8 @@ This feature allows you to add Docker image build tasks. Three options are avail
 | Latest Action | Displays status of latest action |
 | Status | Displays current build status |
 
-* **Application Download**![](/assets/2.3.0 빌드 추가4.png)
+* **Application Download**
+![](/assets/EN/2.5/3.2.1_5.png)
 
 | **Application Download** | **Description** |
 | :--- | :--- |
@@ -34,7 +37,8 @@ This feature allows you to add Docker image build tasks. Three options are avail
 | Repository Password | Password for access to repository |
 | Target Branch | Branch information of source to be downloaded |
 
-* **Application Build**![](/assets/2.3.0 빌드 추가5.png)
+* **Application Build**
+![](/assets/EN/2.5/3.2.1_6.png)
 
 | **Application Build** | **Description** |
 | :--- | :--- |
@@ -44,7 +48,8 @@ This feature allows you to add Docker image build tasks. Three options are avail
 | Working Dir | Actual path to work within the container. Matched with container path |
 | Image | Container image for build |
 
-* **Image Build**![](/assets/2.3.0 빌드 추가6.png)
+* **Image Build**
+![](/assets/EN/2.5/3.2.1_7.png)
 
 | **Image Build** | Description |
 | :--- | :--- |

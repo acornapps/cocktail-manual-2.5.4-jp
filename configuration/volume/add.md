@@ -4,11 +4,11 @@
 
 This feature allows you to add storage volumes.
 
-##### **a\) Cluster → Select Cluster.**![](/assets/2.3.2 클러스터 선택.png)
+##### **a\) Cluster → Select Cluster.**![](/assets/EN/2.5/5.4.1_1.png)
 
-##### b**\) Select a volume from the detailed cluster screen**![](/assets/2.3.0 볼륨 추가.png)
+##### b**\) Select a volume from the detailed cluster screen**![](/assets/EN/2.5/5.4.1_2.png)
 
-##### c\) Enter cluster, name, description, storage plugin, policy, and storage class name in order.![](/assets/2.3.0 볼륨 추가2.png)
+##### c\) Enter cluster, name, description, storage plugin, policy, and storage class name in order.![](/assets/EN/2.5/5.4.1_3.png)
 
 | **Storage Info** | **Description** |
 | :--- | :--- |
@@ -28,33 +28,33 @@ This feature allows you to add storage volumes.
 
 ##### d\) Set the storage class and parameters according to the storage plugin being used.
 
-* ##### If using NFS dynamic storage plugin![](/assets/2.3.0 볼륨 추가2-1.png)
+* ##### If using NFS dynamic storage plugin![](/assets/EN/2.5/5.4.1_4.png)
 
 | Storage Plugin | **NFS** Dynamic |
 | :--- | :--- |
 | Policy | The dynamic plugin supports the Retain and Delete policies |
 | Storage Class Name | cocktail-nfs \(Default value\) |
 
-* **If using NFS static storage plugin**![](/assets/2.3.0 볼륨 추가2-2.png)
+* **If using NFS static storage plugin**![](/assets/EN/2.5/5.4.1_5.png)
 
 | Storage Plugin | **NFS** Static |
 | :--- | :--- |
 | Policy | The static plugin only supports the Retain policy |
 | Parameter | Server: IP address of storage. Path: Mount path |
 
-* **If using AWS storage plugin**![](/assets/2.3.0 볼륨 추가2-3.png)
+* **If using AWS storage plugin**![](/assets/EN/2.5/5.4.1_6.png)
 
 | Storage Plugin | AWS EBS \(AWS storage service\) |
 | :--- | :--- |
 | Storage Class Name | default \(Fixed value\) ) |
 
-* **If using Google storage plugin**![](/assets/2.3.0 볼륨 추가2-4.png)
+* **If using Google storage plugin**![](/assets/EN/2.5/5.4.1_7.png)
 
 | Storage Plugin | Google Persistent Disk \(GCP storage service\) |
 | :--- | :--- |
 | Storage Class Name | standard\(Default value\) |
 
-* **If using Azure storage plugin**![](/assets/2.3.0 볼륨 추가2-5.png)
+* **If using Azure storage plugin**![](/assets/EN/2.5/5.4.1_8.png)
 
 | Storage Plugin | Azure Disk \(Azure storage service\) |
 | :--- | :--- |

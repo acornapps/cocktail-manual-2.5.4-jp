@@ -4,7 +4,8 @@
 
 This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once.
 
-##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Execute Build**![](/assets/2.5.0 빌드관리1 ko.png)![](/assets/2.3.0 빌드 실행.png)
+##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Execute Build**
+![](/assets/EN/2.5/3.2.4_1.png)![](/assets/EN/2.5/3.2.4_2.png)
 
 ##### b\) The current action changes, and the log window becomes activated at build time.
 
@@ -12,7 +13,8 @@ This feature allows you to execute a build task. When a build is executed, appli
 
 **\(If an error occurs during the download step, the next step will not be performed.\)**
 
-##### The message "Application_Create_Image Step is done..." indicates that the image build was successfully completed. ![](/assets/2.3.0 빌드 실행2.png)
+##### The message "Application_Create_Image Step is done..." indicates that the image build was successfully completed. 
+![](/assets/EN/2.5/3.2.4_3.png)
 
 ##### 
 

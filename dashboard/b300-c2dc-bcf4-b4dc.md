@@ -29,5 +29,5 @@ The dashboard allows you to view Cocktail service information at a glance.
 
   Displays the top five applications with the highest resource utilization.
 
-![](/assets/2.5.0 대시보드 메인1.png)
+![](/assets/EN/2.5/6_1.png)
 

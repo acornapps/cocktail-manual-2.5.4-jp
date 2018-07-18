@@ -4,7 +4,7 @@
 
 This feature allows you to add public cloud and external storage information and also provides volume monitoring.
 
-**a\) Cluster → Select Cluster → Volume.**![](/assets/2.3.2 클러스터 선택.png)![](/assets/2.3.0 볼륨.png)
+**a\) Cluster → Select Cluster → Volume.**![](/assets/EN/2.5/5.4_1.png)![](/assets/EN/2.5/5.4_2.png)
 
 | **Storage Settings** | **Description** |
 | :--- | :--- |

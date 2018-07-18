@@ -4,7 +4,7 @@
 
 This feature allows you to view and manage current user information.
 
-![](/assets/2.5 사용자 관리.png)
+![](/assets/EN/2.5/6.1_1.png)
 
 ##### a\) Dashboard → Click the [User] button in the bottom-left corner
 

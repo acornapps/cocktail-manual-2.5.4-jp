@@ -8,7 +8,7 @@ Use the catalog feature to use multiple servers at once.
 
 The catalog feature is divided into service catalogs and Cocktail catalogs.
 
-![](/assets/2.5.0 카탈로그 메인1.png)![](/assets/2.5 카탈로그 서비스.png)![](/assets/2.5 카탈로그 칵테일.png)
+![](/assets/EN/2.5/4_1.png)![](/assets/EN/2.5/4_2.png)![](/assets/EN/2.5/4_3.png)
 
 | **Catalog Menu** | **Description** |
 | :--- | :--- |
