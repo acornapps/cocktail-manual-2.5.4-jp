@@ -43,7 +43,7 @@ The input fields vary depending on the provider and account type. For bare-metal
 
 #### ㅤ
 
-* **Provider Type - PROVIDER**![](/assets/EN/2.5/5.1.1_5.png)ㅤ
+* **Provider Type - PROVIDER**![](/assets/EN/2.5/5.1.1_5.png)
 
 #### ㅤ
 
