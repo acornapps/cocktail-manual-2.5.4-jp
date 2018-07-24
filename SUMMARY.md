@@ -12,7 +12,7 @@
 * [Cocktail Cloudユーザーガイド](baa9-cc28.md)
 * [ログイン](b85c-adf8-c778.md)
 * [環境設定](d658-acbd-c124-c815.md)
-  * [Users](configuration/user/user.md)
+  * [ユーザー](configuration/user/user.md)
     * [Add User](configuration/user/add.md)
     * [Edit User](configuration/user/edit.md)
     * [Delete User](configuration/user/delete.md)

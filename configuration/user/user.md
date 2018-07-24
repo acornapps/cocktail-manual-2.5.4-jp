@@ -1,25 +1,25 @@
-## 2.1 Users
+## 2.1 ユーザー
 
 ---
 
-The user account list can be filtered by All, Active, or Inactive. \('Y' and 'N' accounts are displayed when 'Active' and 'Inactive' are selected, respectively.\)
+ユーザーアカウントリストを全体/使用/未使用に分類し、照会することができる。（使用有無がYのアカウントは「使用」、Nのアカウントは「未使用」選択時に表示）
 
-Cocktail user accounts can be created, edited, and deleted, and ADMIN, MANAGER, and DEVOPS privileges can be granted according to the account.
+カクテルユーザーアカウントの作成および修正、削除が可能であり、アカウントに応じてADMIN、MANAGER、DEVOPS権限を与えることができる。
 
-##### a\) Configuration → User → Click the \[Use\] button and select All, Use, or Unused.![](/assets/EN/2.5/2.1_1.png)
+##### a\) 環境設定 → ユーザー → ステータスボタンをクリックし、「すべて/有効/無効」のいずれかを選択。![](/assets/EN/2.5/2.1_1.png)
 
 User Settings
 
 | **User Settings** | **Description** |
 | :--- | :--- |
-| Use | Filters users by usage status \(All, Use, or Unused\) |
-| + button | Redirects to Add User page |
-| User ID | ID \(email format\) used by a user to log in |
-| Name | Name of user |
-| Role | Privileges granted to user. \(ADMIN, MANAGER, or DEVOPS\) |
-| Use | Current user's account usage status |
-| Last Login | Date of user's last login |
-| Description | Description of user |
+| ステータス | 使用有無による照会フィルタリング機能（すべて/有効/無効） |
+| + ボタン | ユーザー追加ページに移動 |
+| ユーザー ID | ユーザーがLoginする際に使用するID（E-mail形式） |
+| 名 | ユーザーの名前 |
+| ロール | ユーザーが付与された権限（ADMIN、MANAGER、DEVOPS） |
+| ステータス | 現在のユーザーのステータス |
+| 最近のログイン | ユーザーの最終アクセス日時のDate情報 |
+| 説明 | ユーザー説明 |
 
 
 
