@@ -2,9 +2,9 @@
 
 ## Cocktail Cloudユーザーガイドv2.5
 
-* [Cocktail Cloudの概念](README.md)
+* [Cocktail Cloud の概念](README.md)
   * [Cocktail Cloud 構成ガイド](cocktail-cloud-ad6c-c131-ac1c-c694.md)
-  * [Cluster Management Layer](cluster-management-layerd074-b7ec-c2a4-d130-ad00-b9ac-b808-c774-c5b429.md)
+  * [クラスタ管理のレイヤー](cluster-management-layerd074-b7ec-c2a4-d130-ad00-b9ac-b808-c774-c5b429.md)
   * [Service Management Layer](c11c-be44-c2a4-ad00-b9ac-b808-c774-c5b4.md)
   * [Pipeline Layer](d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
   * [Catalog Layer](catalog-layer-ce74-d0c8-b85c-adf8-b808-c774-c5b429.md)
