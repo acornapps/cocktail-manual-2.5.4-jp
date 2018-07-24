@@ -11,7 +11,7 @@
   * [ダッシュボードレイヤー](b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
 * [Cocktail Cloudユーザーガイド](baa9-cc28.md)
 * [ログイン](b85c-adf8-c778.md)
-* [Environment Settings](d658-acbd-c124-c815.md)
+* [環境設定](d658-acbd-c124-c815.md)
   * [Users](configuration/user/user.md)
     * [Add User](configuration/user/add.md)
     * [Edit User](configuration/user/edit.md)
