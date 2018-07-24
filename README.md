@@ -7,8 +7,8 @@
 クラウドの使用が一般化し、インフラだけでなく、アプリケーション、サービス管理に対するニーズが高まっている。過去のような開発や運用方式では、クラウドのメリットを活用するのに限界が出てきたため
 だ。特にアプリケーション領域では、継続的インテグレーション・デプロイ（Continuous Integration/ Deploy、CI/ CD）、移行（Migration）、マルチ/ハイブリッドクラウド構築など自動化、効率化、統合管理に対するニーズが増えている。
 
-In this context, the proliferation of container technology can be considered a natural evolution. Many companies have adopted container technology, and the trend is only continuing.  
-\(Reference: [http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100](http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100)\)
+このような脈絡から、コンテナ技術の普及は当然だと言える。現在、多くの企業がコンテナ技術を導入しており、導入企業の数は増加し続けている。
+(参照: http://redmonk.com/fryan/2017/09/10/cloud-native-technologies-in-the-fortune-100)
 
 As a technology that packages applications or services into independent, executable units, containers provide the same development and operational experience regardless of infrastructure. Therefore, cloud management can be standardized, and development and operational efforts can be reduced from infrastructure to services. Notably, containers provide the advantage of managing a multi/hybrid cloud under a cohesive environment.
 
