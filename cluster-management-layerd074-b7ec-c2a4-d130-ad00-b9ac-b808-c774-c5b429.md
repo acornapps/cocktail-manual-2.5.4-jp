@@ -2,8 +2,7 @@
 
 ---
 
-The cluster management layer is divided into the infrastructure, which consists of clusters, and the container orchestration engine.
-The detailed configuration is as follows:
+クラスタ管理のレイヤーは、クラスタを構成するインフラとコンテナオーケストレーションエンジンに分けられる。構成の詳細は、下の図のとおりである。
 
 ![](/assets/cocktailcloud-architecture-2.png)
 
