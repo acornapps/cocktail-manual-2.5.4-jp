@@ -19,7 +19,7 @@
     * [ユーザーパスワードのリセット](configuration/user/c0ac-c6a9-c790-be44-bc00-bc88-d638-cd08-ae30-d654.md)
   * [アカウント](configuration/provider/provider.md)
     * [アカウント追加](configuration/provider/add.md)
-      * [Add AWS Account](configuration/provider/add/aws-d504-b85c-bc14-c774-b354-cd94-ac00.md)
+      * [AWS アカウント追加](configuration/provider/add/aws-d504-b85c-bc14-c774-b354-cd94-ac00.md)
       * [Add GCP Account](configuration/provider/add/gcp-d504-b85c-bc14-c774-b354-cd94-ac00.md)
     * [Edit Account](configuration/provider/update.md)
     * [Delete Account](configuration/provider/d504-b85c-bc14-c774-b354-c0ad-c81c.md)
