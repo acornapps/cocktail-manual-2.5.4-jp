@@ -1,6 +1,6 @@
 # Summary
 
-## Cocktail Cloud User Manual v2.5
+## Cocktail Cloudユーザーガイドv2.5
 
 * [Understanding Cocktail Cloud](README.md)
   * [Cocktail Cloud Structure Overview](cocktail-cloud-ad6c-c131-ac1c-c694.md)
