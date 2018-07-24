@@ -1,27 +1,29 @@
-### 2.1.1 Add User
+### 2.1.1 ユーザー追加
 
 ---
 
-This feature allows you to add user accounts.
+カクテルユーザーを追加する機能である。
 
-The user ID must be in an email format \(cocktail@example.com\). The password settings feature is not currently supported, and thus, the password must be initialized and changed after creating an ID.
-\(The password automatically assigned after initialization is 'Pass0000'.\)
+ユーザーIDは、必ず電子メールアドレス形式（cocktail@example.com）で登録し、パスワードの設定は現在サポートしていないため、IDを登録したら必ずパスワードをリセットし変更した上、使用すること。
+（リセット後に提供される仮パスワードは「Pass0000」である）
 
-##### a\) Configuration → User → Click the [+] button in the top-right corner.![](/assets/EN/2.5/2.1.1_1.png)
 
-##### b\)Click the [Create] button after selecting the user ID, name, and role.![](/assets/EN/2.5/2.1.1_2.png)
+##### a\) 設定→ユーザー→右上の+ボタンをクリック。
+![](/assets/EN/2.5/2.1.1_1.png)
 
-| **Privilege** | **Dashboard** | **Service** | **Catalog** | **Cluster** | **Configuration** |
+##### b\)ユーザーID、名前、権限を選択した後、「作成」ボタンをクリック。![](/assets/EN/2.5/2.1.1_2.png)
+
+| **権限** | **ダッシュボード** | **サービス** | **カタログ** | **クラスタ** | **設定** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ADMIN | ⃝ | ⃝ | ⃝ | ⃝ | ⃝ |
 | MANAGER | ⃝ | ⃝ | ⃝ | ⃝ | X |
 | DEVOPS | X | △ | ⃝ | X | X |
 
-##### - ADMIN : Company-wide service management. Privileges include usage access to the dashboard, services, catalogs, clusters, and configuration.
+##### - ADMIN : 全社のサービス管理。ダッシュボード、サービス、カタログ、クラスタ、環境設定メニュー使用可能
 
-##### - MANAGER : Company-wide service query. Privileges include usage access to the dashboard, services, and catalogs, as well as query access to clusters.
+##### - MANAGER : 全社のサービス照会。ダッシュボード、サービス、カタログの使用およびクラスタ照会可能
 
-##### - DEVOPS : Service management via assigned members. Privileges include usage access to services and catalogs, as well as query access to clusters.
+##### - DEVOPS : 構成員として割り当てられたサービスの管理。サービス、カタログの使用、クラスタ照会可能
 
 
 
