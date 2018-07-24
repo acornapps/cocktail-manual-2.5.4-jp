@@ -10,8 +10,8 @@
 
 | Status | **Description** |
 | :--- | :--- |
-| Active | Active account |
-| Inactive | Inactive account |
+| Active | アカウントアクティブ化 |
+| Inactive | アカウント非アクティブ化 |
 
 
 
