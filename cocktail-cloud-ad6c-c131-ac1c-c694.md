@@ -1,8 +1,8 @@
-# Cocktail Cloud構成ガイド
+# Cocktail Cloud 構成ガイド
 
 ---
 
-Cocktail Cloud is comprised of five layers that correspond to its various roles.
+カクテルクラウドは、その役割に応じて、5つのレイヤーで構成されている。
 
 ![](/assets/cocktailcloud-architecture.png)
 
