@@ -1,28 +1,28 @@
-## 2.2 Account
+## 2.2 アカウント
 
 ---
 
-This feature allows you to register, edit, and delete public/private cloud account information to be used as a cloud resource.
+クラウドリソースで使用するPublic/ Privateのクラウドアカウント情報を登録、編集、削除する機能である。
 
-By registering an account, you can retrieve the resource and metering information of a provider or create a server.
+アカウントを登録することにより、該当プロバイダのリソース、メータリング情報の取得やサーバーを作成することができる。
 
-\(Metering information is only available for Google Cloud Platform and AWS Cloud.\)
+（メータリング情報は、Google Cloud Platform、AWSクラウドに限り確認が可能。）
 
-AWS, Azure, and Baremetal \(Onpremises\) servers are currently supported.
+現在、AWS、Azure、BareMetal（Onpremise）をサポートしている。
 
-The account list can be filtered by All, Active, or Inactive. 0('Y' and 'N' accounts are displayed when 'Active' and 'Inactive' are selected, respectively.\)
+アカウントリストを全体/使用/未使用に分類して、照会することができる。（使用有無がYのアカウントは「使用」、Nのアカウントは「未使用」選択時に表示される）
 
-##### a\) Configuration → Account → Click the [Use] button and select All, Use, or Unused. ![](/assets/EN/2.5/2.2_1.png)
+##### a\) 設定 → アカウント → ステータスボタンをクリックし、「すべて/有効/無効」のいずれかを選択。 ![](/assets/EN/2.5/2.2_1.png)
 
-| **Account Settings** | **Description** |
+| **アカウント設定** | **説明** |
 | :--- | :--- |
-| Usage Status | Filters accounts by usage status. \(All, Active, or Inactive\) |
-| + button | Redirects to Account Registration page |
-| Account Name | Name of account \(user-defined\) |
-| Provider | Type of provider \(OPM/RVS/IDC/AWS/GCP/AZR\) |
-| Type | Type of account \(USER/METERING\) |
-| Use | Account usage status |
-| Description | User description of account |
+| ステータス | 使用有無による照会フィルタリング機能（すべて/有効/無効） |
+| + ボタン | アカウント登録ページに移動 |
+| アカウント 名 | アカウント名（ユーザー指定） |
+| プロバイダ | プロバイダの種類 (OPM/RVS/IDC/AWS/GCP/AZR) |
+| タイプ | アカウントタイプ(USER/METERING) |
+| ステータス | アカウントの使用有無 |
+| 説明 | アカウントのユーザー説明 |
 
 
 
