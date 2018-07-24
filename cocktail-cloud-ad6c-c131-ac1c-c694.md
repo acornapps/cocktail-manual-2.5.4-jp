@@ -6,7 +6,7 @@
 
 ![](/assets/cocktailcloud-architecture.png)
 
-* **Cluster Management Layer **: Responsible for infrastructure \(cluster\), where containers are deployed/executed, and orchestration. Kubernetes \([https://kubernetes.io](https://kubernetes.io)\) handles orchestration and provides scaling management functions such as infrastructure management and monitoring.
+* **Cluster Management Layer **: コンテナがデプロイ/実行するインフラ（クラスタ）とオーケストレーション（Orchestration）を担うレイヤー。オーケストレーションは、Kubemetes(https://kubernetes.io) が担い、インフラ管理、監視など拡張管理機能を提供する。
 
 * **Service Management Layer **: Responsible for container configuration and management based on a service \(workload\) packages containers and associated objects that constitute a service and manages lifecycles and monitoring.
 
