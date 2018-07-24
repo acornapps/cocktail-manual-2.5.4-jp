@@ -12,11 +12,11 @@
 
 * **Pipeline **: コードからコンテナのビルド、デプロイまでのプロセスを自動化し、継続的インテグレーション/デプロイを行う。ユーザーは、必要なパイプライン構成を設定とスクリプトで行うことができる。
 
-* **Catalog **: Provides common runtime \(DB, middleware, etc.\) templates. When needed, templates can be deployed and used without any additional configuration. In addition, templates can also store and manage snapshots of user applications.
+* **Catalog **: 共通のランタイム（DB、ミドルウェアなど）テンプレートを提供するレイヤー。テンプレートは、追加の構成作業なく必要なときにすぐデプロイして使用することができる。また、ユーザーアプリケーションのスナップショットも保存、管理することができる。
 
-* **Dashboard **: Provides cluster, service status, and monitoring views.
+* **Dashboard **: クラスタ、サービスのステータスと監視ビューを提供する。
 
-Let's look at each layer in detail
+続いて、各レイヤーに関して詳しく説明する。
 
 ---
 
