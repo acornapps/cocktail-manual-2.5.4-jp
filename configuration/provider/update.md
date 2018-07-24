@@ -1,12 +1,12 @@
-### 2.2.2 계정 편집
+### 2.2.2 アカウント編集
 
 ---
 
-This feature allows you to modify the name, type, and status of an account. For public cloud providers, the key may also be modified. If the account is being used in a cluster, only the account name and description may be modified.
+アカウント名およびタイプ、状態の修正が可能であり、パブリッククラウドプロバイダの場合、キーの修正が可能である。アカウントがクラスタで使用中の場合、アカウント名と説明のみ修正可能である。
 
-##### a\) Configuration → Account → Account Action Menu > Edit Account > Click the [Update] button when finished.![](/assets/EN/2.5/2.2.2_1.png)
+##### a\) 設定 → アカウント → アカウントアクションメニュー → アカウントの編集 → 修正完了後、変更ボタンをクリック。![](/assets/EN/2.5/2.2.2_1.png)
 
-##### b\) Modify the name, type, description, status, and/or key information.![](/assets/EN/2.5/2.2.2_2.png)
+##### b\) アカウント名、タイプ、説明、ステータスおよびキーを修正。![](/assets/EN/2.5/2.2.2_2.png)
 
 | Status | **Description** |
 | :--- | :--- |
