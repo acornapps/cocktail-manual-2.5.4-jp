@@ -1,22 +1,22 @@
-# Catalog Layer
+# カタログレイヤー
 
 ---
 
-Containers implement deployments by creating images from configurations. Therefore, repetitive tasks can be minimized and frequently-used DBs and middleware runtime can be easily deployed whenever needed by creating templates of container images and deployment information.
+コンテナは、その構成をイメージ化してデプロイを実行する。したがって、頻繁に使用するDBやミドルウェアなどのランタイムは、コンテナイメージとデプロイ情報をテンプレート化すると、繰り返し作業を減らしていつでも必要なときに簡単にデプロイして使用することができる。
 
-The catalog layer is responsible for creating and managing these templates. The following diagram shows how the catalog layer is structured:
+このようなテンプレートを作成し、管理を担っているレイヤーがカタログである。カタログレイヤーの構成を図式化すると以下のようになる。
 
 ![](/assets/cocktailcloud-architecture-6.png)
 
-The catalog layer is divided into two sections according to purpose.
+カタログは、目的に応じて2つの形式に分けられる。
 
-* Service Catalog : The service catalog stores and manages application snapshots that the user has configured for a service. A snapshot of the service catalog can be used if migration is required due to infrastructure or cloud provider replacement. A snapshot stores the application map configuration as-is. Therefore, the snapshot configuration must be modified as needed when deploying to a different environment.
+* Service Catalog : サービスカタログは、ユーザーがサービスのために構成したアプリケーションのスナップショットを保存管理する。インフラまたはクラウドプロバイダの変更などで移転が必要な場合、サービスカタログのスナップショットを使用することができる。スナップショットは、アプリケーションマップの構成をそのまま保存する。したがって、他の環境にデプロイする場合は、必要に応じてスナップショットの設定を修正してデプロイする必要がある。
 
-* Cocktail Catalog : The Cocktail catalog refers to the runtime template provided via Cocktail Hub in Cocktail Cloud. The user can deploy the template as-is or by changing the configuration to suit a specific environment. The Cocktail catalog currently provides widely-used open-source templates (DB, middleware, development/operations tool, blog, machine learning, etc.) and is continually being updated.
+* Cocktail Catalog : カクテルクラウドで「カクテルハブ」を介して提供されるランタイムテンプレートのことである。ユーザーは、テンプレートをそのまま、または自身の環境に合わせて設定を変更してデプロイすることができる。カクテルカタログは現在、DB、ミドルウェア、開発/運用ツール、ブログ、機械学習など幅広く使用されているオープンソースをテンプレートとして提供しており、継続的に更新されている。
 
 ---
 
-Previous Topic : [Pipeline Layer](/d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
+Previous Topic : [パイプラインレイヤー](/d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
 
-Next Topic : [Dashboard Layer](/b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
+Next Topic : [ダッシュボードレイヤー](/b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
 
