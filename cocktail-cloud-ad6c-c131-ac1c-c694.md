@@ -1,4 +1,4 @@
-# Cocktail Cloud Structure Overview
+# Cocktail Cloud構成ガイド
 
 ---
 
