@@ -1,17 +1,18 @@
-### 2.1.2 Edit User
+### 2.1.2 ユーザー編集
 
 ---
 
-This feature allows you to modify user accounts.
+カクテルユーザーの情報を編集する機能である。
 
-##### a\) Configuration → User → User Action Menu > Edit User > Click the [Update] button when finished.![](/assets/EN/2.5/2.1.2_1.png)
+##### a\) 設定 → ユーザー→ユーザーアクションメニュー → ユーザー編集 → 修正完了後、変更ボタンをクリック。![](/assets/EN/2.5/2.1.2_1.png)
 
-##### b\)The name, status, and privileges may be changed. \(Note, however, that the user ID itself may not be changed\).![](/assets/EN/2.5/2.1.2_2.png)
+##### b\) ユーザーIDを除いた名、ステータスおよびロールの修正が可能。
+![](/assets/EN/2.5/2.1.2_2.png)
 
-| Status | **Description** |
+| ステータス | **説明** |
 | :--- | :--- |
-| Active | Active user |
-| Inactive | Inactive user |
+| Active | ユーザーのアクティブ化 |
+| Inactive | ユーザーの非アクティブ化 |
 
 
 
