@@ -20,7 +20,7 @@
   * [アカウント](configuration/provider/provider.md)
     * [アカウント追加](configuration/provider/add.md)
       * [AWS アカウント追加](configuration/provider/add/aws-d504-b85c-bc14-c774-b354-cd94-ac00.md)
-      * [Add GCP Account](configuration/provider/add/gcp-d504-b85c-bc14-c774-b354-cd94-ac00.md)
+      * [GCP アカウント追加](configuration/provider/add/gcp-d504-b85c-bc14-c774-b354-cd94-ac00.md)
     * [Edit Account](configuration/provider/update.md)
     * [Delete Account](configuration/provider/d504-b85c-bc14-c774-b354-c0ad-c81c.md)
   * [Service](configuration/service/service.md)
