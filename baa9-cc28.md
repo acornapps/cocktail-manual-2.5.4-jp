@@ -1,64 +1,65 @@
-# Cocktail Cloud User Manual
+# Cocktail Cloudユーザーガイド
 
 ---
 
-This document is for Cocktail Cloud users. The following sections are based on Cocktail Cloud's menu and describe how each of the main functions are used.
+本ガイドは、Cocktail Cloud（カクテルクラウド）ユーザー向けの説明書である。下の目次は、カクテルクラウドのメニューに基づいて構成されており、各目次ごとに主な機能の使用方法がまとめられている。
 
-### Table of Contents
+### 目次
+
 
 ---
 
-### [1. Login](/b85c-adf8-c778.md)
+### [1. ログイン](/b85c-adf8-c778.md)
 
-### [2. Environment Settings](/d658-acbd-c124-c815.md)
+### [2. 環境設定](/d658-acbd-c124-c815.md)
 
-##### 2.1 User
+##### 2.1 ユーザー
 
-##### 2.2 Account
+##### 2.2 アカウント
 
-##### 2.3 Service
+##### 2.3 サービス
 
-### [3. Service](/c11c-be44-c2a4.md)
+### [3. サービス](/c11c-be44-c2a4.md)
 
-##### 3.1 Application Map
+##### 3.1 アプリケーションマップ
 
-##### 3.2 Build
+##### 3.2 ビルド
 
-### [4. Catalog](/catalog/catalog.md)
+### [4. カタログ](/catalog/catalog.md)
 
-##### 4.1 Create Catalog
+##### 4.1 カタログ作成
 
-##### 4.2 Deploy Catalog
+##### 4.2 カタログデプロイ
 
-##### 4.3 Edit Catalog
+##### 4.3 カタログ修正
 
-##### 4.4 Delete Catalog
+##### 4.4 カタログ削除
 
-### [5. Cluster](/c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
+### [5. クラスタ](/c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
 
-##### 5.1 Cluster Management
+##### 5.1 クラスタ管理
 
-##### 5.2 Node
+##### 5.2 ノード
 
-##### 5.3 Application
+##### 5.3 アプリケーション
 
-##### 5.4 Volume
+##### 5.4 ボリューム
 
-##### 5.5 Alerts
+##### 5.5 アラーム
 
-##### 5.6 Metering
+##### 5.6 メータリング
 
-### [6. Dashboad](/dashboard/b300-c2dc-bcf4-b4dc.md)
+### [6. ダッシュボード](/dashboard/b300-c2dc-bcf4-b4dc.md)
 
-##### 6.1 User Management
+##### 6.1 ユーザー管理
 
-### [7. Glossary](/c6a9-c5b4-c815-b9ac.md)
+### [7. 用語説明](/c6a9-c5b4-c815-b9ac.md)
 
 ##### 7.1 Kubernetes
 
 ##### 7.2 Cocktail Cloud
 
-### [8. Customer Support](/ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)
+### [8. ユーザーサポートサービス](/ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)
 
 ---
 

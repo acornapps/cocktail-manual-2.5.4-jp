@@ -9,7 +9,7 @@
   * [パイプラインレイヤー](d30c-c774-d504-b77c-c778-b808-c774-c5b4.md)
   * [カタログレイヤー](catalog-layer-ce74-d0c8-b85c-adf8-b808-c774-c5b429.md)
   * [ダッシュボードレイヤー](b300-c2dc-bcf4-b4dc-b808-c774-c5b4.md)
-* [Cocktail Cloud User Manual](baa9-cc28.md)
+* [Cocktail Cloudユーザーガイド](baa9-cc28.md)
 * [Login](b85c-adf8-c778.md)
 * [Environment Settings](d658-acbd-c124-c815.md)
   * [Users](configuration/user/user.md)
