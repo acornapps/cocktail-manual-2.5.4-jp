@@ -25,5 +25,5 @@
 
 ---
 
-次の記事 : [Cocktail Cloud構成ガイド](/cocktail-cloud-ad6c-c131-ac1c-c694.md)
+次の記事 : [Cocktail Cloud 構成ガイド](/cocktail-cloud-ad6c-c131-ac1c-c694.md)
 
