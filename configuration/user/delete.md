@@ -1,12 +1,12 @@
-### 2.1.3 Delete User
+### 2.1.3 ユーザー削除
 
 ---
 
-This feature allows you to delete user accounts. Deleted accounts are marked as active or inactive with a ‘Y’ or ‘N’ and not actually removed from the list.
+ユーザーアカウントを削除する機能である。削除されたアカウントは、リストから削除されるのではなく、 Y or Nでアクティブ化/非アクティブ化で表示される。
 
-An ID can be reused if the status is changed to Active under Edit User.
+ユーザー編集で状態をActiveに変更すると、該当IDを再利用することができる。
 
-##### a\) Configuration → User → User Action Menu > Delete User.![](/assets/EN/2.5/2.1.3_1.png)
+##### a\) 設定→ユーザー→ユーザーアクションメニュー→ユーザーの削除をクリック。![](/assets/EN/2.5/2.1.3_1.png)
 
 
 

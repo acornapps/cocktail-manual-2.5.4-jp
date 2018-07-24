@@ -15,7 +15,7 @@
   * [ユーザー](configuration/user/user.md)
     * [ユーザー追加](configuration/user/add.md)
     * [ユーザー編集](configuration/user/edit.md)
-    * [Delete User](configuration/user/delete.md)
+    * [ユーザー削除](configuration/user/delete.md)
     * [Reset User Password](configuration/user/c0ac-c6a9-c790-be44-bc00-bc88-d638-cd08-ae30-d654.md)
   * [Account](configuration/provider/provider.md)
     * [Add Account](configuration/provider/add.md)
