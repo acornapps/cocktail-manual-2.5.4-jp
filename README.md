@@ -5,7 +5,7 @@
 カクテルクラウドは、オールインワンコンテナ管理プラットフォーム\（All-in-one Container Management Platform\）である。
 
 クラウドの使用が一般化し、インフラだけでなく、アプリケーション、サービス管理に対するニーズが高まっている。過去のような開発や運用方式では、クラウドのメリットを活用するのに限界が出てきたため
-だ。特にアプリケーション領域では、継続的インテグレーション・デプロイ\（Continuous Integration/ Deploy、CI/ CD\）、移行\（Migration\）、マルチ/ハイブリッドクラウド構築など自動化、効率化、統合管理に対するニーズが増えている。
+だ。特にアプリケーション領域では、継続的インテグレーション・デプロイ（Continuous Integration/ Deploy、CI/ CD）、移行（Migration）、マルチ/ハイブリッドクラウド構築など自動化、効率化、統合管理に対するニーズが増えている。
 
 In this context, the proliferation of container technology can be considered a natural evolution. Many companies have adopted container technology, and the trend is only continuing.  
 \(Reference: [http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100](http://redmonk.com/fryan/2017/09/10/cloud- native-technologies-in-the-fortune-100)\)
