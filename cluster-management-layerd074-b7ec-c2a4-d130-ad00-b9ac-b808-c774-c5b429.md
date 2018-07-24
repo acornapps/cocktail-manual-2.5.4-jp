@@ -1,4 +1,4 @@
-# Cluster Management Layer
+# クラスタ管理のレイヤー
 
 ---
 
