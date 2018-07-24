@@ -8,9 +8,9 @@
 
 * **Cluster Management Layer **: コンテナがデプロイ/実行するインフラ（クラスタ）とオーケストレーション（Orchestration）を担うレイヤー。オーケストレーションは、Kubenetes(https://kubernetes.io) が担い、インフラ管理、監視など拡張管理機能を提供する。
 
-* **Service Management Layer **: Responsible for container configuration and management based on a service \(workload\) packages containers and associated objects that constitute a service and manages lifecycles and monitoring.
+* **Service Management Layer **: サービス（Workload）に基づいて、コンテナの構成と管理を担うレイヤー。サービスを構成する多数のコンテナと関連オブジェクトをパッケージ化して、そのライフサイクルと監視を管理する。
 
-* **Pipeline **: Automates the coding and container build/deployment process and continuously integrates/deploys. Users can configure the desired pipeline via settings and scripting.
+* **Pipeline **: コードからコンテナのビルド、デプロイまでのプロセスを自動化し、継続的インテグレーション/デプロイを行う。ユーザーは、必要なパイプライン構成を設定とスクリプトで行うことができる。
 
 * **Catalog **: Provides common runtime \(DB, middleware, etc.\) templates. When needed, templates can be deployed and used without any additional configuration. In addition, templates can also store and manage snapshots of user applications.
 
