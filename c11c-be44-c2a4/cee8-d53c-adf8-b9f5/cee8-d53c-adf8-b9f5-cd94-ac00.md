@@ -1,21 +1,22 @@
-### 3.1.6-1a Add Config Map
+### 3.1.6-1a 設定マップ追加
 
 ---
 
-This feature allows you to add config maps.
+サービスでコンフィグマップを追加する。
 
-##### a\) Service > Select Application Map > Settings > Config Map > Click the [+] button to be redirected to the Add Config Map page.
+##### a\) サービス → アプリケーションマップ選択 → 設定 → 設定マップ → +ボタンをクリックして登録ページに移動。
 ![](/assets/EN/2.5/3.1.6-1a_1.png)![](/assets/EN/2.5/3.1.6-1a_2.png)
 
-##### b\) Enter the name and data values and click the [Create] button in the top-right corner to create a config map.
+##### b\) 名とデータの値を入力し、 右上の作成ボタンを押してコンフィグマップを作成。
+
 ![](/assets/EN/2.5/3.1.6-1a_3.png)
 
-| **Item** | **Description** |
+| **項目** | **項目** |
 | :---: | :--- |
-| Name | Name input field \(May not be edited after creation\) |
-| Add Data button | Add data to a config map |
-| Name(key) | Key value of config map |
-| Value | Value of config map |
+| 名 | 名を入力する欄である。入力後は編集不可能 |
+| データ追加ボタン | 設定マップのデータを追加することができるボタン |
+| 名(key) | 設定マップのKeyの値 |
+| 値 | 設定マップのValueの値 |
 
 
 
