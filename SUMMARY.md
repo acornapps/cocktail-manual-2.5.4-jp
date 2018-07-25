@@ -33,7 +33,7 @@
       * [アプリケーションマップ作成](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0dd-c131.md)
       * [アプリケーションマップ名の変更](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c774-b984-bcc0-acbd.md)
       * [アプリケーションマップ削除](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0ad-c81c.md)
-    * [Group Management](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/adf8-b8f9-ad00-b9ac.md)
+    * [グループ管理](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/adf8-b8f9-ad00-b9ac.md)
     * [Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84.md)
       * [Create Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c0dd-c131.md)
       * [Edit Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-d3b8-c9d1.md)

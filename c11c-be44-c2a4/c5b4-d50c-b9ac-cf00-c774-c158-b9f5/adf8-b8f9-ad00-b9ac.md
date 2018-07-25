@@ -1,20 +1,20 @@
-### 3.1.2 Group Management
+### 3.1.2 グループ管理
 
 ---
 
-Servers are managed in groups, and a server can be created in a particular group. You can change group names and add, move, or delete groups. You can also change the number of columns.
+サーバーをグループで管理する。該当グループにサーバーを作成することができる。グループ名の変更、グループの追加、移動、削除、カラム数の変更が可能である。
 
-##### a\) Service → Select Application Map → Click the [▼] (Action) button of a server group to activate the menu.![](/assets/EN/2.5/3.1.2_1.png)![](/assets/EN/2.5/3.1.2_2.png)
+##### a\) サービス → アプリケーションマップ選択 → サーバーグループの▼（アクションボタン）をクリックしてメニューを有効化する。![](/assets/EN/2.5/3.1.2_1.png)![](/assets/EN/2.5/3.1.2_2.png)
 
-| Item | Description |
+| リスト | 説明 |
 | :---: | :--- |
-| Edit Name | Change a group name |
-| Edit Column Number | Change the number of columns \(Min: 1 - Max: 8\) |
-| Move Left | Move a group to the left |
-| Move Right | Move a group to the right |
-| Add Group to Left | Create a new group to the left of a group |
-| Add Group to Right | Create a new group to the right of a group |
-| Delete Group | Delete a group \(Restricted if a server exists in the selected group\) |
+| グループ名変更 | グループ名を変更 |
+| カラム数変更 | カラム数を変更（最小:1~最大:8） |
+| 左に移動 | グループを左に移動 |
+| 右に移動 | グループを右に移動 |
+| 左にグループ追加 | グループの左に新しいグループを作成 |
+| 右にグループ追加 | グループの右に新しいグループを作成 |
+| グループ削除 | グループを削除（グループにサーバーがある場合は削除不可能） |
 
 
 
