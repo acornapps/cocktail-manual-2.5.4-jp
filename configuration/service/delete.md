@@ -1,10 +1,10 @@
-### 2.3.3 Delete Service
+### 2.3.3 サービス削除
 
 ---
 
-This feature allows you to delete services. Service deletion will be restricted if clusters are registered with the service at the time of deletion. Be sure to delete any registered clusters from Edit Service before proceeding.
+サービスを削除する機能である。削除の際、サービスにクラスターが登録されている場合は削除できない。サービス編集でクラスターを削除した後、削除することができる。
 
-##### a\) Configuration → Service → Service Action Menu > Delete Service.![](/assets/EN/2.5/2.3.3_1.png)
+##### a\) 設定 → サービス → サービスアクションメニュー → サービスの削除をクリック。![](/assets/EN/2.5/2.3.3_1.png)
 
 
 

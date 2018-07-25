@@ -26,7 +26,7 @@
   * [サービス](configuration/service/service.md)
     * [サービス追加](configuration/service/add.md)
     * [サービス編集](configuration/service/c11c-be44-c2a4-d3b8-c9d1.md)
-    * [Delete Service](configuration/service/delete.md)
+    * [サービス削除](configuration/service/delete.md)
 * [サービス](c11c-be44-c2a4.md)
   * [Application Management](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5.md)
     * [Application Map](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5.md)
