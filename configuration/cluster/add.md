@@ -1,20 +1,18 @@
-### 5.1.1 Add Cluster
+### 5.1.1 クラスター追加
 
 ---
 
-This feature allows you to add clusters.
+クラスターを追加登録することができる機能である。
 
-##### a\) Cluster → Click the [+] button in the top-right corner.![](/assets/EN/2.5/5.1.1_1.png)
+##### a\) クラスター → 右上の+ボタンをクリック。![](/assets/EN/2.5/5.1.1_1.png)
 
-##### b\) Enter basic information \(name, k8s version, and description\).![](/assets/EN/2.5/5.1.1_2.png)
+##### b\) 基本情報（クラスター名、k8sバージョン、説明）を入力。![](/assets/EN/2.5/5.1.1_2.png)
 
-| **Basic Information** | Description |
+| **基本情報** | 説明 |
 | :--- | :--- |
-| Name | Name of cluster to be added |
-| k8s version | Kubernetes version installed on cluster \(e.g., 1.8.13\) |
-| Description | User-defined cluster description |
-
-##### 
+| クラスター名 | 登録するクラスタの名前 |
+| k8sバージョン | クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 |
+| 説明 | クラスタのユーザー説明 |
 
 ##### c\) Enter provider information \(account, type, and region\).
 
