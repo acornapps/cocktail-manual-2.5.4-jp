@@ -49,7 +49,7 @@
         * [設定マップ追加](c11c-be44-c2a4/cee8-d53c-adf8-b9f5/cee8-d53c-adf8-b9f5-cd94-ac00.md)
         * [設定マップ変更](c11c-be44-c2a4/cee8-d53c-adf8-b9f5/cee8-d53c-adf8-b9f5-c218-c815.md)
         * [設定マップ削除](c11c-be44-c2a4/cee8-d53c-adf8-b9f5/cee8-d53c-adf8-b9f5-c0ad-c81c.md)
-      * [Secret](c11c-be44-c2a4/c2dc-d06c-b9bf.md)
+      * [シークレット](c11c-be44-c2a4/c2dc-d06c-b9bf.md)
         * [Add Secret](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-cd94-ac00.md)
         * [Edit Secret](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c218-c815.md)
         * [Delete Secret](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c0ad-c81c.md)

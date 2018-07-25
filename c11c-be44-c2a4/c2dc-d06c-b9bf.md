@@ -1,16 +1,16 @@
-### 3.1.6-2 Secret
+### 3.1.6-2 シークレット
 
 ---
 
-This feature allows you to save secret files on servers to be used as environment variables or volumes.
+サーバーにおいてSecret Fileで保存し、環境変数およびボリュームとして使用することができる。
 
-##### a\) Service → Select Application Map → Settings → Secret. ![](/assets/EN/2.5/3.1.6-2_1.png)![](/assets/EN/2.5/3.1.6-2_2.png)
+##### a\) サービス → アプリケーションマップ選択 → 設定 → 秘密をクリック。 ![](/assets/EN/2.5/3.1.6-2_1.png)![](/assets/EN/2.5/3.1.6-2_2.png)
 
-| **Item  ** | **Description ** |
+| **項目  ** | **説明 ** |
 | :---: | :--- |
-| [+] button | Redirects to Add Secret page |
-| Name | Name of secret \(user-defined\) |
-| <img src="/assets/EN/2.5/3.1.6-2_3.png" width="30%" /> | Secret action menu |
+| [+] ボタン | 秘密追加ページに移動 |
+| 名 | 秘密名（ユーザー指定） |
+| <img src="/assets/EN/2.5/3.1.6-2_3.png" width="30%" /> | 秘密のアクションメニュー|
 
 
 
