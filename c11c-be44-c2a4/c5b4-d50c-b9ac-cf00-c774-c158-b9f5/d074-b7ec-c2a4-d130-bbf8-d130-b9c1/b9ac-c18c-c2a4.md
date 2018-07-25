@@ -1,14 +1,16 @@
-## 5.2 Node
+## 5.2 ノード
 
 ---
 
-This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all nodes, as well as the label and status information of individual nodes.
+ノード全体の Disk、CPU、メモリ、ネットワークの総使用量と各ノードのラベル、状態情報などを照会することが
+できる画面である。 ノード名をクリックすると、ノードの詳細情報を照会することができる。
 
 You can click on a node name for detailed information.
 
-##### a\) Cluster → Select Cluster → Node.![](/assets/EN/2.5/5.2_1.png)![](/assets/EN/2.5/5.2_2.png)
+##### a\) クラスター → クラスター選択 → ノードをクリック。
+![](/assets/EN/2.5/5.2_1.png)![](/assets/EN/2.5/5.2_2.png)
 
-##### b\) Click on a node name for detailed information.![](/assets/EN/2.5/5.2_3.png)![](/assets/EN/2.5/5.2_4.png)
+##### b\) ノード名をクリックして、ノード詳細情報を確認。![](/assets/EN/2.5/5.2_3.png)![](/assets/EN/2.5/5.2_4.png)
 
 
 
