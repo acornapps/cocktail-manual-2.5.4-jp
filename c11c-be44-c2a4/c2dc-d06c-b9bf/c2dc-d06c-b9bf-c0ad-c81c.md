@@ -1,9 +1,8 @@
-### 3.1.6-2c Delete Secret
+### 3.1.6-2c シークレット削除
 
 ---
 
-This feature allows you to delete service secrets.
+サービスで秘密を削除する。
 
-##### a\) Service → Select Application Map → Settings → Secret → Secret Action Menu \(Activate\) → Delete Secret 
+##### a\) サービス → アプリケーションマップ選択 → 設定 → 秘密 → 秘密アクションメニュー（活性化） → 秘密の削除をクリック
 ![](/assets/EN/2.5/3.1.6-2c_1.png)
-

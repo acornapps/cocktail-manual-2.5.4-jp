@@ -52,7 +52,7 @@
       * [シークレット](c11c-be44-c2a4/c2dc-d06c-b9bf.md)
         * [シークレット追加](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-cd94-ac00.md)
         * [シークレット修正](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c218-c815.md)
-        * [Delete Secret](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c0ad-c81c.md)
+        * [シークレット削除](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c0ad-c81c.md)
   * [Build Management](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac.md)
     * [Add Build](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/be4c-b4dc-cd94-ac00.md)
     * [Edit Task Settings](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/c791-c5c5-c124-c815-d3b8-c9d1.md)
