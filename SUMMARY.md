@@ -35,7 +35,7 @@
       * [アプリケーションマップ削除](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c5b4-d50c-b9ac-cf00-c774-c158-b9f5-c0ad-c81c.md)
     * [グループ管理](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/adf8-b8f9-ad00-b9ac.md)
     * [サーバー](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84.md)
-      * [Create Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c0dd-c131.md)
+      * [サーバー作成](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-c0dd-c131.md)
       * [Edit Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c11c-bc84-d3b8-c9d1.md)
       * [View Server Instance Information](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/b85c-adf8-c815-bcf4-c870-d68c.md)
       * [Stop Server](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/c11c-bc84/c81c-ac70.md)
