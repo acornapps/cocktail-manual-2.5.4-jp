@@ -14,73 +14,73 @@
 | k8sバージョン | クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 |
 | 説明 | クラスタのユーザー説明 |
 
-##### c\) Enter provider information \(account, type, and region\).
+##### c\) プロバイダ情報（アカウント、タイプ、地域）を入力。.
 
-The input fields vary depending on the provider and account type. For bare-metal, a default value is assigned for the region and may be changed as necessary. ![](/assets/EN/2.5/5.1.1_3.png)
+アカウントのプロバイダとタイプに応じて入力欄が変更される。Baremetalの場合、地域はDefault値を提供し、変更が可能である。 ![](/assets/EN/2.5/5.1.1_3.png)
 
-| **Provider** | **Description** |
+| **プロバイダ** | **説明** |
 | :--- | :--- |
-| Account | Registered account |
-| Type | Kubernetes usage type; Select MANAGED, PROVIDER, or GKE |
-| Region | Region where the Kubernetes server is installed |
+| アカウント | 登録されたアカウント |
+| タイプ | Kubernetesの使用タイプとして、MANAGED、PROVIER、GKEの中から選択 |
+| 地域 | Kubernetesがインストールされたサーバーのリージョン |
 
-| **Type** | **Description** |
+| **タイプ** | **説明** |
 | :--- | :--- |
-| MANAGED | Cluster where Kubernetes is configured via CUBE Installer |
-| PROVIDER | Select if using a public cloud and Kubernetes via a VM \(If using other services such as load balancers and storage\) |
-| GKE | Cluster configured with Google Kubernetes Engine on Google Cloud Platform |
+| MANAGED | CUBE Installerを利用して、kubernetesを構成したクラスタ |
+| PROVIDER | Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合）|
+| GKE | Google Cloud PlatformのGoogle Kubernetes Engineで構成したクラスタ |
 
 #### ㅤ
 
-* **Provider Type - MANAGED**![](/assets/EN/2.5/5.1.1_4.png)
+* **プロバイダの種類 - MANAGED**![](/assets/EN/2.5/5.1.1_4.png)
 
-| **Add'l Input** | **Description** |
+| **追加入力** | **説明** |
 | :--- | :--- |
-| Node Port URL | IP to be used with a port in a method where service access is exposed by attaching a port to a node \(Master or load balancer IP\) |
-| Node Port Range | Range of ports to be used with an IP in a method where service access is exposed by attaching a port to a node. \(30000 - 32767 recommended\) |
+| ノードポート URL | ノードにポートを付けてサービスを公開するタイプの中で、 ポートの前に使用するIPサービス （Master IP or Loadbelancer IP） |
+| ノードポート 範囲 | ノードにポートを付けてサービス公開するタイプの中で、 IPの後に使用するポートの範囲 。 \(30000 - 32767 推奨\) |
 
 #### ㅤ
 
-* **Provider Type - PROVIDER**![](/assets/EN/2.5/5.1.1_5.png)
+* **プロバイダの種類 - PROVIDER**![](/assets/EN/2.5/5.1.1_5.png)
 
 #### ㅤ
 
-* **Provider Type - GKE**![](/assets/EN/2.5/5.1.1_6.png)
+* **プロバイダの種類 - GKE**![](/assets/EN/2.5/5.1.1_6.png)
 
-| **Add'l Input** | **Description** |
+| **追加入力** | **説明** |
 | :--- | :--- |
-| Project ID | ID of a project using a Google Cloud Platform account \(Project using GKE\) |
+| プロジェクト ID | Google Cloud Platformのアカウントが使用するプロジェクトのID （GKEを使用するプロジェクト） |
 
 ##### 
 
-##### d\) Enter the monitoring information \(account, type, and region\).![](/assets/EN/2.5/5.1.1_7.png)
+##### d\) 監視情報（マスターURL、 Ingress Host、 モニタリングホスト, モニタリングポート）を入力する。![](/assets/EN/2.5/5.1.1_7.png)
 
-| **Monitoring Info ** | **Description** |
+| **モニタリング 情報 ** | **説明** |
 | :--- | :--- |
-| Master URL | Kubernetes API address \(Format: "[https://host:port](https://host:port)" \) |
-| Ingress Host | Host IP address for Ingress method \(Master or load balancer IP\) |
-| Monitoring Host | Monitoring Host IP address of the server where the monitoring API is installed. \("[http://host](http://host)"\) Monitoring Port |
-| Monitoring Port | Port for monitoring API |
+| マスターURL | Kubernetes APIのアドレス。 \("[https://host:port](https://host:port)" 形式を使用する。\) |
+| Ingress Host | イングレス方式で使用するHost IP Addressサービス（Master IP or Loadbalancer IP） |
+| モニタリングホスト | Monitoring APIがインストールされているサーバーのIPアドレス \("[http://host](http://host)"\) |
+| モニタリングポート | Monitoring APIのポート情報 |
 
 ##### 
 
-##### e\) Enter the cluster type.![](/assets/EN/2.5/5.1.1_8.png)
+##### e\) クラスターのタイプを入力![](/assets/EN/2.5/5.1.1_8.png)
 
-| **Cluster Type Info** | **Description** |
+| **クラスタータイプの情報** | **説明** |
 | :--- | :--- |
-| Certification Type | Certification method for k8s clusters |
+| 認証タイプ | k8sクラスターを使用するための認証手段 |
 
 #### ㅤ
 
-* **Certification Type**![](/assets/EN/2.5/5.1.1_9.png)
+* **認証タイプ - certification**![](/assets/EN/2.5/5.1.1_9.png)
 
-| Certification Info | **Description** |
+| 認証情報 | **説明** |
 | :--- | :--- |
-| User ID | k8s user ID |
-| Password | k8s user password |
-| Cluster CA Certification | Connect to master server, go to /etc/kubernetes/pki/, and enter the ca.crt file value |
-| Client Certificate Data | Connect to master server, go to /etc/kubernetes/pki/, and enter the admin.crt file value |
-| Client Key Data | Connect to master server, go to /etc/kubernetes/pki/, and enter the admin.key file value |
+| ユーザーID | k8s ユーザーID |
+| パスワード | k8s ユーザーPW |
+| Cluster CA Certification | マスターサーバー接続後、/ etc/ kubernetes/ pkiパス移動後、 ca.crtファイルの値を入力 |
+| Client Certificate Data | マスターサーバー接続後、/ etc/ kubernetes/ pkiパス移動後、admin.crtファイルの値を入力 |
+| Client Key Data | マスターサーバー接続後、/ etc/ kubernetes/ pkiパス移動後、admin.keyファイルの値を入力 |
 
 
 
