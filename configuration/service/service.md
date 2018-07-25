@@ -1,22 +1,23 @@
-## 2.3 Service
+## 2.3 サービス
 
 ---
 
-Service assigns a workspace to build, deploy, and run applications, and users, clusters, and libraries can be registered for each service.
+アプリケーションのビルドおよびデプロイ、運用を行うことができるWork S paceを割り当てる。サービスごとにユーザー、クラスタ、ライブラリの登録が可能である。
 
-The service list can be filtered by All, Active, or Inactive. \('Y' and 'N' services are displayed when 'Active' and 'Inactive' are selected, respectively.\)
+サービスリストをすべて/有効/無効に分類して、照会することができる。（使用有無がYのサービストは「有効」、Nのサービスは「無効」選択時に表示される）
+すべて/有効/無効
 
-Refer to the Cluster section of this manual for details on adding clusters.
+クラスタの追加については、マニュアルに記載されているクラスタの説明を参照すること。
 
-##### a\) Configuration → Service → Click the [Use] button and select All, Active, or Inactive.![](/assets/EN/2.5/2.3_1.png)
+##### a\) 設定→アカウント→有無ボタンをクリックし、「すべて/有効/無効」のいずれかを選択。![](/assets/EN/2.5/2.3_1.png)
 
-| ** Service Settings ** | **Description** |
+| ** サービス設定 ** | **説明** |
 | :--- | :--- |
-| Use | Filters services by usage status. \(All, Use, or Unused\) |
-| + button | Redirects to Add Service page |
-| Name | Name of service \(user-defined\) |
-| Use | Current service usage status |
-| Cluster | Clusters that are registered to the service |
+| ステータス | 使用有無による照会をフィルタリング（すべて/有効/無効） |
+| + ボタン | サービス追加ページに移動 |
+| サービス名 | サービス名（ユーザー指定） |
+| ステータス | 現在のサービスの使用有無 |
+| クラスター | サービスに登録されているクラスタ項目 |
 
 
 
