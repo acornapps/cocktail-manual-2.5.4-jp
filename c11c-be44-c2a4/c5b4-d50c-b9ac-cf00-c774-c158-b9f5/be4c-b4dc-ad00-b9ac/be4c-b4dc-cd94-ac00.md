@@ -1,41 +1,42 @@
-### 3.2.1 Add Build
+### 3.2.1 ビルド追加
 
 ---
 
-This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build.
+ドッカーイメージのビルドタスクを追加する。 アプリケーションのダウンロード、アプリケーションビルド、イメージビルドの合計3つを選択することができる。
 
-**a\) Service > Build Management > Build Action Menu \(Activate\) > Edit Task Settings**
+**a\) サービス → ビルド管理 → ビルド作成の編集を選択し、該当ページに移動**
 ![](/assets/EN/2.5/3.2.1_1.png)![](/assets/EN/2.5/3.2.1_2.png)
 
-**b\) Enter the necessary application download, application build, and image build information and click the [Create] button to create a build**![](/assets/EN/2.5/3.2.1_3.png)
+**b\) アプリケーションダウンロード、アプリケーションビルド、イメージビルドの内容を作成した上、作成ボタンを押してサーバーを作成**![](/assets/EN/2.5/3.2.1_3.png)
 
-| **Build Phase** | **Description** |
+| **ビルド作成段階** | **説明** |
 | :--- | :--- |
-| Application Download | Download the necessary source for a build |
-| Application Build | Use when source compile is needed <br/>**Command** - Task to be executed during build <br/>**Host Path** - The container path where the operation is to take place and the host path for mounting <br/>**Working dir** - Actual path to work within the container; Matched with container path <br/>**Image** - Image to be used for the build |
-| Image Build | The source from the previous phase is used to create a Docker file and subsequently an image to be saved in a registry |
+| アプリケーションダウンロード | ビルドに必要なソースをダウンロード |
+| アプリケーションビルド | ソースのコンパイルが必要な場合に使用 <br/>**コマンド** - ビルドしながら実行するタスク <br/>**ホストパス** - タスクが行われるコンテナパスとマウントされるホストパス <br/>**Working dir** - 実際にコンテナ内で作業するパスで、 コンテナパスに合わせる <br/>**イメージ** - ビルド時に使用するイメージ |
+| イメージビルド | 作業したソースでドッカーファイルを作ってイメージを作成し、該当イメージをレ
+ジストリストレージに保存するステップ |
 
-* **Basic Build Information**
+* **ビルドの基本情報**
 ![](/assets/EN/2.5/3.2.1_4.png)
 
-| **Basic Info** | **Description** |
+| **基本情報** | **説明** |
 | :--- | :--- |
-| Name | Name of build to be created |
-| Latest Action | Displays status of latest action |
-| Status | Displays current build status |
+| ビルド名 | 作成するビルドの名前 |
+| 最近のアクション | ビルドの最近の動作状態 |
+| ステータス | ビルドの現在の状態 |
 
-* **Application Download**
+* **アプリケーションのダウンロード**
 ![](/assets/EN/2.5/3.2.1_5.png)
 
-| **Application Download** | **Description** |
+| **アプリケーションのダウンロード** | **説明** |
 | :--- | :--- |
-| Repository Type | Type of version management tool that will download the source file. Only GIT is supported on the current version |
-| Protocol Type | HTTP/HTTPS protocol provided by repository |
-| Git Repository Type | Private/common supported |
-| Repository URL | Repository URL for download |
-| Repository User ID | User ID for access to repository |
-| Repository Password | Password for access to repository |
-| Target Branch | Branch information of source to be downloaded |
+| リポジトリ | ソースファイルをダウンロードするバージョン管理ツールの種類。 現在のバージョンでは、 Gitのみサポート |
+| プロトコル | リポジトリが提供するHTTP / HTTPSプロトコルをサポート |
+| Gitリポジトリタイプ | Private/Common をサポート |
+| リポジトリ URL | ダウンロードするためのストレージ URL |
+| リポジトリ User ID | ストレージの権限を有するID |
+| リポジトリのパスワード | ストレージの権限を有するIDのパスワード |
+| ターゲットブランチ(Branch) | ダウンロードするソースのブランチ情報 |
 
 * **Application Build**
 ![](/assets/EN/2.5/3.2.1_6.png)

@@ -54,7 +54,7 @@
         * [シークレット修正](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c218-c815.md)
         * [シークレット削除](c11c-be44-c2a4/c2dc-d06c-b9bf/c2dc-d06c-b9bf-c0ad-c81c.md)
   * [ビルド管理](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac.md)
-    * [Add Build](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/be4c-b4dc-cd94-ac00.md)
+    * [ビルド追加](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/be4c-b4dc-cd94-ac00.md)
     * [Edit Task Settings](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/c791-c5c5-c124-c815-d3b8-c9d1.md)
     * [History](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/d788-c2a4-d1a0-b9ac.md)
     * [Execute Build](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/be4c-b4dc-c2e4-d589.md)
