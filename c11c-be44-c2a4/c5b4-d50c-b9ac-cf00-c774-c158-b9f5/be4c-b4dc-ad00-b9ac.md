@@ -1,23 +1,23 @@
-## 3.2 Build Management
+## 3.2 ビルド管理
 
 ---
 
-This feature allows you to manage build tasks for a Docker image.
+ドッカー（Docker）イメージのビルドタスクを管理する。
 
-You can download an application, build the source file, and build the image file to be uploaded to a Harbor registry.
+アプリケーションをダウンロード、ソースファイルをビルド、イメージファイルをビルドし、Haborレジストリにアップロードする。
 
-**a\) Service → Build Management.**![](/assets/EN/2.5/3.2_1.png)![](/assets/EN/2.5/3.2_2.png)
+**a\) サービス → ビルド管理を選択してクリック。**![](/assets/EN/2.5/3.2_1.png)![](/assets/EN/2.5/3.2_2.png)
 
-| **Item** | **Description** |
+| **リスト** | **説明** |
 | :---: | :--- |
-| ![](/assets/EN/2.5/3.2_3.png) | Create Build button |
-| Build Name | Name of build |
-| Image Name | Name of saved Docker image |
-| Image Size | Size of saved Docker image \(Displayed in MB\) |
-| Latest Action | Displays build status |
-| Status | Displays build execution status |
-| Date | Displays date on which a build was executed |
-| <img src="/assets/EN/2.5/3.2_4.png" width="30%" /> | Build action menu |
+| ![](/assets/EN/2.5/3.2_3.png) | ビルド作成ボタン |
+| ビルド名 | ビルドの名前 |
+| イメージ名 | 保存されたドッカーイメージ名 |
+| イメージサイズ | 保存されたドッカーイメージのサイズ。MB単位で表記 |
+| 最近のアクション | ビルドの状態を表示 |
+| ステータス | ビルドの実行状態を表示 |
+| 日時 | ビルドが実行された日付を表示 |
+| <img src="/assets/EN/2.5/3.2_4.png" width="30%" /> | ビルドアクションメニュー |
 
 
 
