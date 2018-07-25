@@ -1,19 +1,19 @@
-### 3.2.4 Execute Build
+### 3.2.4 ビルド実行
 
 ---
 
-This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once.
+ビルドタスクを実行する。 ビルドを実行すると、 アプリケーションダウンロード、 アプリケーションビルド、 イメージビルドを一度に実行する。
 
-##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Build Run**
+##### **a\) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルド実行を選択して、ビルドタスクを実行**
 ![](/assets/EN/2.5/3.2.4_1.png)![](/assets/EN/2.5/3.2.4_2.png)
 
-##### b\) The current action changes, and the log window becomes activated at build time.
+##### b\) ビルド実行時、現在のアクションが変更され、ログウィンドウがアクティブ化する。
 
-##### When the build is created, tabs become activated according to the number selected via checkboxes, allowing you to check the build process for each step.
+##### ビルド作成時、チェックボックスで選択されたタブがアクティブ化し、各ステップのビルドプロセスを確認することができる。
 
-**\(If an error occurs during the download step, the next step will not be performed.\)**
+**（DOWNステップでエラーが発生した場合、次のステップに進むことができない。）**
 
-##### The message "Application_Create_Image Step is done..." indicates that the image build was successfully completed. 
+##### ビルド実行タスクが"Application_Create_Image Step is done..." というログが表示されたら、 イメージビルドが正常に終了したということである。
 ![](/assets/EN/2.5/3.2.4_3.png)
 
 ##### 
