@@ -1,17 +1,18 @@
-### 3.1.6-1 Config Map
+### 3.1.6-1 コンフィグマップ
 
 ---
 
-This feature allows you to save config files as maps on servers to be used as volumes.
+サーバーでConfig Fileを Map形式で保存し、ボリュームとして使用することができる。
 
-##### a\) Service → Select Application Map → Settings → Config Map. 
+##### a\) サービス → アプリケーションマップ選択 → 設定 → 設定マップをクリック。
 ![](/assets/EN/2.5/3.1.6-1_1.png)![](/assets/EN/2.5/3.1.6-1_2.png)
 
-| **Item** | **Description ** |
+
+| **項目** | **説明 ** |
 | :---: | :--- |
-| [+] button | Redirects to Add Config Map page |
-| Name | Name of config map \(user-defined\) |
-| <img src="/assets/EN/2.5/3.1.6-1_3.png" width="30%" /> | Config map action menu |
+| [+] ボタン | 設定マップ追加ページに移動 |
+| 名 | 設定マップ名（ユーザー指定） |
+| <img src="/assets/EN/2.5/3.1.6-1_3.png" width="30%" /> | 設定マップのアクションメニュー |
 
 
 

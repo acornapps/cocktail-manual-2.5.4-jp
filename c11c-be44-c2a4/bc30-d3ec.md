@@ -1,48 +1,49 @@
-### 3.1.5 Pipeline
+### 3.1.5 パイプライン
 
 ---
 
-With the pipeline feature, you can build an image and deploy to a server all at once.
+パイプライン機能でイメージビルドタスクからサーバーデプロイタスクまで一度に進めることができる。
 
-You can also change the image version of a deployed server and quickly redeploy.
+また、デプロイ中のサーバーのイメージバージョンを変更して再デプロイすることができる。
 
-##### a\) Service > Select Application Map > Pipeline. ![](/assets/EN/2.5/3.1.5_1.png)![](/assets/EN/2.5/3.1.5_2.png)
 
-| **Pipeline Menu ** | **Description ** |
+##### a\) サービス → アプリケーションマップ選択 → パイプラインをクリック。 ![](/assets/EN/2.5/3.1.5_1.png)![](/assets/EN/2.5/3.1.5_2.png)
+
+| **パイプラインメニュー ** | **説明 ** |
 | :---: | :--- |
-| Batch execution | Execute pipeline tasks in batch |
-| Run | Execute a specific pipeline task |
+| バッチ実行 | パイプラインのタスクを一括して実行 |
+| 実行 | 該当パイプラインのタスクを実行 |
 
-| **Image Menu** | **Build** | **Description ** |
+| **イメージメニュー** | **ビルド** | **説明 ** |
 | :---: | :--- | :--- |
-| Image Tag | X | Deploy server of the corresponding version when enter tag in registry |
-| Appointed | ⃝ | Deploy designated server version among images |
-| Latest | ⃝ | Deploy latest server version among images |
-| Build & Deployment | ⃝ | Deploy corresponding server version after a new image is built |
+| イメージタグ | X | レジストリにあるタグ入力時、該当バージョンでサーバーをデプロイ |
+| 指定 | ⃝ | イメージバージョン中の指定されたバージョンでサーバーをデプロイ |
+| 最新 | ⃝ | イメージバージョン中の最新バージョンでサーバーをデプロイ |
+| ビルド＆デプロイ | ⃝ | 新たなビルドタスク後、該当イメージバージョンでサーバーをデプロイ |
 
-##### b\) Execute Pipeline
+##### b\) パイプライン実行
 
-##### **1. If server was created with a common image**
+##### **1. パブリックイメージでサーバーを作成した場合**
 
-Enter image tag and click [Run] or [Batch execution]. \(Only available if the deployed version is different from the version entered; Excludes ‘Latest’\) ![](/assets/EN/2.5/3.1.5_3.png)
+イメージタグを入力後、「実行」または「一括実行」をクリック （deployしたバージョンと入力しバージョンが異なる場合のみ実行可能。ただし、latestを除く） ![](/assets/EN/2.5/3.1.5_3.png)
 
-##### **2. If server was created with a built image**
+##### **2. ビルドしたイメージでサーバーを作成した場合**
 
-* **Deploying a designated image**
+* **指定したイメージでデプロイ**
 
-Select [Appointed] and an image from the right of the pipeline task list and click [Run] or [Batch execution]. \(Only available if the deployed version is different from the version entered\)![](/assets/EN/2.5/3.1.5_4.png)
+パイプラインタスクリストの右側で「指定」およびイメージを選択した後、 「実行」 または「バッチ実行」をクリック（deployされたバージョンと入力したバージョンが異なる場合のみ実行可能）![](/assets/EN/2.5/3.1.5_4.png)
 
-* **Deploying a newly-built image**
+* **新たなビルドタスク後、該当イメージでデプロイ**
 
-Select [Build & Deployment] from the right of the pipeline task list and check [Execution whether]. Click [Run] or [Batch execution]. \(Only available if [Execution whether] is checked.\) ![](/assets/EN/2.5/3.1.5_5.png)
+パイプラインタスクリストの右側で「ビルド＆デプロイ」を選択した後「実行可否」をチェック。その後、「実行」または「バッチ実行」をクリック（実行可否がチェックされている場合のみ実行可能） ![](/assets/EN/2.5/3.1.5_5.png)
 
-* **Deploying the latest image**
+* **最新のイメージでデプロイ**
 
-Select [Latest] from the right of the pipeline task list and click [Run] or [Batch execution]. \(Only available if the deployed version is different from the version entered\) ![](/assets/EN/2.5/3.1.5_6.png)
+パイプラインタスクリストの右側で「最新」を選択した後、「実行」または「バッチ実行」をクリック（deployされたバージョンと入力したバージョンが異なる場合のみ実行可能） ![](/assets/EN/2.5/3.1.5_6.png)
 
-* **Edit Build and View Log**
+* **ビルド編集画面の移動およびログ表示**
 
-You will be redirected to the Edit Build page when the name of a build image is clicked.![](/assets/EN/2.5/3.1.5_7.png)
+ビルドイメージ名をクリックすると、ビルド編集画面に移動する。![](/assets/EN/2.5/3.1.5_7.png)
 
-You can view the log by clicking on the build tag name.![](/assets/EN/2.5/3.1.5_8.png)![](/assets/EN/2.5/3.1.5_9.png)
+ビルドタグ名をクリックすると、ログを表示することができる。![](/assets/EN/2.5/3.1.5_8.png)![](/assets/EN/2.5/3.1.5_9.png)
 
