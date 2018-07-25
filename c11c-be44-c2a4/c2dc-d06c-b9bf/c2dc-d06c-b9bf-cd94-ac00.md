@@ -1,20 +1,20 @@
-### 3.1.6-2a Add Secret
+### 3.1.6-2a シークレット追加
 
 ---
 
-This feature allows you to add secrets to a service.
+サービスにシークレットを追加する。
 
-##### a\) Service → Select Application Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page.
+##### a\) サービス → アプリケーションマップ選択 → 設定 → 構成 → +ボタンをクリックし、 登録ページに移動。
 ![](/assets/EN/2.5/3.1.6-2a_1.png)![](/assets/EN/2.5/3.1.6-2a_2.png)
 
-##### b\) Enter the name and data values and click the [Create] button in the top-right corner to create a secret.![](/assets/EN/2.5/3.1.6-2a_3.png)
+##### b\) 名とデータの値を入力し、 右上の作成ボタンを押してシークレットを作成。![](/assets/EN/2.5/3.1.6-2a_3.png)
 
-| **Item** | **Description** |
+| **項目** | **説明** |
 | :---: | :--- |
-| Name | Name input field \(May not be edited after creation\) |
-| Add Data button | Add data to a secret |
-| Key | Key value of secret |
-| Value | Value of secret |
+| 名 | 名を入力する欄である。入力後は編集不可能 |
+| データ追加ボタン | 構成のデータを追加することができるボタン |
+| キー | 構成のKeyの値 |
+| 値 | 構成のValueの値 |
 
 
 
