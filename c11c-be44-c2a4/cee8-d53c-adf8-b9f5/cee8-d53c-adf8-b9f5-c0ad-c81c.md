@@ -1,10 +1,10 @@
-### 3.1.6-1c Delete Config Map
+### 3.1.6-1c 設定マップ削除
 
 ---
 
-This feature allows you to delete service config maps.
+サービスでコンフィグマップを削除する。
 
-##### a\) Service → Select Application Map → Settings → Config Map → Config Map Action Menu \(Activate\) → Config Map Delete
+##### a\) サービス → アプリケーションマップ選択 → 設定 → 設定マップ → 設定マップアクションメニュー（活性化） → 設定マップ削除をクリック
 ![](/assets/EN/2.5/3.1.6-1c_1.png)![](/assets/EN/2.5/3.1.6-1c_2.png)
 
 
