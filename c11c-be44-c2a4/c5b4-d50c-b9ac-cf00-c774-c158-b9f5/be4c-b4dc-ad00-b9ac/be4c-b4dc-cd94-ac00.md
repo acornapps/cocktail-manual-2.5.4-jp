@@ -38,25 +38,25 @@
 | リポジトリのパスワード | ストレージの権限を有するIDのパスワード |
 | ターゲットブランチ(Branch) | ダウンロードするソースのブランチ情報 |
 
-* **Application Build**
+* **アプリケーションビルド**
 ![](/assets/EN/2.5/3.2.1_6.png)
 
-| **Application Build** | **Description** |
+| **アプリケーションビルド** | **説明** |
 | :--- | :--- |
-| Command | Command to be executed during build |
-| Host Path | Path of downloaded source |
-| Container Path | The container path where the operation is to take place |
-| Working Dir | Actual path to work within the container. Matched with container path |
-| Image | Container image for build |
+| コマンド | ビルドしながら実行されるコマンド |
+| ホストパス | ダウンロードされたソースがあるパス |
+| コンテナパス | タスクが行われるコンテナパス |
+| Working Dir | 実際にコンテナ内で作業するパスで、コンテナパスに合わせる |
+| イメージ | ビルドを実行するコンテナイメージ |
 
-* **Image Build**
+* **イメージビルド**
 ![](/assets/EN/2.5/3.2.1_7.png)
 
-| **Image Build** | Description |
+| **イメージビルド** | 説明 |
 | :--- | :--- |
-| Dockerfile | Docker file for image creation |
-| Registry Name | Registry where the created image is to be stored |
-| Image | Name and tag of image to be stored in the registry |
+| Dockerfile | イメージを作成するためのDockerfile |
+| レジストリ名 | 作成した イメージを保存するレジストリを選択 |
+| イメージ | 作成した イメージをレジストリに保存する イメージ名とタグ |
 
 
 
