@@ -24,7 +24,7 @@
     * [アカウント編集](configuration/provider/update.md)
     * [プロバイダ削除](configuration/provider/d504-b85c-bc14-c774-b354-c0ad-c81c.md)
   * [サービス](configuration/service/service.md)
-    * [Add Service](configuration/service/add.md)
+    * [サービス追加](configuration/service/add.md)
     * [Edit Service](configuration/service/c11c-be44-c2a4-d3b8-c9d1.md)
     * [Delete Service](configuration/service/delete.md)
 * [サービス](c11c-be44-c2a4.md)

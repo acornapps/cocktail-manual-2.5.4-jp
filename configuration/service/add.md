@@ -1,18 +1,18 @@
-### 2.3.1 Add Service
+### 2.3.1 サービス追加
 
 ---
 
-This feature allows you to add services. Users, clusters, and registries \(storage\) can be registered for each service.
+サービスを追加する機能である。サービスごとにユーザー登録およびクラスタ、レジストリ（ストア）を登録することができる
 
-##### a\) Configuration → Service → Click the [+] button in the top-right corner.![](/assets/EN/2.5/2.3.1_1.png)
+##### a\) 設定 → サービス → 右上の+ボタンをクリック。![](/assets/EN/2.5/2.3.1_1.png)
 
-##### b\) Enter the service name, description, color, registry, user, and cluster information.![](/assets/EN/2.5/2.3.1_2.png)
+##### b\) サービスに使用するサービス名、説明、色、レジストリおよびユーザー、クラスター情報を登録。![](/assets/EN/2.5/2.3.1_2.png)
 
-##### c\) Only items with the checked boxes are reflected when adding a user or cluster.
+##### c\) ユーザーおよびクラスターの追加は、選択されチェックボックスのみ反映される。
 
-* Edit User![](/assets/EN/2.5/2.3.1_3.png)
+* ユーザー編集![](/assets/EN/2.5/2.3.1_3.png)
 
-* Edit Cluster![](/assets/EN/2.5/2.3.1_4.png)
+* クラスター編集![](/assets/EN/2.5/2.3.1_4.png)
 
 
 
