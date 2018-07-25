@@ -65,7 +65,7 @@
   * [Deploy Catalog](catalog/catalogdeploy.md)
   * [Edit Catalog](catalog/catalogedit.md)
   * [Delete Catalog](catalog/catalogdelete.md)
-* [Cluster](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
+* [クラスター](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
   * [Cluster Management](configuration/cluster/d074-b7ec-c2a4-d130.md)
     * [Add Cluster](configuration/cluster/add.md)
     * [Edit Cluster](configuration/cluster/d074-b7ec-c2a4-d130-d3b8-c9d1.md)
