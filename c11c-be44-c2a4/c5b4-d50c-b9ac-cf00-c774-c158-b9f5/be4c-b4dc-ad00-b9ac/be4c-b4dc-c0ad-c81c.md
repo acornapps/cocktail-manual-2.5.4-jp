@@ -1,10 +1,10 @@
-### 3.2.6 Delete Task
+### 3.2.6 タスク削除
 
 ---
 
-This feature allows you to delete build tasks. When performed, the corresponding cache and downloaded source folder will be deleted first before deleting the actual task.
+ビルドタスクを削除する。削除時、該当キャッシュとダウンロードしたソースフォルダを削除した後、タスクを削除する。
 
-##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Task Delete**
+##### **a\) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → タスク削除を選択して、 該当ビルドタスクを削除。**
 ![](/assets/EN/2.5/3.2.6_1.png)![](/assets/EN/2.5/3.2.6_2.png)
 
 
