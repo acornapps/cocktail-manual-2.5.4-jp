@@ -1,27 +1,27 @@
-## 5.4 Volume
+## 5.4 ボリューム
 
 ---
 
-This feature allows you to add public cloud and external storage information and also provides volume monitoring.
+Public Cloudのストレージおよび外部ストレージ情報を登録し、ボリュームステータスの監視サービスを提供する。
 
-**a\) Cluster → Select Cluster → Volume.**![](/assets/EN/2.5/5.4_1.png)![](/assets/EN/2.5/5.4_2.png)
+**a\) クラスター → クラスター選択 → ボリュームをクリック。**![](/assets/EN/2.5/5.4_1.png)![](/assets/EN/2.5/5.4_2.png)
 
-| **Storage Settings** | **Description** |
+| **ストレージ設定情報** | **説明** |
 | :--- | :--- |
-| [+] button | Redirects to Add Storage page |
-| Name | Name of storage \(user-defined\) |
-| Type | Type of storage \(NFS/EBS/Google Persistent Disk/Azure Disk\) |
-| Storage Class Name | Class name registered in k8s |
-| Policy | Storage volume policy \(Retain/Recycle/Delete\) |
-| Status |Storage usage status |
+| [+] ボタン | ストレージ追加ページに移動 |
+| 名 | ストレージ名（ユーザー指定） |
+| タイプ | ストレージの種類 (NFS/EBS/Google Persistent Disk/Azure Disk) |
+| ストレージクラス名 | k8s に登録された Class Name |
+| リクレームポリシー | ストレージボリュームのポリシー設定（Retain、Recyle、Delete） |
+| ステータス | ストレージの使用状態 |
 
-| **Volume Settings** | **Description** |
+| **ボリューム設定情報** | **説明** |
 | :--- | :--- |
-| Volume Name | PVC name |
-| Status | PVC mount status |
-| Usage | Allocated PV capacity and usage |
-| Access Mode | PV access privileges |
-| Age | PVC uptime |
+| ボリューム名 | PVC 名 |
+| ステータス | PVCマウント状態 |
+| 使用量 | PVの割り当てられた利用可能な量と使用量 |
+| 接続モード | PVアクセス権限 |
+| Age | PVC 作成経過時間 |
 
 
 
