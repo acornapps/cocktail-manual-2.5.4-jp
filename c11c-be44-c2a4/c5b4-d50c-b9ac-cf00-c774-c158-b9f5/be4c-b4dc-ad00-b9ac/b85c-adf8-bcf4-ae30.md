@@ -1,10 +1,10 @@
-### 3.2.5 View Log
+### 3.2.5 ログ表示
 
 ---
 
-This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed.
+ビルドタスクの最近の実行ログを表示する。 ビルドが実行中であれば、 実行中のログを確認することができる。
 
-##### **a\) Service → Build Management → Build Action Menu \(Activate\) → Log View**
+##### **a\) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ログビュータを選択して、 該当ビルドタスクのビルド実行ログを確認**
 ![](/assets/EN/2.5/3.2.5_1.png)![](/assets/EN/2.5/3.2.5_2.png)![](/assets/EN/2.5/3.2.5_3.png)
 
 
