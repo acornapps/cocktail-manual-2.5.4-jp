@@ -1,28 +1,29 @@
-### 5.4.1 Add Storage
+### 5.4.1 ストレージ追加
 
 ---
 
-This feature allows you to add storage volumes.
+ボリュームを追加して使用することができる。
 
-##### **a\) Cluster → Select Cluster.**![](/assets/EN/2.5/5.4.1_1.png)
+##### **a\) クラスター → クラスター選択。**![](/assets/EN/2.5/5.4.1_1.png)
 
-##### b**\) Select a volume from the detailed cluster screen**![](/assets/EN/2.5/5.4.1_2.png)
+##### b**\) クラスターの詳細画面でボリュームを選択。**![](/assets/EN/2.5/5.4.1_2.png)
 
-##### c\) Enter cluster, name, description, storage plugin, policy, and storage class name in order.![](/assets/EN/2.5/5.4.1_3.png)
+##### c\) クラスター名、 説明、 ストレージプラグイン、 リクレームポリシー、 ストレージクラス名、 パラメーターを順番に記入。
+![](/assets/EN/2.5/5.4.1_3.png)
 
 | **Storage Info** | **Description** |
 | :--- | :--- |
-| Name | PV name |
-| Description | User-defined PV description |
-| Policy | PV usage policy \(RETAIN/DELETE\) |
-| Storage Plugin | Type of storage \(NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk\) |
-| Storage Class Name | Class name registered in k8s |
-| Parameters | PV environment settings |
+| 名 | PV名 |
+| 説明 | PVユーザー説明 |
+| ストレージプラグイン | ストレージの種類 (NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk) |
+| リクレームポリシー | PV使用ポリシー（RETAIN/ DELETE） |
+| ストレージクラス名 | k8s に登録された Class Name |
+| パラメーター | PVの環境設定値 |
 
-| **Policy** | **Description** |
+| **ポリシー** | **説明** |
 | :--- | :--- |
-| Retain | The data in a persistent volume \(PV\) remains even if the persistent volume claim \(PVC\) is deleted. Although it can be reused, the PV must be re-registered |
-| Delete | When a PVC is deleted, the corresponding PV is also deleted |
+| Retain | PersistentVolumeClaim（PVC）が削除されても 、PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 |
+| Delete | PVCが削除されると、 該当PVも一緒に削除される。 |
 
 ##### 
 
