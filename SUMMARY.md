@@ -74,7 +74,7 @@
   * [アプリケーション](configuration/cluster/c5b4-d50c-b9ac-cf00-c774-c158.md)
   * [ボリューム](configuration/volume/volume.md)
     * [ストレージ追加](configuration/volume/add.md)
-    * [Edit Storage](configuration/volume/bcfc-b968-d3b8-c9d1.md)
+    * [ストレージ編集](configuration/volume/bcfc-b968-d3b8-c9d1.md)
     * [Delete Volume](configuration/volume/c2a4-d1a0-b9ac-c9c0-c81c-ac70.md)
   * [Alerts](configuration/cluster/c54c-b78c.md)
   * [Metering](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1/bbf8-d130-b9c1.md)

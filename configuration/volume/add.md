@@ -11,7 +11,7 @@
 ##### c\) クラスター名、 説明、 ストレージプラグイン、 リクレームポリシー、 ストレージクラス名、 パラメーターを順番に記入。
 ![](/assets/EN/2.5/5.4.1_3.png)
 
-| **Storage Info** | **Description** |
+| **ストレージ 登録情報** | **説明** |
 | :--- | :--- |
 | 名 | PV名 |
 | 説明 | PVユーザー説明 |
@@ -27,39 +27,39 @@
 
 ##### 
 
-##### d\) Set the storage class and parameters according to the storage plugin being used.
+##### d\) 使用するストレージプラグインに応じて、ストレージクラスとパラメータを設定。
 
-* ##### If using NFS dynamic storage plugin![](/assets/EN/2.5/5.4.1_4.png)
+* ##### NFS Dynamicストレージプラグイン使用時![](/assets/EN/2.5/5.4.1_4.png)
 
-| Storage Plugin | **NFS** Dynamic |
+| **ストレージプラグイン** | **NFS Dynamic** |
 | :--- | :--- |
-| Policy | The dynamic plugin supports the Retain and Delete policies |
-| Storage Class Name | cocktail-nfs \(Default value\) |
+| リクレームポリシー | Dynamicプラグインは、 RetainとDeleteポリシーをサポート |
+| ストレージクラス名 | cocktail-nfs（デフォルト値） |
 
-* **If using NFS static storage plugin**![](/assets/EN/2.5/5.4.1_5.png)
+* **NFS Staticストレージプラグイン使用時**![](/assets/EN/2.5/5.4.1_5.png)
 
-| Storage Plugin | **NFS** Static |
+| **ストレージプラグイン** | **NFS** Static |
 | :--- | :--- |
-| Policy | The static plugin only supports the Retain policy |
-| Parameter | Server: IP address of storage. Path: Mount path |
+| リクレームポリシー | Staticプラグインは、 Retain単一ポリシーをサポート |
+| パラメータ | Server: ストレージのIP Address Path：mountパス |
 
-* **If using AWS storage plugin**![](/assets/EN/2.5/5.4.1_6.png)
+* **アマゾンストレージプラグイン使用時**![](/assets/EN/2.5/5.4.1_6.png)
 
-| Storage Plugin | AWS EBS \(AWS storage service\) |
+| **ストレージプラグイン** | AWS EBS（AWSのストレージサービス） |
 | :--- | :--- |
-| Storage Class Name | default \(Fixed value\) |
+| ストレージクラス名 | default（固定値） |
 
-* **If using Google storage plugin**![](/assets/EN/2.5/5.4.1_7.png)
+* **Googleストレージプラグイン使用時**![](/assets/EN/2.5/5.4.1_7.png)
 
-| Storage Plugin | Google Persistent Disk \(GCP storage service\) |
+| **ストレージプラグイン** | Google Persistent Disk（GCPのストレージサービス） |
 | :--- | :--- |
-| Storage Class Name | standard\(Default value\) |
+| ストレージクラス名 | standard（デフォルト値） |
 
-* **If using Azure storage plugin**![](/assets/EN/2.5/5.4.1_8.png)
+* **Azureストレージプラグイン使用時**![](/assets/EN/2.5/5.4.1_8.png)
 
-| Storage Plugin | Azure Disk \(Azure storage service\) |
+| **ストレージプラグイン** | Azure Disk（Azureのストレージサービス） |
 | :--- | :--- |
-| Storage Class Name | default\(Default value\) |
+| ストレージクラス名 | default（デフォルト値） |
 
 
 
