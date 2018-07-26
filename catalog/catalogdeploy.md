@@ -1,16 +1,17 @@
-### 4.2 Deploy Catalog
+### 4.2 カタログデプロイ
 
 ---
 
-This feature allows you to deploy generated catalogs. If necessary, unnecessary instances can be excluded or edited prior to deployment.
+作成したカタログをデプロイすることができる。 必要に応じて、 不要なインスタンスを除外または編集してデプロイすることができる。
 
-##### a\) Catalog → Click the [Deployment] button on the desired template![](/assets/EN/2.5/4.2_1.png)
+##### a\) カタログ → デプロイするテンプレートの「デプロイ」ボタンをクリック
+![](/assets/EN/2.5/4.2_1.png)
 
-##### b\) Select the service, cluster, and application map from the template category and click [Deploy]. You may exclude unwanted instances prior to deployment.
+##### b\) テンプレートカテゴリーでサービス、 クラスター、 アプリケーションマップを選択後、 「デプロイ」をクリック。 不要なインスタンスは除いてデプロイすることができる。
 
-* When deploying a new application map, you may select the service and cluster and add the application map and namespace information prior to deployment.![](/assets/EN/2.5/4.2_2.png)
+* 新規のApplication Mapをデプロイする際、サービス、クラスタを選択し、アプリケーションマップ、名前空間の名前を作成してから、デプロイすることができる。![](/assets/EN/2.5/4.2_2.png)
 
-* When deploying an existing application map, you may select the service and application map prior to deployment.![](/assets/EN/2.5/4.2_3.png)
+* 既存のApplication Mapをデプロイする際、サービス、アプリケーションマップを選択してから、デプロイすることができる。![](/assets/EN/2.5/4.2_3.png)
 
-**c\) Because secret values are not saved for security reasons, the values must be entered prior to deployment.**![](/assets/EN/2.5/4.2_4.png)
+**c\) シークレットの場合は、セキュリティの関係で値は保存されないため、デプロイ前の値を入力する必要がある。**![](/assets/EN/2.5/4.2_4.png)
 
