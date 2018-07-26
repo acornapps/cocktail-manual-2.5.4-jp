@@ -1,33 +1,32 @@
-# 6. Dashboard
+# 6. ダッシュボード
 
 ---
 
-The dashboard allows you to view Cocktail service information at a glance.
+ダッシュボードでは、cocktailでサービスされる情報を一目で確認することができる。
 
-* **Summary**
+* **要約情報**
 
-  Displays the number of currently-registered/managed applications, servers clusters, and the total cloud cost for the current month.
+  現在登録管理されているアプリケーションの数、サーバー数、登録クラスタ数、当月の総クラウドコストを確認することができる。
 
-* **Server Status**
+* **サーバーステータス**
 
-  Displays the number of deployed servers per cloud service provider.
-  Google GCP, Amazon AWS, Microsoft Azure, bare-metal, and private cloud platforms are registered.
+  インフラとして使用しているクラウドサービスのプロバイダ別に配置されているサーバーの数が分かる。グーグルGCP、アマゾンAWS、MS Azure、Bare Metal、Private Cloud Platformが登録されている。
 
-* **Cluster Cost Trend**
+* **クラスタ料金の推移**
 
-  Displays monthly cost trends of a selected year and daily cost trends for a selected month in graph form.
+  確認したい 年の月別料金の推移および確認したい月の日別料金の推移までグラフで確認することができる。
 
-* **Top Cost by Cluster**
+* **クラスタ別上位料金**
 
-  Displays the top five clusters with the highest cost.
+  使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。
 
-* **Top Cluster Resource Allocation **
+* **クラスタ上位リソース割り当て率 **
 
-  Displays the top five clusters with the highest resource utilization.
+  使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。
 
-* **Top Resource Allocation by Application**
+* **アプリケーション別上位リソース割り当て量**
 
-  Displays the top five applications with the highest resource utilization.
+  使用中のアプリケーションのうち、上位5つのアプリケーションのリソース割り当て量を確認することができる。
 
 ![](/assets/EN/2.5/6_1.png)
 
