@@ -2,11 +2,12 @@
 
 ---
 
-This feature allows you to modify storage information. Note, however, that nfs-static storages may not be modified.
+登録されたストレージ情報を編集する機能である。 ただし 、nfs-staticタイプのストレージは編集することができない。
 
-**a\) Cluster → Select Cluster → Volume → Volume Action button > Edit Storage.**![](/assets/EN/2.5/5.4.2_1.png)![](/assets/EN/2.5/5.4.2_2.png)
+**a\) クラスタ→クラスタ選択 → ボリューム → ボリュームアクションボタン → ストレージの編集をクリック。
+**![](/assets/EN/2.5/5.4.2_1.png)![](/assets/EN/2.5/5.4.2_2.png)
 
-##### b\) You may modify the name, description, policy, storage class name, and parameter values.![](/assets/EN/2.5/5.4.2_3.png)
+##### b\) 名、 説明、 リクレームポリシー、 ストレージ、 クラス名、 パラメータ値の修正が可能。![](/assets/EN/2.5/5.4.2_3.png)
 
 
 
