@@ -5,7 +5,6 @@
 ノード全体の Disk、CPU、メモリ、ネットワークの総使用量と各ノードのラベル、状態情報などを照会することが
 できる画面である。 ノード名をクリックすると、ノードの詳細情報を照会することができる。
 
-You can click on a node name for detailed information.
 
 ##### a\) クラスター → クラスター選択 → ノードをクリック。
 ![](/assets/EN/2.5/5.2_1.png)![](/assets/EN/2.5/5.2_2.png)
