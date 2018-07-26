@@ -13,12 +13,12 @@
 
 | **カタログメニュー** | **説明** |
 | :--- | :--- |
-| サービスカタログ | User-generated catalog |
-| カクテルカタログ | Default catalog provided by Cocktail Cloud |
-| Filter Catalog | Search for desired template |
-| Template | Collection of servers that constitute an application |
-| Deploy | Deploy server via catalog |
-| Edit | Edit catalog information |
+| サービスカタログ | ユーザーが作成したカタログ |
+| カクテルカタログ | カクテルクラウドに組み込まれた公式カタログ |
+| Filter Catalog | 検索で必要なテンプレートを照会 |
+| テンプレート | アプリケーションを構成しているサーバーコレクション |
+| デプロイ | カタログでサーバーをデプロイ |
+| 編集 | カタログ内容を編集 |
 
 
 
