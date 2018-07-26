@@ -2,50 +2,50 @@
 
 #### 1.Cluster
 
-| Term | Description |
+| 用語 | 説明 |
 | :--- | :--- |
-| Namespace | A separate environment in which users across multiple teams or projects can work in virtual k8s clusters |
-| Nodes | A physical server or VM running clustered k8s applications |
-| Persistent Volumes\(PV\) | External storage; Supports NFS, iSCSI, and cloud storage systems |
-| Roles | Grants permissions according to usage case. |
-| Storage Classes | Identifier for identifying NFS servers when dynamically provisioning a PV |
+| Namespace | k8sの仮想クラスタで、 ユーザーが複数のチームやプロジェクトに分散して作業することができる別の環境 |
+| Nodes | k8sのクラスタリングされているアプリケーションを駆動する物理サーバーまたはVM |
+| Persistent Volumes\(PV\) | 外部ストレージ。 NFS、 iSCSI、 クラウドが提供するストレージシステムをサポート |
+| Roles | 使用に基づいて権限を付与 |
+| Storage Classes | PVを動的にProvisioningする場合にNFSサーバーを識別するための識別子 |
 
 #### 2.Workloads
 
-| Term | Description |
+| 用語 | 説明 |
 | :--- | :--- |
-| Cron Jobs | Time-based administration tasks such as 'Once at a certain time' or 'Repeat at a certain time |
-| Deployments | Settings values for pod generation |
-| Jobs | A job is a pod's supervisor that performs batch processing. In other words, it's a process that runs only for a specific period as with certain calculations or backups |
-| Pods | A minimum unit consisting of one or more containers for deployment in k8s. A pod is a mix of different Docker images in an application stack |
-| Replica Sets | Ensures that a specified pod copy is always running. |
-| Replication Controllers | Checks whether a specified number of pod copies are running |
-| Stateful Sets | Manages pod deployment and scaling and provides settings for the order and characteristics of pods |
+| Cron Jobs | 「ある時点で一度」 または 「ある時点で繰り返し」など時間ベースでの管理作業 |
+| Deployments | Podを作成するための設定値の登録情報 |
+| Jobs | Jobは、一括処理を行うPodのSupervisor。 つまり、 特定の計算またはバックアップといｔった特定の間だけ実行されるプロセス |
+| Pods | 複数のコンテナで構成されているk8sにおけるdeployのための最小単位。 Podは、アプリケーションスタックで異なるDocker imageを混合し、構成 |
+| Replica Sets | 指定された Podのレプリカが常に実行（維持）されるようにする |
+| Replication Controllers | 指定された数のPodのレプリカが実行されているかをチェック |
+| Stateful Sets | Podのデプロイおよび拡張を管理し、 Podの順序と特性の設定を提供 |
 
 #### 3.Discovery and load balancing
 
-| Term | Description |
+| 用語 | 説明 |
 | :--- | :--- |
-| Ingresses | Provides name-based virtual hosting for external access requests |
-| Services | Provides a single endpoint that can be accessed externally by grouping multiple containers into a single logical unit |
+| Ingresses | 外部からのアクセスを橋渡しするもので名前ベースの仮想ホスティングを提供 |
+| Services | 複数のコンテナを一つの論理ユニットでグループ化し、 外部からアクセスできる単一EndPointを提供 |
 
 #### 4.config and storage
 
-| Term | Description |
+| 用語 | 説明 |
 | :--- | :--- |
-| Config Maps | Stores data for use |
-| Persistent Volume Claime\(PVC\) | User request for a PV. A pod can request resources (CPU and memory) as well as the size of and access privileges \(RW, RO, etc.\) to a storage space |
-| Secrets | Repository for password, OAuth tokens, and SSH keys |
+| Config Maps | データを保存して使用することができるようにサポート |
+| Persistent Volume Claime\(PVC\) | ユーザーのPVに対する要求。 PodはPVCでリソース（CPUおよびメモリ）、 ストレージのサイズおよびアクセス権限（rw、readonly...）を要求することができる |
+| Secrets | PasswordまたはOAuthトークンおよびssh keyなどのストレージ |
 
 #### 5.settings
 
 K8s의Global Settings값을 조정 할 수 있습니다.
 
-| Option | Description |
+| オプション | 説明 |
 | :--- | :--- |
-| Cluster name | Adjusts the name value of a Kubernetes cluster |
-| Items per page | Adjusts the number of items that are displayed on a page |
-| Auto-refresh time interval | Adjusts the time interval for automatically refreshing logs |
+| Cluster name | Kubernetes Cluster名の値を調整する |
+| Items per page | 1ページで表示できるItemsの値を調整する |
+| Auto-refresh time interval | Logを自動で再読み込みする時間を調整する |
 
 
 
