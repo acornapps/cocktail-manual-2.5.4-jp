@@ -1,10 +1,12 @@
-### 4.1 Save Catalog
+### 4.1 カタログ保存
 
 ---
 
-This feature allows you to create catalogs and deploy multiple desired servers at once. If a server container image is a build, only the image is saved and converted into a common image to be saved as a catalog. A saved catalog can be found in the service catalog.
+カタログを作成して、必要なサーバーをまとめて一度にデプロイすることができる。 サーバーコンテナイメージがビルドの場合は、 イメージのみ保存し、 パブリックイメージに変換してカタログとして保存する。 保存されたカタログは、 サービスカタログで確認することができる。
 
-When saving a catalog, config maps and secrets are also saved in the template. **\(Secret values are not saved for security reasons.\)**
+
+カタログ保存時、設定のコンフィグマップ、シークレットもテンプレートとして保存する。 **（ただし、 シークレットはセキュリティの関係で値は保存しない）**
+
 
 ##### a\) Select an application map to be saved as a catalog from the services![](/assets/EN/2.5/4.1_1.png)
 
