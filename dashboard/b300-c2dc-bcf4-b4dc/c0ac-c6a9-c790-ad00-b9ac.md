@@ -1,23 +1,23 @@
-## 6.1 User Management
+## 6.1 ユーザー管理
 
 ---
 
-This feature allows you to view and manage current user information.
+現在のユーザー情報の確認および管理を行うことができる。
 
 ![](/assets/EN/2.5/6.1_1.png)
 
-##### a\) Dashboard → Click the [User] button in the bottom-left corner
+##### a\) ダッシュボード → ページの左下のユーザーボタンをクリック
 
-| Item | Description |
+| リスト | 説明 |
 | :--- | :--- |
-| ID | ID of account currently in use |
-| User Language | Choose from Korean, Japanese, and English |
-| Theme | Choose between light and dark themes |
-| Change Password | A new password can be set after confirming the old password |
-| Help | Help manual for Cocktail features |
-| Product | Displays the Cocktail product name |
-| Version | Displays the current Cocktail version |
-| Log Out | Logs out the account currently in use |
+| ID | 現在使用中のアカウントのIDを確認することができる |
+| 言語の選択 | Korean、Japanese、Englishから言語を選択することができる |
+| テーマ | LightとDarkテーマを変更することができる |
+| パスワードの変更 | 既存のパスワードや新規パスワードを入力し、 パスワードを変更することができる |
+| ユーザーマニュアル | カクテル機能を使用するためのヘルプマニュアルが提供される |
+| 製品名 | Cocktail製品名が表示される |
+| バージョン | 現在のカクテルのバージョンを確認することができる |
+| ログアウト | 現在使用中のアカウントをログアウトする |
 
 
 
