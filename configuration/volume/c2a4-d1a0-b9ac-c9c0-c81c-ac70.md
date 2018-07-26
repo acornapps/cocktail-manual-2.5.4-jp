@@ -1,9 +1,9 @@
-### 5.4.3 Delete Volume
+### 5.4.3 ストレージ削除
 
 ---
 
-This feature allows you to delete volume information.
+登録されたストレージ情報を削除する機能である。
 
-**a\) Cluster → Select Cluster → Volume → Volume Action button → Delete Volume.**
+**a\) クラスター → クラスター選択→ ボリューム → ボリュームアクションボタン → ボリューム削除をクリック。**
 ![](/assets/EN/2.5/5.4.3_1.png)![](/assets/EN/2.5/5.4.3_2.png)
 
