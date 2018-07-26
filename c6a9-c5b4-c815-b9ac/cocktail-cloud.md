@@ -1,22 +1,22 @@
 ## 7.2 Cocktail Cloud
 
-#### 1.Environment Settings
+#### 1.環境設定
 
-Service for pre-registering information to use Cocktail Cloud
+カクテルクラウドを利用するため、事前に情報を登録するサービス
 
-| **Term** | **Description** |
+| **用語** | **説明** |
 | :--- | :--- |
-| User | User management for use of Cocktail Cloud |
-| Account | Management of user credentials for k8s clusters |
-| Service | Distributes and manages tasks on a job or project basis. The administrator may grant access privileges to general users on a service basis |
+| ユーザー | Cocktail Cloudを利用するためのユーザ管理をサポート |
+| アカウント | k8s Clusterのユーザー認証情報の管理をサポート |
+| サービス | 業務またはプロジェクト単位でタスクを分散して管理。 管理者は、 一般ユーザーに対してサービス単位でアクセス権を付与することができる |
 
-C. Cluster: Page for managing information related to k8s use
+C. クラスター: Page for managing information related to k8s use
 
 #### 2.Service
 
 Tasks can be subdivided into application units, and Docker images can be created through builds. Applications can be created, viewed, modified, and deleted via built images.
 
-| **Term** | **Description** |
+| **用語** | **説明** |
 | :--- | :--- |
 | Application Map | k8s Namespace |
 | build | Service that supports tasks for the creation of Docker images |
@@ -32,7 +32,7 @@ Service for easily creating, modifying, and deploying servers by creating templa
 
 Service for registering, managing, and querying clusters, nodes, applications, volumes/storage, alerts, and meters
 
-| **Term** | **Description** |
+| **用語** | **説明** |
 | :--- | :--- |
 | Cluster | Server packages that constitute k8s orchestration |
 | Node | Individual server in a k8s server cluster. Categorized as either master or worker |
