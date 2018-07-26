@@ -8,11 +8,13 @@
 カタログ保存時、設定のコンフィグマップ、シークレットもテンプレートとして保存する。 **（ただし、 シークレットはセキュリティの関係で値は保存しない）**
 
 
-##### a\) Select an application map to be saved as a catalog from the services![](/assets/EN/2.5/4.1_1.png)
+##### a\) サービスでカタログとして保存するアプリケーションマップを選択![](/assets/EN/2.5/4.1_1.png)
 
-##### b\) Click the [Save as catalog] button in the top-right corner![](/assets/EN/2.5/4.1_2.png)
+##### b\) 画面の右上のカタログとして保存ボタンをクリック
+![](/assets/EN/2.5/4.1_2.png)
 
-##### c\) When creating a new template or updating an existing template with a new category, select the Existing category, edit the information as necessary, and click the [Save] button. \(The input fields are in a markdown file format. You can view the file creation method by clicking Markdown Support on the right side of the page.\)![](/assets/EN/2.5/4.1_3.png)
+##### c\) 新規テンプレートの作成時は「新規」カテゴリーを、 既存テンプレートを更新する時は「既存」カテゴリーを選択後、 バージョン、 サマリー、 編集内容を作成してから、 下の「保存」ボタンをクリック （編集入力フィールドは、Mark Downファイル形式で、該当ファイル作成方法はページ右の「Mark Down support」を押して確認。）
+![](/assets/EN/2.5/4.1_3.png)
 
 
 
