@@ -1,12 +1,14 @@
-### 4.4 Delete Catalog
+### 4.4 カタログ削除
 
 ---
 
-This feature allows you to delete unnecessary catalogs \(excluding Cocktail catalogs\).
+不要なカタログを削除することができる。 （カクテルカタログは削除できない）
 
-##### a\) Catalog → Click the [Edit] button on the desired template![](/assets/EN/2.5/4.4_1.png)
 
-##### b\) Select the desired template version and click the [Delete] button. The selected template version will be deleted.![](/assets/EN/2.5/4.4_2.png)
+##### a\) カタログ → 削除するテンプレートの「編集」ボタンをクリック
+![](/assets/EN/2.5/4.4_1.png)
+
+##### b\) 削除するテンプレートのバージョンを選択してから、「削除」ボタンをクリック。該当テンプレートバージョンが削除される。![](/assets/EN/2.5/4.4_2.png)
 
 
 

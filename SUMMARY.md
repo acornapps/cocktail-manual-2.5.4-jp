@@ -64,7 +64,7 @@
   * [カタログ保存](catalog/catalogadd.md)
   * [カタログデプロイ](catalog/catalogdeploy.md)
   * [カタログ編集](catalog/catalogedit.md)
-  * [Delete Catalog](catalog/catalogdelete.md)
+  * [カタログ削除](catalog/catalogdelete.md)
 * [クラスター](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/d074-b7ec-c2a4-d130-bbf8-d130-b9c1.md)
   * [クラスター管理](configuration/cluster/d074-b7ec-c2a4-d130.md)
     * [クラスター追加](configuration/cluster/add.md)
