@@ -39,7 +39,7 @@
 
 #### 5.settings
 
-K8s의Global Settings값을 조정 할 수 있습니다.
+K8sの Global Settingsの値を調整することができる。
 
 | オプション | 説明 |
 | :--- | :--- |
