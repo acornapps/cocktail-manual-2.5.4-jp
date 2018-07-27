@@ -22,7 +22,7 @@
 
 | **ポリシー** | **説明** |
 | :--- | :--- |
-| Retain | PersistentVolumeClaim（PVC）が削除されても 、PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 |
+| Retain | PersistentVolumeClaim（PVC） が削除されても、 PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 |
 | Delete | PVCが削除されると、 該当PVも一緒に削除される。 |
 
 ##### 
