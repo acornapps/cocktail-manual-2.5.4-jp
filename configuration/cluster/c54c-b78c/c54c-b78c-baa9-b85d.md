@@ -117,7 +117,7 @@
 | レベル | warning |
 | アラーム名 | HighFsyncDurations |
 | 持続時間 | 10分 |
-| 発生条件 | 最近5分間の wal fsync持続時間の 99パーセンタイル値が 500msを超える場合 （wal fsync: ログエントリを適用する前に、ディスクに保存する時に呼び出さ） |
+| 発生条件 | 最近5分間の wal fsync持続時間の 99パーセンタイル値が 500msを超える場合 <br />（wal fsync: ログエントリを適用する前に、ディスクに保存する時に呼び出さ） |
 | 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 ディスクに問題がある場合に発生すること。 |
 
 | アラーム ID | **ETC-013** |
