@@ -38,7 +38,7 @@
 | アラーム名 | NoLeader |
 | 持続時間 | 1分 |
 | 発生条件 | ETCDリーダーがない場合に発生 |
-| 処理 | ETCDクラスタの状態を確認する。 Disk Latencyに起因する問題であることがありますので、 以下のコマンドをETCDクラスタノード全体で実行する。<br /> \([ETCD Tuning](https://coreos.com/etcd/docs/latest/tuning.html#disk)\)<br /> ``$ sudo ionice -c2 -n0 -p `pgrep etcd` `` |
+| 処理 | ETCDクラスタの状態を確認する。 Disk Latencyに起因する問題であることがありますので、 以下のコマンドをETCDクラスタノード全体で実行する。<br /> \([ETCD Tuning](https://coreos.com/etcd/docs/latest/tuning.html#disk)\) ``$ sudo ionice -c2 -n0 -p `pgrep etcd` `` |
 
 | アラーム ID | **ETC-003** |
 | :--- | :--- |
@@ -46,7 +46,7 @@
 | アラーム名 | HighNumberOfLeaderChanges |
 | 持続時間 | すぐに |
 | 発生条件 | 最近1時間の間、3回以上のリーダーの変更が発生した場合 |
-| 処理 | ETCDクラスタの状態を確認する。 Disk Latencyに起因する問題であることがありますので、 以下のコマンドをETCDクラスタノード全体で実行する。<br /> \([ETCD Tuning](https://coreos.com/etcd/docs/latest/tuning.html#disk)\)<br /> ``$ sudo ionice -c2 -n0 -p `pgrep etcd` `` |
+| 処理 | ETCDクラスタの状態を確認する。 Disk Latencyに起因する問題であることがありますので、 以下のコマンドをETCDクラスタノード全体で実行する。<br /> \([ETCD Tuning](https://coreos.com/etcd/docs/latest/tuning.html#disk)\) ``$ sudo ionice -c2 -n0 -p `pgrep etcd` `` |
 
 | アラーム ID | **ETC-004** |
 | :--- | :--- |
@@ -110,7 +110,7 @@
 | アラーム名 | HighNumberOfFailedProposals |
 | 持続時間 | すぐに |
 | 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。 （RAFT ProtocolはETCD同期Protocol） |
-| 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害やメンバー不足に起因する ETCDクラスタ停止時間が長くなる場合に発生します。  リーダーがいるのか、 中断されたETCDメンバーがいることを確認 |
+| 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害やメンバー不足に起因する ETCDクラスタ停止時間が長くなる場合に発生します。 <br />リーダーがいるのか、 中断されたETCDメンバーがいることを確認 |
 
 | アラーム ID | **ETC-012** |
 | :--- | :--- |
