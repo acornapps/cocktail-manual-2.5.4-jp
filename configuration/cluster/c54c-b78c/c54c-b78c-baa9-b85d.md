@@ -109,7 +109,7 @@
 | レベル | warning |
 | アラーム名 | HighNumberOfFailedProposals |
 | 持続時間 | すぐに |
-| 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。<br/>（RAFT ProtocolはETCD同期Protocol） |
+| 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。 （RAFT ProtocolはETCD同期Protocol） |
 | 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害やメンバー不足に起因する ETCDクラスタ停止時間が長くなる場合に発生します。  リーダーがいるのか、 中断されたETCDメンバーがいることを確認 |
 
 | アラーム ID | **ETC-012** |
