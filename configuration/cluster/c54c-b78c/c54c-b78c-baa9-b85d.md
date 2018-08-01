@@ -38,7 +38,7 @@
 | アラーム名 | NoLeader |
 | 持続時間 | 1分 |
 | 発生条件 | ETCDリーダーがない場合に発生 |
-| 処理 | ETCDクラスタの状態を確認する。 Disk Latencyに起因する問題であることがありますので、 以下のコマンドをETCDクラスタノード全体で実行する。<br /> \([ETCD Tuning](https://coreos.com/etcd/docs/latest/tuning.html#disk)\) ``$ sudo ionice -c2 -n0 -p `pgrep etcd` `` |
+| 処理 | ETCDクラスタの状態を確認する。 Disk Latencyに起因する問題の可能性があるため、 以下のコマンドをETCDクラスタノード全体で実行する。<br /> \([ETCD Tuning](https://coreos.com/etcd/docs/latest/tuning.html#disk)\) ``$ sudo ionice -c2 -n0 -p `pgrep etcd` `` |
 
 | アラーム ID | **ETC-003** |
 | :--- | :--- |
