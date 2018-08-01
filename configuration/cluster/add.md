@@ -79,9 +79,9 @@
 | :--- | :--- |
 | ユーザーID | k8s ユーザーID |
 | パスワード | k8s ユーザーPW |
-| Cluster CA Certification | マスターサーバー接続後、/ etc/ kubernetes/ pkiパス移動後、 ca.crtファイルの値を入力 |
-| Client Certificate Data | マスターサーバー接続後、/ etc/ kubernetes/ pkiパス移動後、admin.crtファイルの値を入力 |
-| Client Key Data | マスターサーバー接続後、/ etc/ kubernetes/ pkiパス移動後、admin.keyファイルの値を入力 |
+| Cluster CA Certification | マスターサーバー接続後、/etc/kubernetes/pkiパス移動後、 ca.crtファイルの値を入力 |
+| Client Certificate Data | マスターサーバー接続後、/etc/kubernetes/pkiパス移動後、admin.crtファイルの値を入力 |
+| Client Key Data | マスターサーバー接続後、/etc/kubernetes/pkiパス移動後、admin.keyファイルの値を入力 |
 
 
 
