@@ -12,10 +12,10 @@
 | :--- | :--- |
 | クラスター名 | 登録するクラスタの名前 |
 | k8sバージョン | クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 |
-| ID |クラスタ固有のID（ユーザー指定）、アラームメッセージRedirect時に必要 |
+| ID | クラスタ固有のID（ユーザー指定）、アラームメッセージRedirect時に必要 |
 | 説明 | クラスタのユーザー説明 |
 
-##### c\) プロバイダ情報（アカウント、タイプ、地域）を入力。.
+##### c\) プロバイダ情報（アカウント、タイプ、地域）を入力。
 
 アカウントのプロバイダとタイプに応じて入力欄が変更される。Baremetalの場合、地域はDefault値を提供し、変更が可能である。 ![](/assets/JP/2.5/5.1.1_3.png)
 
@@ -28,7 +28,7 @@
 | **タイプ** | **説明** |
 | :--- | :--- |
 | MANAGED | CUBE Installerを利用して、kubernetesを構成したクラスタ |
-| PROVIDER | Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合）|
+| PROVIDER | Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合） |
 | GKE | Google Cloud PlatformのGoogle Kubernetes Engineで構成したクラスタ |
 
 #### ㅤ
