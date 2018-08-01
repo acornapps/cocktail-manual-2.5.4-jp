@@ -9,19 +9,20 @@
 ##### b**\) クラスターの詳細画面でボリュームを選択。**![](/assets/JP/2.5/5.4.1_2.png)
 
 ##### c\) クラスター名、 説明、 ストレージプラグイン、 リクレームポリシー、 ストレージクラス名、 パラメーターを順番に記入。
+
 ![](/assets/JP/2.5/5.4.1_3.png)
 
 | **ストレージ 登録情報** | **説明** |
 | :--- | :--- |
 | 名 | PV名 |
 | 説明 | PVユーザー説明 |
-| ストレージプラグイン | ストレージの種類 (NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk) |
+| ストレージプラグイン | ストレージの種類 \(NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk\) |
 | リクレームポリシー | PV使用ポリシー（RETAIN/ DELETE） |
 | ストレージクラス名 | k8s に登録された Class Name |
 | パラメーター | PVの環境設定値 |
 
 | **ポリシー** | **説明** |
-| :------ | :--- |
+| :--- | :--- |
 | Retain | PersistentVolumeClaim（PVC） が削除されても、 PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 |
 | Delete | PVCが削除されると、 該当PVも一緒に削除される。 |
 
@@ -41,7 +42,7 @@
 | **ストレージプラグイン** | **NFS** Static |
 | :--- | :--- |
 | リクレームポリシー | Staticプラグインは、 Retain単一ポリシーをサポート |
-| パラメータ | Server: ストレージのIP Address Path：mountパス |
+| パラメータ | Server: ストレージのIP Address、Path：mountパス |
 
 * **アマゾンストレージプラグイン使用時**![](/assets/JP/2.5/5.4.1_6.png)
 
