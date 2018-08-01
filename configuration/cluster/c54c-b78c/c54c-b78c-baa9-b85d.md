@@ -223,7 +223,7 @@
 | レベル | warning |
 | アラーム名 | DeploymentReplicasNotUpdated |
 | 持続時間 | 15分 |
-| 発生条件 | Deploymentに設定した replica数と変更されたりavailable状態の replica数が異なる場合に発生し |
+| 発生条件 | Deploymentに設定した replica数と変更されたりavailable状態の replica数が異なる場合に発生 |
 | 処理 | Deployment変更が反映さがない状態なので、 DeploymentとPodのログとイベントを確認する。 |
 
 | アラーム ID | **KSM-003** |
