@@ -215,7 +215,7 @@
 | レベル | warning |
 | アラーム名 | DeploymentGenerationMismatch |
 | 持続時間 | 15分 |
-| 発生条件 | Deploymentに設定した generationと収集された generationが異なる場合に発生し |
+| 発生条件 | Deploymentに設定した generationと収集された generationが異なる場合に発生 |
 | 処理 | Deploymentのログとイベントを確認する。 必要であればDeploymentを再配布する。 |
 
 | アラーム ID | **KSM-002** |
