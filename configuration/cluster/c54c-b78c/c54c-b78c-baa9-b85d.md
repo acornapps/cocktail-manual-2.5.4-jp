@@ -101,7 +101,7 @@
 | レベル | warning |
 | アラーム名 | EtcdMemberCommunicationSlow |
 | 持続時間 | 10分 |
-| 発生条件 | 最近5分間のメンバー間の通信の待機時間の 99パーセンタイル値が150msを超える場合 |
+| 発生条件 | 最近5分間のメンバー間の通信の待機時間の 99パーセンタイル値が<br/>150msを超える場合 |
 | 処理 | ETCDクラスタの帯域幅を増やしたり、<br/>クラスタのScale-Upが必要です。 |
 
 | アラーム ID | **ETC-011** |
@@ -109,7 +109,7 @@
 | レベル | warning |
 | アラーム名 | HighNumberOfFailedProposals |
 | 持続時間 | すぐに |
-| 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。 （RAFT ProtocolはETCD同期Protocol） |
+| 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。<br/>（RAFT ProtocolはETCD同期Protocol） |
 | 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害や<br/>メンバー不足に起因する。<br/> ETCDクラスタ停止時間が長くなる場合に発生します。 <br />リーダーがいるのか、 中断されたETCDメンバーがいることを確認。 |
 
 | アラーム ID | **ETC-012** |
