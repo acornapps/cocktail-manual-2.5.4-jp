@@ -110,14 +110,14 @@
 | アラーム名 | HighNumberOfFailedProposals |
 | 持続時間 | すぐに |
 | 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。 （RAFT ProtocolはETCD同期Protocol） |
-| 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害やメンバー不足に起因する ETCDクラスタ停止時間が長くなる場合に発生します。 <br />リーダーがいるのか、 中断されたETCDメンバーがいることを確認。 |
+| 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害やメンバー不足に起因する<br/> ETCDクラスタ停止時間が長くなる場合に発生します。 <br />リーダーがいるのか、 中断されたETCDメンバーがいることを確認。 |
 
 | アラーム ID | **ETC-012** |
 | :--- | :--- |
 | レベル | warning |
 | アラーム名 | HighFsyncDurations |
 | 持続時間 | 10分 |
-| 発生条件 | 最近5分間の wal fsync持続時間の 99パーセンタイル値が 500msを超える場合 <br />（wal fsync: ログエントリを適用する前に、ディスクに保存する時に呼び出さ） |
+| 発生条件 | 最近5分間の wal fsync持続時間の 99パーセンタイル値が 500msを超える場合 <br />(wal fsync: ログエントリを適用する前に、ディスクに保存する時に呼び出される) |
 | 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 ディスクに問題がある場合に発生すること。 |
 
 | アラーム ID | **ETC-013** |
@@ -159,16 +159,16 @@
 | レベル | warning |
 | アラーム名 | FdExhaustionClose |
 | 持続時間 | 10分 |
-| 発生条件 | 単純回帰分析（simple linear regression）を利用して、 4時間以内にfile descriptor枯渇が予測される場合に発生 |
-| 処理 | そのPodのログとイベントを確認する。 必要な場合には、 ノードのLimit値を変更する。 （ノードの再起動が必要） |
+| 発生条件 | 単純回帰分析（simple linear regression）を利用して、<br/>4時間以内にfile descriptor枯渇が予測される場合に発生 |
+| 処理 | そのPodのログとイベントを確認する。 必要な場合には、<br/>ノードのLimit値を変更する。 （ノードの再起動が必要） |
 
 | アラーム ID | **GEN-005** |
 | :--- | :--- |
 | レベル | **critical** |
 | アラーム名 | FdExhaustionClose |
 | 持続時間 | 10分 |
-| 発生条件 | 単純回帰分析（simple linear regression）を利用して、 1時間以内にfile descriptor枯渇が予測される場合に発生 |
-| 処理 | そのPodのログとイベントを確認する。 必要な場合には、 ノードのLimit値を変更する。 （ノードの再起動が必要） |
+| 発生条件 | 単純回帰分析（simple linear regression）を利用して、<br/>1時間以内にfile descriptor枯渇が予測される場合に発生 |
+| 処理 | そのPodのログとイベントを確認する。 必要な場合には、<br/>ノードのLimit値を変更する。 （ノードの再起動が必要） |
 
 * #### Kube-ApiServer
 
@@ -178,14 +178,14 @@
 | アラーム名 | K8SApiserverDown |
 | 持続時間 | 5分 |
 | 発生条件 | kube-apiserver メトリック収集がない場合に発生 |
-| 処理 | Prometheusの ログとkube-apiserverの ログとイベントを確認する。 必要な場合には、 Podを再起動する。 |
+| 処理 | Prometheusの ログとkube-apiserverの ログとイベントを確認する。<br/>必要な場合には、 Podを再起動する。 |
 
 | アラーム ID | **KAS-002** |
 | :--- | :--- |
 | レベル | warning |
 | アラーム名 | K8SApiServerLatency |
 | 持続時間 | 10分 |
-| 発生条件 | 最近10分間のリクエスト待機時間の 99パーセンタイル値が1sよりも大きい場合に発生し |
+| 発生条件 | 最近10分間のリクエスト待機時間の 99パーセンタイル値が<br/>1sよりも大きい場合に発生 |
 | 処理 | 引き続き発生する場合は、 マスターノードを増設する。 |
 
 * #### Kube-ControllerManager
