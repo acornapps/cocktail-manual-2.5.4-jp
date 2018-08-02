@@ -62,7 +62,7 @@
 | アラーム名 | HighNumberOfFailedGRPCRequests |
 | 持続時間 | 5分 |
 | 発生条件 | 5分以内にgRPCメソッド呼び出しの 5％以上失敗した場合 |
-| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、 クラスタの Sacale-Upが必要です。 |
+| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、<br/>クラスタの Sacale-Upが必要です。 |
 
 | アラーム ID | **ETC-006** |
 | :--- | :--- |
@@ -70,7 +70,7 @@
 | アラーム名 | GRPCRequestsSlow |
 | 持続時間 | 10分 |
 | 発生条件 | 最近5分間gRPCメソッド要求の 待機時間の99パーセンタイル値が 150msを超える場合 |
-| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、 クラスタの Sacale-Upが必要です。 |
+| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、<br/>クラスタの Sacale-Upが必要です。 |
 
 | アラーム ID | **ETC-007** |
 | :--- | :--- |
@@ -78,7 +78,7 @@
 | アラーム名 | HighNumberOfFailedHTTPRequests |
 | 持続時間 | 10分 |
 | 発生条件 | 5分以内にHTTPエンドポイントへの 要求の1％以上が失敗した場合 |
-| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、 クラスタの Sacale-Upが必要です。 |
+| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、<br/>クラスタの Sacale-Upが必要です。 |
 
 | アラーム ID | **ETC-008** |
 | :--- | :--- |
@@ -86,7 +86,7 @@
 | アラーム名 | HighNumberOfFailedHTTPRequests |
 | 持続時間 | 5分 |
 | 発生条件 | 5分以内にHTTPエンドポイントへの 要求の5％以上が失敗した場合 |
-| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、 クラスタの Sacale-Upが必要です。 |
+| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、<br/>クラスタの Sacale-Upが必要です。 |
 
 | アラーム ID | **ETC-009** |
 | :--- | :--- |
@@ -94,7 +94,7 @@
 | アラーム名 | HTTPRequestsSlow |
 | 持続時間 | 10分 |
 | 発生条件 | 最近5分間のHTTPリクエストの待機時間の 99パーセンタイル値が150msを超える場合 |
-| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、 クラスタの Sacale-Upが必要です。 |
+| 処理 | ETCDクラスタと Kubernetesクラスタの 帯域幅を増やしたり、<br/>クラスタの Sacale-Upが必要です。 |
 
 | アラーム ID | **ETC-010** |
 | :--- | :--- |
@@ -102,7 +102,7 @@
 | アラーム名 | EtcdMemberCommunicationSlow |
 | 持続時間 | 10分 |
 | 発生条件 | 最近5分間のメンバー間の通信の待機時間の 99パーセンタイル値が150msを超える場合 |
-| 処理 | ETCDクラスタの帯域幅を増やしたり、 クラスタのScale-Upが必要です。 |
+| 処理 | ETCDクラスタの帯域幅を増やしたり、<br/>クラスタのScale-Upが必要です。 |
 
 | アラーム ID | **ETC-011** |
 | :--- | :--- |
@@ -110,7 +110,7 @@
 | アラーム名 | HighNumberOfFailedProposals |
 | 持続時間 | すぐに |
 | 発生条件 | 最近1時間の間に5つ以上の失敗raft protocol要求がある場合。 （RAFT ProtocolはETCD同期Protocol） |
-| 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害やメンバー不足に起因する<br/> ETCDクラスタ停止時間が長くなる場合に発生します。 <br />リーダーがいるのか、 中断されたETCDメンバーがいることを確認。 |
+| 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 リーダー選出の一時的な障害や<br/>メンバー不足に起因する。<br/> ETCDクラスタ停止時間が長くなる場合に発生します。 <br />リーダーがいるのか、 中断されたETCDメンバーがいることを確認。 |
 
 | アラーム ID | **ETC-012** |
 | :--- | :--- |
@@ -125,7 +125,7 @@
 | レベル | warning |
 | アラーム名 | HighCommitDurations |
 | 持続時間 | 10分 |
-| 発生条件 | 最近5分間のコミット持続時間の99パーセンタイル値が 250msを超える場合<br/>（backend commit: ディスクの最近の変更の増分スナップショットのコミットします。） |
+| 発生条件 | 最近5分間のコミット持続時間の99パーセンタイル値が 250msを超える場合<br/>（backend commit: ディスクの最近の変更の増分スナップショットの<br/>コミットします。） |
 | 処理 | [ETCDメトリック文書](https://github.com/coreos/etcd/blob/master/Documentation/metrics.md/)によると、 ディスクに問題がある場合に発生すること。 |
 
 * #### General
