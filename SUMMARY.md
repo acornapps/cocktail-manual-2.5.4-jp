@@ -58,6 +58,7 @@
     * [タスク設定の編集](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/c791-c5c5-c124-c815-d3b8-c9d1.md)
     * [ヒストリー](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/d788-c2a4-d1a0-b9ac.md)
     * [ビルド実行](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/be4c-b4dc-c2e4-d589.md)
+    * [ビルドキャンセル](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/test.md)
     * [ログ表示](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/b85c-adf8-bcf4-ae30.md)
     * [タスク削除](c11c-be44-c2a4/c5b4-d50c-b9ac-cf00-c774-c158-b9f5/be4c-b4dc-ad00-b9ac/be4c-b4dc-c0ad-c81c.md)
 * [カタログ](catalog/catalog.md)
