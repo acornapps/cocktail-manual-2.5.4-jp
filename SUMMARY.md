@@ -85,5 +85,6 @@
 * [用語説明](c6a9-c5b4-c815-b9ac.md)
   * [Kubernetes\(k8s\)](c6a9-c5b4-c815-b9ac/kubernetes.md)
   * [Cocktail Cloud](c6a9-c5b4-c815-b9ac/cocktail-cloud.md)
+  * [Cocktail System Error Code](c6a9-c5b4-c815-b9ac/cocktail-system-error-code.md)
 * [ユーザーサポートサービス](ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)
 
