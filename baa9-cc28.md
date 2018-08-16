@@ -59,6 +59,8 @@
 
 ##### 7.2 Cocktail Cloud
 
+##### 7.3 Cocktail System Error Code
+
 ### [8. ユーザーサポートサービス](/ace0-ac1d-c9c0-c6d0-c11c-be44-c2a4.md)
 
 ---
